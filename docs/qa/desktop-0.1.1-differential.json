@@ -1,0 +1,13 @@
+{
+  "oldVersion": "0.1.0",
+  "newVersion": "0.1.1",
+  "fullBytes": 262652796,
+  "differentialBytes": 1147830,
+  "rangeRequests": 7,
+  "savedPercent": 99.56,
+  "sha512": "uj0jiPGiqjNY0hIJtvMLXKF3J/rgzZeV7Q/ubEk/K2ml4fP7Akz+N2GMBRxTiMc27ATOsKGPer/llukKG6yxpA==",
+  "verified": true,
+  "measurementScope": "Installer EXE payload only; channel metadata and old/new blockmaps are additional traffic.",
+  "transport": "Local HTTP Range server; real pinned electron-updater NSIS algorithms with Node transport and isolated app/cache adapter. No production feed or installation triggered by this test.",
+  "installerSha256": "7704dc854684260c45b1543fc3307c577feec17170a01169ad47ef16ffb1c57e"
+}

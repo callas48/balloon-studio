@@ -12,9 +12,15 @@ node scripts/dev-local.mjs
 
 또는 `npm run dev`. 소스: `public/`, 빌드: `npm run build`. 프로젝트 파일/PNG 저장과 브라우저 자동저장을 사용합니다. 다른 브라우저나 기존 서비스의 작업은 자동 이전되지 않으므로 프로젝트 파일로 내보낸 뒤 가져오세요.
 
+## Windows 개발·설치 파일 빌드
+
+Node.js와 npm을 설치한 개발 환경에서 npm install 후 npm run desktop으로 실행합니다. npm run desktop:installer는 release/에 NSIS 설치 파일과 blockmap을 만듭니다. 일반 사용자는 설치 파일만 실행하면 되며 Node.js를 별도로 설치할 필요가 없습니다.
+
+검사: npm run test:desktop, node tests/desktop-client.cjs, node tests/desktop-shell.cjs, node tests/desktop-package.cjs. 실제 두 버전 EXE/블록맵을 준비한 뒤 node tests/desktop-differential.cjs로 변경분 다운로드·전체 다운로드 선택을 검증합니다.
+
 ## 이 저장소의 상태
 
-- Windows 설치형으로 전환하기 전의 웹 편집기 초기 소스입니다. 설치 파일·자동 업데이트·네이티브 파일 자동저장은 아직 없습니다.
+- Windows0.1.1 NSIS 설치형과 로컬 프로젝트 파일 저장을 구현했습니다. 업데이트는 실행당1회 확인·클릭 시 차등 다운로드·저장 후 설치 방식입니다. 실제 EXE 차등 다운로드와 설치·기동 검증을 마쳤습니다. 운영 업데이트 배포 주소와 코드 서명은 아직 연결하지 않았습니다. 자세한 검증 범위는 HANDOFF.md를 읽으세요.
 - 기존 서비스의 Git 이력, 배포 식별자 설정, 운영자 이메일과 서버 DB/스토리지는 이전하지 않습니다. 원래 사이트 운영과 별도입니다.
 - 로컬 공용 에셋 목록은 비어 있고 방문 통계 수집은 하지 않습니다. 포함된 서식과 내 에셋·폰트 가져오기는 로컬 기능입니다.
 - `worker/index.js`의 관리자 쓰기는 기본 비활성입니다. 별도 서버 배포 전 인증과 저장소를 구성해야 합니다.

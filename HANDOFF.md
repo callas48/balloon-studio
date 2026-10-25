@@ -2,10 +2,21 @@
 
 갱신: 2026-10-25 (Asia/Seoul). 아래 운영 버전 기록은 원본의 과거 이력이며 이 저장소의 배포 상태가 아니다.
 
-## 설치형 업데이트·오프라인 정책 — 합의 완료 / 구현 전
+## Windows 설치형 0.1.1 — 로컬 설치·기동 / 차등 다운로드 검증 완료
+- 0.1.1 NSIS 인스톨러를 완성해 사용자 계정 범위 %LOCALAPPDATA%/Programs/BalloonStudio에 설치했다(종료 코드0). 바탕화면 말풍선 공방 바로가기가 생성됐고 설치된 프로그램을 실행했다. 프로세스 응답과 실제 HTML 제목 「말풍선 공방 · 만화 편집기」를 확인했다. 기존 Sites 서비스·PSD 작업 폴더는 수정하지 않았다.
+- 설치 파일: release/Balloon-Studio-Setup-0.1.1-x64.exe, 262652796 bytes. SHA256 7704dc854684260c45b1543fc3307c577feec17170a01169ad47ef16ffb1c57e. blockmap도 생성됐다. 0.1.0은 차등 검사 기준본이며 사용자 배포용이 아니다. release는 생성물이라 Git에 올리지 않는다.
+- 구현: Electron45.0.0 / electron-builder26.18.0 / electron-updater6.8.11 고정. 앱 내부 로컬 protocol·편집기/폰트/에셋 번들·최소 native IPC·한글 원자적 파일 저장·문서별 저장경로 분리·설치 전 파일/복구/IndexedDB 저장을 연결했다. sandbox/contextIsolation 활성, Node 통합 비활성, 외부/하위 프레임 native 호출 차단.
+- 업데이트: 시작 시 자동 확인 최대1회, 실행 중 주기/포커스/연결 복구/실패 후 자동 재확인 없음. GenericProvider 내부 ECONNREFUSED 재시도도 제거하고 실제 요청 취소 시간을 제한했다. 오프라인 확인 실패는 자동 UI 알림 없음. 사용자가 누를 때만 차등 다운로드하며 전체 다운로드가 필요하면 명시적으로 선택한다. 저장 실패/저장 중 변경은 설치를 막는다.
+- 검사 통과: desktop-updates(동작/요청/재시도/실제 Provider 취소), desktop-files(원자적 한글 저장/실패 원본/경로), desktop-client(실제 UI 핸들러·저장/복구/IDB 순서·실패/편집 경쟁·오프라인), desktop-shell(실제 main IPC와 임시 파일로 문서별 경로/열기/복구/설치 게이트), desktop-package(실제 설치본의 main/preload/업데이터와 편집기/폰트/에셋488파일 원본 일치). shell/client는 DOM·Electron 표면 대역 검사이며 실제 창 조작 검사와 구분한다. 기존 build83JS 일치도 통과했다.
+- 실제 차등 검사: 0.1.0 EXE/블록맵에서0.1.1 EXE를 HTTP Range7회로 재구성. 전체262652796 bytes 중1147830 bytes(본문99.56%절감), 최종 EXE 완전 바이트 일치. 구버전 캐시가 없으면 전체 EXE를 자동으로 받지 않고 사용자 선택 후에만 전체 다운로드하는 것도 확인했다. 블록맵·버전메타 전송량은 위 수치에서 제외한다. tests/desktop-differential.cjs 및 docs/qa/desktop-0.1.1-differential.json 참조. Node 테스트 transport의 socket listener 경고는 있었지만 검사 결과는 통과했다.
+- 남은 외부 설정: desktop/update-feed.json url은 null이다. 실제 HTTPS 배포 주소·접근 방식을 아직 정하지 않아 설치본의 운영 업데이트 확인은 비활성이다. 구현/로컬 검증과 실제 운영 업데이트 연결을 혼동하지 않는다. 코드 서명 인증서도 아직 없으며 이 설치본은 비서명 개인 시험용이다.
+- 검증 한계: 실제 Windows 설치 및 기동은 확인했지만 native 창에서 프로젝트 열기/편집/저장/PNG 출력·네트워크 차단·업데이트 후 재시작/복원까지 사람 입력으로 전수 확인한 것은 아니다. 해당 경로는 위 단위/통합/패키지 검사 결과와 구분한다.
+- npm이 PATH에 없는 현 환경에서는 .sites-runtime/bin의 로컬 npm 어댑터를 PATH에 추가해 builder를 실행했다. 원본 소스에는 일반 npm 명령만 남긴다.
+
+## 설치형 업데이트·오프라인 정책 — 구현 기준
 - 사용자 합의: 프로그램 실행당 시작 시 자동 버전 확인 1회만 수행. 실행 중 주기 확인·포커스/연결 복구 시 재확인·실패 후 자동 재시도 없음. 수동 확인은 사용자 클릭에만 반응한다. 인스톨러 설치, 새 버전 알림만 자동 수행, 클릭 시 차등 다운로드, 작업 저장 후 설치·재시작. 자동 다운로드·강제 재시작 없음. 전체 다운로드가 필요하면 알리고 사용자가 선택한다.
 - 인터넷 미연결·DNS/시간초과/업데이트 서버 장애 시 자동 팝업·토스트·OS 알림을 띄우지 않고 편집·로컬 프로젝트 열기·저장·출력을 유지한다. 실행은 업데이트 응답을 기다리지 않는다. 수동 확인 시에만 설정 화면 안에 상태를 표시할 수 있다.
-- 요구사항·구현 순서·오프라인/차등 다운로드 검증 기준은 docs/windows-desktop-plan.md. 이번 변경은 문서 기록이며 업데이터/설치 파일 구현이나 실제 오프라인 동작 검증 완료가 아니다.
+- 요구사항·오프라인/차등 다운로드 검증 기준은 docs/windows-desktop-plan.md. 현재 코드·설치·검사 결과와 남은 운영 설정은 위 0.1.1 항목을 기준으로 한다.
 
 ## GitHub 전체 소스 이식 — main 연결 완료
 - 대상: callas48/balloon-studio, private, main. 읽기/쓰기 권한 확인 완료. 계정 가입·앱 설치·저장소 생성을 반복 요청하지 않는다.
@@ -13,7 +24,7 @@
 - 이식 폴더에 소스·폰트·에셋과 SHA256 목록 GITHUB-SNAPSHOT.json을 보관한다. 바이너리 396개를 원본 바이트와 Git blob SHA로 검증해 전체 소스 트리에 연결했다. 초기 README/.gitignore 커밋을 부모로 보존한 source 커밋 0852d555f52b4ca9847c811c1ea8666cbabc094a를 main에 반영했다. 전체 파일 수는 644개(해시 목록 자체 포함)다.
 - 준비 검사: 원본의 tests/github-preparation.cjs 통과. 로컬 서버 HTTP·폰트/MIME·읽기전용 API·경로/메서드 가드·독립 build·운영설정 분리·개별 파일 해시를 검사했다. Windows 로컬 브라우저에서 첫 화면·말풍선 생성·Undo 기록을 확인했고 오류 로그는 없었다. 기본 4173은 다른 작업이 사용 중이어서 4184/4185에서 확인했다. 실제 모바일 터치·Windows 설치형 검증과 구분한다. dist/client의 긍정 유리 실제 Canvas 검사도 통과했다. scripts/prepare-github.mjs의 재내보내기에서 import 중복·이전 manifest 자기 해시 문제를 고쳤고 tests/github-reexport.cjs로 두 번 연속 내보내기와 모든 해시를 확인했다.
 - 원격 tree는 truncated=false, 파일 644개다. 경로/크기/Git SHA 대조에서 Canvas 검사가 검토용 preview PNG 한 장을 재생성한 차이를 확인해 원본으로 복원하고 해시 목록을 갱신했다. 최종 검증은 원격 tree 전체 경로/크기/Git SHA와 로컬 전체 SHA256 목록으로 수행한다. 최초 396개 한 번 트리 연결은 API 응답 시간제한으로 실패했지만 50개 단위 트리 조합으로 완료했다.
-- Windows 설치형은 docs/windows-desktop-plan.md 순서로 이어간다. 실행 진입점/설치 파일/자동 업데이트/네이티브 파일 저장은 미구현. 현재 node scripts/dev-local.mjs로 Windows 로컬 웹 편집기를 실행한다.
+- 이후 추가된 Windows 0.1.1 상태는 이 문서 최상단 참조. 웹 개발용 node scripts/dev-local.mjs 경로도 유지한다.
 
 ## 로판 표지 레퍼런스 — 완료 / v249 공개 배포
 - v249 archive-backed 공개 배포 성공. 기능커밋95bac70f792a7000fdef18c2b387c7b38063fddd, 배포ID appgdep_6add7bc0543881918772147d122f53a2. build/dist긍정유리/최종tar82JS 일치 통과.
