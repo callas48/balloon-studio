@@ -16,18 +16,18 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 1553,
-      "sha256": "5c6aaa109acfb54adb8f3b60f2a190d9d329000478f8cfbe56f851dfd1026875"
+      "bytes": 1820,
+      "sha256": "cdd9707f6a309545c5739adcc22b4a744d780c06eee62a951a5da090bf432d50"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 57241,
-      "sha256": "163592bd91845b003fa5ef7d55277674ee38bd251c422036be6ca31e655cc70a"
+      "bytes": 57645,
+      "sha256": "33f1c76858fb352193b133406e1d3a930f468dc3ef278e579f30c5be0c75d26f"
     },
     {
       "path": "HANDOFF.md",
-      "bytes": 103212,
-      "sha256": "41c7d51e78bec24715695ebc9b7f42c0752d20aefcd5902ea8359c85e09691cf"
+      "bytes": 103438,
+      "sha256": "7fd278723e36f1460a7acfb7fbbac9368268f16f360ab72e3887f70e13c1c557"
     },
     {
       "path": "README.md",
@@ -216,8 +216,8 @@
     },
     {
       "path": "docs/windows-desktop-plan.md",
-      "bytes": 4809,
-      "sha256": "8c994f0b36a16d56ba1bdae822f817ccf6abb94c77ca8aeaeae9d045d4e4823c"
+      "bytes": 5382,
+      "sha256": "a02e21731612b4717398e69b53fa918600b46e51a1a03670a7bc07f474187fcd"
     },
     {
       "path": "drizzle.config.ts",
