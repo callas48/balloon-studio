@@ -10,3 +10,5 @@
 
 - GITHUB-SNAPSHOT.json은 이식 파일 무결성 목록이다. 스냅샷을 변경할 때 파일 크기와 SHA256을 함께 갱신하고 node scripts/verify-snapshot.mjs로 확인한다. 목록 자체는 자기 해시에서 제외한다.
 - 현재 Windows 설치형 준비 범위는 docs/windows-desktop-plan.md 참조. 설치 파일이 만들어졌다고 가정하지 않는다.
+
+- 설치형 정책: 새 버전 알림 후 사용자가 클릭할 때 차등 다운로드, 저장 성공 후 설치한다. 오프라인/업데이트 서버 실패는 자동 알림 없이 처리하고 로컬 편집·저장·출력을 막지 않는다. 상세 요구사항은 docs/windows-desktop-plan.md. 구현·실제 패키지 검증 전에는 완료로 보고하지 않는다.
