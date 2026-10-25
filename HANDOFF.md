@@ -2,12 +2,12 @@
 
 갱신: 2026-10-25 (Asia/Seoul). 아래 운영 버전 기록은 원본의 과거 이력이며 이 저장소의 배포 상태가 아니다.
 
-## 현재 작업 — 전체 소스 GitHub 연결 중
+## GitHub 전체 소스 이식 — main 연결 완료
 - 대상: callas48/balloon-studio, private, main. 읽기/쓰기 권한 확인 완료. 계정 가입·앱 설치·저장소 생성을 반복 요청하지 않는다.
 - 원본: Sites v249의 최신 소스 140161c56a2ac05b135644ef5d592baf1fbfe2c0. 별도 폴더에서 복구하고 scripts/prepare-github.mjs로 운영 .openai 설정/원본 Git 이력/운영자 allowlist를 분리했다. 기존 서비스 배포와 기존 PSD 진행 폴더는 수정하지 않았다.
-- 이식 폴더에 소스·폰트·에셋과 SHA256 목록 GITHUB-SNAPSHOT.json을 보관한다. 바이너리 blob의 존재를 파일 트리 API로 검사했고 누락 항목을 원본 바이트로 보충 중이다. blob 업로드만으로 main 이전 완료로 보고하지 않는다.
+- 이식 폴더에 소스·폰트·에셋과 SHA256 목록 GITHUB-SNAPSHOT.json을 보관한다. 바이너리 396개를 원본 바이트와 Git blob SHA로 검증해 전체 소스 트리에 연결했다. 초기 README/.gitignore 커밋을 부모로 보존한 source 커밋 0852d555f52b4ca9847c811c1ea8666cbabc094a를 main에 반영했다. 전체 파일 수는 644개(해시 목록 자체 포함)다.
 - 준비 검사: 원본의 tests/github-preparation.cjs 통과. 로컬 서버 HTTP·폰트/MIME·읽기전용 API·경로/메서드 가드·독립 build·운영설정 분리·개별 파일 해시를 검사했다. Windows 로컬 브라우저에서 첫 화면·말풍선 생성·Undo 기록을 확인했고 오류 로그는 없었다. 기본 4173은 다른 작업이 사용 중이어서 4184/4185에서 확인했다. 실제 모바일 터치·Windows 설치형 검증과 구분한다. dist/client의 긍정 유리 실제 Canvas 검사도 통과했다. scripts/prepare-github.mjs의 재내보내기에서 import 중복·이전 manifest 자기 해시 문제를 고쳤고 tests/github-reexport.cjs로 두 번 연속 내보내기와 모든 해시를 확인했다.
-- 다음: 바이너리 업로드·전체 tree/commit 생성·main 연결 후 원격 tree의 모든 경로/크기/SHA를 검증하고 이 항목을 완료 상태로 갱신한다.
+- 원격 tree는 truncated=false, 파일 644개다. 경로/크기/Git SHA 대조에서 Canvas 검사가 검토용 preview PNG 한 장을 재생성한 차이를 확인해 원본으로 복원하고 해시 목록을 갱신했다. 최종 검증은 원격 tree 전체 경로/크기/Git SHA와 로컬 전체 SHA256 목록으로 수행한다. 최초 396개 한 번 트리 연결은 API 응답 시간제한으로 실패했지만 50개 단위 트리 조합으로 완료했다.
 - Windows 설치형은 docs/windows-desktop-plan.md 순서로 이어간다. 실행 진입점/설치 파일/자동 업데이트/네이티브 파일 저장은 미구현. 현재 node scripts/dev-local.mjs로 Windows 로컬 웹 편집기를 실행한다.
 
 ## 로판 표지 레퍼런스 — 완료 / v249 공개 배포

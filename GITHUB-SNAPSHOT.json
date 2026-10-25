@@ -21,13 +21,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 56601,
-      "sha256": "9e3f0887ecf3436fe7ce0127f963c617100202447c6d241e763e13cca61f3da4"
+      "bytes": 56739,
+      "sha256": "8a7ff1e83ef7e279c553440165c41aa756b07f91cc59aba3ccf5cbcedcae0080"
     },
     {
       "path": "HANDOFF.md",
-      "bytes": 101892,
-      "sha256": "d0f3d5ff898358eea271b1ac3485bcd0bef44a62365957eb2a17ff76da324c2c"
+      "bytes": 102296,
+      "sha256": "3d497415b82c879336fc73a06477821d9ce1f3a83191f925f4ed1e2dbc946a70"
     },
     {
       "path": "README.md",
@@ -191,8 +191,8 @@
     },
     {
       "path": "docs/design/pixel-rpg/positive-render-preview.png",
-      "bytes": 1387977,
-      "sha256": "6504b527faf1452a3f838ffb2c9d7aa134a7adee355477a0760f7a83a761b008"
+      "bytes": 1399820,
+      "sha256": "10d74b6f5836e03d6b47d5d4567e61dc9fad4f5ab15374e28ee71a776935992b"
     },
     {
       "path": "docs/fonts/cover-font-review.md",
@@ -206,8 +206,8 @@
     },
     {
       "path": "docs/github-migration.md",
-      "bytes": 1421,
-      "sha256": "4b8f4b5d4e2d961245e7d8e4089baa461328db37247ba3a6bded3b57eb2cdc38"
+      "bytes": 1601,
+      "sha256": "cb2484eb66fb7cb133ab522814fe640626544ffe5d5132190ad807450c889e89"
     },
     {
       "path": "docs/ui/pokemon-sunmoon-reference.md",
