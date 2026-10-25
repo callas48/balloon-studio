@@ -21,6 +21,8 @@ node scripts/dev-local.mjs
 
 ## 검증
 
+`node scripts/verify-snapshot.mjs`로 전체 소스·폰트·에셋의 SHA256을 확인할 수 있습니다. 기본 포트 4173이 사용 중이면 PowerShell에서 `$env:PORT=4185; node scripts/dev-local.mjs`로 다른 포트를 선택하세요. Windows 설치형 다음 단계는 `docs/windows-desktop-plan.md`를 참조하세요.
+
 `npm run build`는 배포 HTML/JS/Worker 일치를 검사합니다. 기존 Canvas 테스트에는 `@napi-rs/canvas`가 추가로 필요합니다. 브라우저·실기기와 Windows 설치형 검증은 별개입니다.
 
 ## 서체·에셋

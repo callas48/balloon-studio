@@ -1,0 +1,3 @@
+// Pack the existing approved full and normal artwork without redrawing either image.
+const fs=require('node:fs'),{createCanvas,loadImage}=require('@napi-rs/canvas');
+(async()=>{for(const [color,y,h]of [['blue',60,400],['pink',48,385],['orange',65,410]]){const im=await loadImage('public/pixel-rpg/positive-'+color+'.png'),out=createCanvas(1024,420),c=out.getContext('2d');for(let i=0;i<2;i++)c.drawImage(im,i*512,y,512,h,i*512,0,512,h);const file='public/pixel-rpg/positive-'+color+'-pair.png';fs.writeFileSync(file,out.toBuffer('image/png'));console.log(file)}})().catch(e=>{console.error(e);process.exitCode=1});

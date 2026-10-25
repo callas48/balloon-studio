@@ -1,0 +1,5 @@
+Original fonts distributed with their SIL Open Font License files.
+https://github.com/google/fonts/tree/main/ofl/nanumgothic
+https://github.com/google/fonts/tree/main/ofl/nanumpenscript
+https://github.com/google/fonts/tree/main/ofl/nanummyeongjo
+Dynalight: https://github.com/google/fonts/tree/main/ofl/dynalight (SIL OFL 1.1; bundled dynalight/OFL.txt)

@@ -1,0 +1,255 @@
+[
+  {
+    "id": "poison",
+    "name": "독",
+    "palette": [
+      "#222337",
+      "#56b859",
+      "#baf071",
+      "#327c57"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "fever",
+    "name": "발열",
+    "palette": [
+      "#222337",
+      "#e56848",
+      "#ffc966",
+      "#a83d4d"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "arousal",
+    "name": "흥분",
+    "palette": [
+      "#222337",
+      "#e85d91",
+      "#ffb5c1",
+      "#9e3f6f"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "hypnosis",
+    "name": "최면",
+    "palette": [
+      "#222337",
+      "#a880df",
+      "#78dce9",
+      "#f2edff"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "weakened",
+    "name": "무력화",
+    "palette": [
+      "#222337",
+      "#89899e",
+      "#bfc1d0",
+      "#555174"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "hypersense",
+    "name": "감각증폭",
+    "palette": [
+      "#222337",
+      "#e28ab7",
+      "#ffe797",
+      "#ab5a9b"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "hyperreaction",
+    "name": "과민반응",
+    "palette": [
+      "#222337",
+      "#ffdb70",
+      "#f38db9",
+      "#b961a7"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "shame",
+    "name": "수치심",
+    "palette": [
+      "#222337",
+      "#f6c7cb",
+      "#df617d",
+      "#fff0df"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "lactation",
+    "name": "모유체질",
+    "palette": [
+      "#222337",
+      "#f1c9ce",
+      "#fff2d8",
+      "#8ecfe5"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "mammary_active",
+    "name": "유선 활성",
+    "palette": [
+      "#222337",
+      "#f1b7d0",
+      "#f7f4e7",
+      "#81d4e2"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "secretion",
+    "name": "애액상시분비",
+    "palette": [
+      "#222337",
+      "#edafca",
+      "#7cd6de",
+      "#4d96b4"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "secretion_boost",
+    "name": "분비 촉진",
+    "palette": [
+      "#222337",
+      "#83d9e9",
+      "#f6f5dc",
+      "#efcb6b"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "level_up",
+    "name": "레벨 업",
+    "palette": [
+      "#222337",
+      "#e9b94b",
+      "#fff1a8",
+      "#b77c37"
+    ],
+    "polarity": "good"
+  },
+  {
+    "id": "hp_low",
+    "name": "HP LOW",
+    "palette": [
+      "#222337",
+      "#e25d70",
+      "#ffb1ae",
+      "#ad394e"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "mp_low",
+    "name": "MP LOW",
+    "palette": [
+      "#222337",
+      "#69b1eb",
+      "#c6edff",
+      "#4766aa"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "curse",
+    "name": "저주받음",
+    "palette": [
+      "#222337",
+      "#a77be0",
+      "#d9bbff",
+      "#704b9c"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "bleeding",
+    "name": "출혈",
+    "palette": [
+      "#222337",
+      "#d94c64",
+      "#ff9a94",
+      "#982e4e"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "armor_break",
+    "name": "갑옷 파괴",
+    "palette": [
+      "#222337",
+      "#849fb8",
+      "#d5e2eb",
+      "#edc56c"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "level_down",
+    "name": "레벨 다운",
+    "palette": [
+      "#222337",
+      "#55627c",
+      "#929cb5",
+      "#39435f"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "atk_up",
+    "name": "ATK UP",
+    "palette": [
+      "#222337",
+      "#8ca9bf",
+      "#e0edf5",
+      "#edbf5a"
+    ],
+    "polarity": "good"
+  },
+  {
+    "id": "mag_up",
+    "name": "MAG UP",
+    "palette": [
+      "#222337",
+      "#8877b5",
+      "#ddd8ef",
+      "#edbf5a"
+    ],
+    "polarity": "good"
+  },
+  {
+    "id": "atk_down",
+    "name": "ATK DOWN",
+    "palette": [
+      "#222337",
+      "#8ca9bf",
+      "#e0edf5",
+      "#596681"
+    ],
+    "polarity": "bad"
+  },
+  {
+    "id": "mag_down",
+    "name": "MAG DOWN",
+    "palette": [
+      "#222337",
+      "#8877b5",
+      "#ddd8ef",
+      "#596681"
+    ],
+    "polarity": "bad"
+  }
+]

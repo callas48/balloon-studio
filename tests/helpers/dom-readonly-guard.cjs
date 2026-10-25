@@ -1,0 +1,3 @@
+// Opt-in DOM contract for existing VM editor tests: node -r ./tests/helpers/dom-readonly-guard.cjs tests/<file>.cjs
+const vm=require('node:vm'),create=vm.createContext,seen=new WeakSet();
+vm.createContext=function(sandbox,...rest){const d=sandbox?.document;if(d?.createElement&&!seen.has(d)){seen.add(d);const make=d.createElement;d.createElement=function(tag,...args){const node=make.call(this,tag,...args),name=String(tag).toLowerCase();if(node&&['textarea','select'].includes(name))Object.defineProperty(node,'type',{configurable:true,get:()=>name==='textarea'?'textarea':'select-one',set(){throw TypeError(name+'.type is read only')}});return node}}return create.call(this,sandbox,...rest)};

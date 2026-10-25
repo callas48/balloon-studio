@@ -1,0 +1,380 @@
+[
+  {
+    "id": 700,
+    "label": "읏♡ · 흰 말풍선",
+    "width": 117,
+    "height": 148,
+    "url": "sticker-assets/pink-reactions/eut.png"
+  },
+  {
+    "id": 701,
+    "label": "흐으응… · 흰 말풍선",
+    "width": 144,
+    "height": 274,
+    "url": "sticker-assets/pink-reactions/heueung.png"
+  },
+  {
+    "id": 702,
+    "label": "앗♡ · 흰 말풍선",
+    "width": 119,
+    "height": 150,
+    "url": "sticker-assets/pink-reactions/at.png"
+  },
+  {
+    "id": 703,
+    "label": "하앙♡ · 흰 말풍선",
+    "width": 120,
+    "height": 205,
+    "url": "sticker-assets/pink-reactions/haang.png"
+  },
+  {
+    "id": 704,
+    "label": "꿀럭♡ · 흰 말풍선",
+    "width": 137,
+    "height": 211,
+    "url": "sticker-assets/pink-reactions/kkulreok-black.png"
+  },
+  {
+    "id": 705,
+    "label": "꾸욱 · 흰 말풍선",
+    "width": 146,
+    "height": 223,
+    "url": "sticker-assets/pink-reactions/kkuuk-black.png"
+  },
+  {
+    "id": 706,
+    "label": "두근 · 흰 말풍선",
+    "width": 116,
+    "height": 210,
+    "url": "sticker-assets/pink-reactions/dugeun-black.png"
+  },
+  {
+    "id": 707,
+    "label": "퓨웃♡ · 흰 말풍선",
+    "width": 126,
+    "height": 227,
+    "url": "sticker-assets/pink-reactions/pyuut-black.png"
+  },
+  {
+    "id": 708,
+    "label": "퓻 · 흰 말풍선",
+    "width": 103,
+    "height": 163,
+    "url": "sticker-assets/pink-reactions/pyut-black.png"
+  },
+  {
+    "id": 709,
+    "label": "부르르릇♡ · 흰 말풍선",
+    "width": 139,
+    "height": 273,
+    "url": "sticker-assets/pink-reactions/bureureut-black.png"
+  },
+  {
+    "id": 710,
+    "label": "윤곽 하트 · 흰 말풍선",
+    "width": 100,
+    "height": 137,
+    "url": "sticker-assets/pink-reactions/heart-black.png"
+  },
+  {
+    "id": 711,
+    "label": "윤곽 하트 둘 · 흰 말풍선",
+    "width": 124,
+    "height": 216,
+    "url": "sticker-assets/pink-reactions/double-heart-black.png"
+  },
+  {
+    "id": 712,
+    "label": "하아―♡ · 흰 말풍선",
+    "width": 129,
+    "height": 282,
+    "url": "sticker-assets/pink-reactions/haa.png"
+  },
+  {
+    "id": 713,
+    "label": "머엉…",
+    "width": 244,
+    "height": 146,
+    "url": "sticker-assets/pink-reactions/meoeong-v2.png"
+  },
+  {
+    "id": 714,
+    "label": "화아아아",
+    "width": 171,
+    "height": 329,
+    "url": "sticker-assets/pink-reactions/hwaaaa-v2.png"
+  },
+  {
+    "id": 715,
+    "label": "욱신",
+    "width": 186,
+    "height": 143,
+    "url": "sticker-assets/pink-reactions/uksin.png"
+  },
+  {
+    "id": 716,
+    "label": "머뭇",
+    "width": 163,
+    "height": 111,
+    "url": "sticker-assets/pink-reactions/meomut.png"
+  },
+  {
+    "id": 717,
+    "label": "꾸욱",
+    "width": 156,
+    "height": 132,
+    "url": "sticker-assets/pink-reactions/kkuuk-pink.png"
+  },
+  {
+    "id": 718,
+    "label": "찔걱♡",
+    "width": 217,
+    "height": 128,
+    "url": "sticker-assets/pink-reactions/jjilgeok.png"
+  },
+  {
+    "id": 719,
+    "label": "두근♡",
+    "width": 156,
+    "height": 119,
+    "url": "sticker-assets/pink-reactions/dugeun-pink.png"
+  },
+  {
+    "id": 720,
+    "label": "하으으읏♡ · 긴 말풍선",
+    "width": 138,
+    "height": 293,
+    "url": "sticker-assets/pink-reactions/haeueut.png"
+  },
+  {
+    "id": 721,
+    "label": "흠칫",
+    "width": 158,
+    "height": 147,
+    "url": "sticker-assets/pink-reactions/heumchit.png"
+  },
+  {
+    "id": 722,
+    "label": "움찔",
+    "width": 153,
+    "height": 180,
+    "url": "sticker-assets/pink-reactions/umjjil-v2.png"
+  },
+  {
+    "id": 723,
+    "label": "탁",
+    "width": 114,
+    "height": 140,
+    "url": "sticker-assets/pink-reactions/tak.png"
+  },
+  {
+    "id": 724,
+    "label": "출렁",
+    "width": 161,
+    "height": 153,
+    "url": "sticker-assets/pink-reactions/chulleong.png"
+  },
+  {
+    "id": 725,
+    "label": "질척♡",
+    "width": 160,
+    "height": 121,
+    "url": "sticker-assets/pink-reactions/jilcheok.png"
+  },
+  {
+    "id": 726,
+    "label": "뷰르르릇♡ · 분홍",
+    "width": 132,
+    "height": 315,
+    "url": "sticker-assets/pink-reactions/bureureut-pink-v2.png"
+  },
+  {
+    "id": 727,
+    "label": "물음표 ?",
+    "width": 128,
+    "height": 191,
+    "url": "sticker-assets/pink-reactions/question.png"
+  },
+  {
+    "id": 728,
+    "label": "느낌표·물음표 !?",
+    "width": 177,
+    "height": 200,
+    "url": "sticker-assets/pink-reactions/exclamation-question.png"
+  },
+  {
+    "id": 729,
+    "label": "끈적",
+    "width": 165,
+    "height": 141,
+    "url": "sticker-assets/pink-reactions/kkeunkjeok.png"
+  },
+  {
+    "id": 730,
+    "label": "꿀꺽",
+    "width": 188,
+    "height": 191,
+    "url": "sticker-assets/pink-reactions/kkulkkuk.png"
+  },
+  {
+    "id": 731,
+    "label": "하으응♡ · 흰 말풍선",
+    "width": 120,
+    "height": 222,
+    "url": "sticker-assets/pink-reactions/haa-eung.png"
+  },
+  {
+    "id": 732,
+    "label": "팡♡",
+    "width": 167,
+    "height": 163,
+    "url": "sticker-assets/pink-reactions/pang-v2.png"
+  },
+  {
+    "id": 733,
+    "label": "퓻",
+    "width": 118,
+    "height": 142,
+    "url": "sticker-assets/pink-reactions/pyut-pink.png"
+  },
+  {
+    "id": 734,
+    "label": "퓨웃♡",
+    "width": 190,
+    "height": 194,
+    "url": "sticker-assets/pink-reactions/pyuut-pink.png"
+  },
+  {
+    "id": 735,
+    "label": "뷰릇!♡",
+    "width": 152,
+    "height": 256,
+    "url": "sticker-assets/pink-reactions/byureut.png"
+  },
+  {
+    "id": 736,
+    "label": "분홍 하트",
+    "width": 132,
+    "height": 160,
+    "url": "sticker-assets/pink-reactions/heart-filled.png"
+  },
+  {
+    "id": 737,
+    "label": "분홍 하트 둘",
+    "width": 170,
+    "height": 180,
+    "url": "sticker-assets/pink-reactions/hearts-filled.png"
+  },
+  {
+    "id": 738,
+    "label": "오싹",
+    "width": 191,
+    "height": 133,
+    "url": "sticker-assets/pink-reactions/ossak.png"
+  },
+  {
+    "id": 739,
+    "label": "츕♡",
+    "width": 134,
+    "height": 164,
+    "url": "sticker-assets/pink-reactions/chup.png"
+  },
+  {
+    "id": 740,
+    "label": "츄읍",
+    "width": 161,
+    "height": 213,
+    "url": "sticker-assets/pink-reactions/chu-eup-v2.png"
+  },
+  {
+    "id": 741,
+    "label": "응…♡ · 흰 말풍선",
+    "width": 121,
+    "height": 212,
+    "url": "sticker-assets/pink-reactions/eung-v2.png"
+  },
+  {
+    "id": 742,
+    "label": "할짝♡",
+    "width": 180,
+    "height": 183,
+    "url": "sticker-assets/pink-reactions/haljjak-v2.png"
+  },
+  {
+    "id": 743,
+    "label": "꿀렁♡",
+    "width": 184,
+    "height": 211,
+    "url": "sticker-assets/pink-reactions/kkulleong-v2.png"
+  },
+  {
+    "id": 744,
+    "label": "충격 강조 · 왼쪽",
+    "width": 139,
+    "height": 242,
+    "url": "sticker-assets/pink-reactions/impact-left.png"
+  },
+  {
+    "id": 745,
+    "label": "충격 강조 · 오른쪽",
+    "width": 132,
+    "height": 200,
+    "url": "sticker-assets/pink-reactions/impact-right.png"
+  },
+  {
+    "id": 746,
+    "label": "떨림 곡선",
+    "width": 149,
+    "height": 150,
+    "url": "sticker-assets/pink-reactions/motion-curves.png"
+  },
+  {
+    "id": 747,
+    "label": "세로 떨림선",
+    "width": 52,
+    "height": 187,
+    "url": "sticker-assets/pink-reactions/motion-lines.png"
+  },
+  {
+    "id": 748,
+    "label": "학♡ · 흰 말풍선",
+    "width": 107,
+    "height": 153,
+    "url": "sticker-assets/pink-reactions/hak.png"
+  },
+  {
+    "id": 749,
+    "label": "호우… · 흰 말풍선",
+    "width": 107,
+    "height": 206,
+    "url": "sticker-assets/pink-reactions/hou.png"
+  },
+  {
+    "id": 750,
+    "label": "구불선·느낌표·하트 말풍선",
+    "width": 132,
+    "height": 279,
+    "url": "sticker-assets/pink-reactions/squiggle.png"
+  },
+  {
+    "id": 751,
+    "label": "핫 · 흰 말풍선",
+    "width": 107,
+    "height": 151,
+    "url": "sticker-assets/pink-reactions/hat.png"
+  },
+  {
+    "id": 752,
+    "label": "츄루루룹♡ · 복원",
+    "width": 616,
+    "height": 916,
+    "url": "sticker-assets/pink-reactions/chururup.png"
+  },
+  {
+    "id": 753,
+    "label": "부들 · 복원",
+    "width": 716,
+    "height": 550,
+    "url": "sticker-assets/pink-reactions/budeul.png"
+  }
+]

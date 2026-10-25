@@ -1,0 +1,5 @@
+// Focused regression suite for the 2026-10-18 editor audit. Not a browser/device test.
+const {spawnSync}=require('node:child_process');
+const guarded=new Set(['eroste','character-profile','messenger','sns-profiles','nikke-details','arknights-ui','stream-templates','identity-cards']);
+const names=['bad-status','bad-status-controls','bad-status-multiple','bad-status-rpg-messages','bad-status-filters','bad-status-icons','object-rotation',...guarded,'mini-edit-gesture','nikke-consult-popup','pixel-rpg','pixel-rpg-positive','layer-visibility','vertical-alignment','font-persistence','text-style-shortcuts','asset-warp-live-time'];
+let failures=0;for(const name of names){const args=[...(guarded.has(name)?['-r','./tests/helpers/dom-readonly-guard.cjs']:[]),'tests/'+name+'.cjs'],r=spawnSync(process.execPath,args,{encoding:'utf8'});if(r.status!==0){failures++;console.error('FAIL '+name+'\n'+r.stdout+r.stderr)}else console.log('PASS '+name)}console.log((names.length-failures)+'/'+names.length+' passed');process.exitCode=failures?1:0;

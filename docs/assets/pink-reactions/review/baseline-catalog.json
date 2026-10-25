@@ -1,0 +1,1398 @@
+[
+  {
+    "id": 700,
+    "name": "P01",
+    "catalogNumber": 97,
+    "url": "sticker-assets/pink-reactions/eut.png",
+    "box": [
+      0,
+      0,
+      117,
+      148
+    ],
+    "label": "읏♡ · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 701,
+    "name": "P02",
+    "catalogNumber": 98,
+    "url": "sticker-assets/pink-reactions/heueung.png",
+    "box": [
+      0,
+      0,
+      144,
+      274
+    ],
+    "label": "흐으응… · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 702,
+    "name": "P03",
+    "catalogNumber": 99,
+    "url": "sticker-assets/pink-reactions/at.png",
+    "box": [
+      0,
+      0,
+      119,
+      150
+    ],
+    "label": "앗♡ · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 703,
+    "name": "P04",
+    "catalogNumber": 100,
+    "url": "sticker-assets/pink-reactions/haang.png",
+    "box": [
+      0,
+      0,
+      120,
+      205
+    ],
+    "label": "하앙♡ · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 704,
+    "name": "P05",
+    "catalogNumber": 101,
+    "url": "sticker-assets/pink-reactions/kkulreok-black.png",
+    "box": [
+      0,
+      0,
+      137,
+      211
+    ],
+    "label": "꿀럭♡ · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "whitePaper": true,
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 705,
+    "name": "P06",
+    "catalogNumber": 102,
+    "url": "sticker-assets/pink-reactions/kkuuk-black.png",
+    "box": [
+      0,
+      0,
+      146,
+      223
+    ],
+    "label": "꾸욱 · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "whitePaper": true,
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 706,
+    "name": "P07",
+    "catalogNumber": 103,
+    "url": "sticker-assets/pink-reactions/dugeun-black.png",
+    "box": [
+      0,
+      0,
+      116,
+      210
+    ],
+    "label": "두근 · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "whitePaper": true,
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 707,
+    "name": "P08",
+    "catalogNumber": 104,
+    "url": "sticker-assets/pink-reactions/pyuut-black.png",
+    "box": [
+      0,
+      0,
+      126,
+      227
+    ],
+    "label": "퓨웃♡ · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "whitePaper": true,
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 708,
+    "name": "P09",
+    "catalogNumber": 105,
+    "url": "sticker-assets/pink-reactions/pyut-black.png",
+    "box": [
+      0,
+      0,
+      103,
+      163
+    ],
+    "label": "퓻 · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "whitePaper": true,
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 709,
+    "name": "P10",
+    "catalogNumber": 106,
+    "url": "sticker-assets/pink-reactions/bureureut-black.png",
+    "box": [
+      0,
+      0,
+      139,
+      273
+    ],
+    "label": "부르르릇♡ · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "whitePaper": true,
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 710,
+    "name": "P11",
+    "catalogNumber": 107,
+    "url": "sticker-assets/pink-reactions/heart-black.png",
+    "box": [
+      0,
+      0,
+      100,
+      137
+    ],
+    "label": "윤곽 하트 · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "whitePaper": true,
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 711,
+    "name": "P12",
+    "catalogNumber": 108,
+    "url": "sticker-assets/pink-reactions/double-heart-black.png",
+    "box": [
+      0,
+      0,
+      124,
+      216
+    ],
+    "label": "윤곽 하트 둘 · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "whitePaper": true,
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 712,
+    "name": "P13",
+    "catalogNumber": 109,
+    "url": "sticker-assets/pink-reactions/haa.png",
+    "box": [
+      0,
+      0,
+      129,
+      282
+    ],
+    "label": "하아―♡ · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 713,
+    "name": "P14",
+    "catalogNumber": 110,
+    "url": "sticker-assets/pink-reactions/meoeong-v2.png",
+    "box": [
+      0,
+      0,
+      244,
+      146
+    ],
+    "label": "머엉…",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 714,
+    "name": "P15",
+    "catalogNumber": 111,
+    "url": "sticker-assets/pink-reactions/hwaaaa-v2.png",
+    "box": [
+      0,
+      0,
+      171,
+      329
+    ],
+    "label": "화아아아",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 715,
+    "name": "P16",
+    "catalogNumber": 112,
+    "url": "sticker-assets/pink-reactions/uksin.png",
+    "box": [
+      0,
+      0,
+      186,
+      143
+    ],
+    "label": "욱신",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 716,
+    "name": "P17",
+    "catalogNumber": 113,
+    "url": "sticker-assets/pink-reactions/meomut.png",
+    "box": [
+      0,
+      0,
+      163,
+      111
+    ],
+    "label": "머뭇",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 717,
+    "name": "P18",
+    "catalogNumber": 114,
+    "url": "sticker-assets/pink-reactions/kkuuk-pink.png",
+    "box": [
+      0,
+      0,
+      156,
+      132
+    ],
+    "label": "꾸욱",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 718,
+    "name": "P19",
+    "catalogNumber": 115,
+    "url": "sticker-assets/pink-reactions/jjilgeok.png",
+    "box": [
+      0,
+      0,
+      217,
+      128
+    ],
+    "label": "찔걱♡",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 719,
+    "name": "P20",
+    "catalogNumber": 116,
+    "url": "sticker-assets/pink-reactions/dugeun-pink.png",
+    "box": [
+      0,
+      0,
+      156,
+      119
+    ],
+    "label": "두근♡",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 720,
+    "name": "P21",
+    "catalogNumber": 117,
+    "url": "sticker-assets/pink-reactions/haeueut.png",
+    "box": [
+      0,
+      0,
+      138,
+      293
+    ],
+    "label": "하으으읏♡ · 긴 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 721,
+    "name": "P22",
+    "catalogNumber": 118,
+    "url": "sticker-assets/pink-reactions/heumchit.png",
+    "box": [
+      0,
+      0,
+      158,
+      147
+    ],
+    "label": "흠칫",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 722,
+    "name": "P23",
+    "catalogNumber": 119,
+    "url": "sticker-assets/pink-reactions/umjjil-v2.png",
+    "box": [
+      0,
+      0,
+      153,
+      180
+    ],
+    "label": "움찔",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 723,
+    "name": "P24",
+    "catalogNumber": 120,
+    "url": "sticker-assets/pink-reactions/tak.png",
+    "box": [
+      0,
+      0,
+      114,
+      140
+    ],
+    "label": "탁",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 724,
+    "name": "P25",
+    "catalogNumber": 121,
+    "url": "sticker-assets/pink-reactions/chulleong.png",
+    "box": [
+      0,
+      0,
+      161,
+      153
+    ],
+    "label": "출렁",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 725,
+    "name": "P26",
+    "catalogNumber": 122,
+    "url": "sticker-assets/pink-reactions/jilcheok.png",
+    "box": [
+      0,
+      0,
+      160,
+      121
+    ],
+    "label": "질척♡",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 726,
+    "name": "P27",
+    "catalogNumber": 123,
+    "url": "sticker-assets/pink-reactions/bureureut-pink-v2.png",
+    "box": [
+      0,
+      0,
+      132,
+      315
+    ],
+    "label": "뷰르르릇♡ · 분홍",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 727,
+    "name": "P28",
+    "catalogNumber": 124,
+    "url": "sticker-assets/pink-reactions/question.png",
+    "box": [
+      0,
+      0,
+      128,
+      191
+    ],
+    "label": "물음표 ?",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 728,
+    "name": "P29",
+    "catalogNumber": 125,
+    "url": "sticker-assets/pink-reactions/exclamation-question.png",
+    "box": [
+      0,
+      0,
+      177,
+      200
+    ],
+    "label": "느낌표·물음표 !?",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 729,
+    "name": "P30",
+    "catalogNumber": 126,
+    "url": "sticker-assets/pink-reactions/kkeunkjeok.png",
+    "box": [
+      0,
+      0,
+      165,
+      141
+    ],
+    "label": "끈적",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 730,
+    "name": "P31",
+    "catalogNumber": 127,
+    "url": "sticker-assets/pink-reactions/kkulkkuk.png",
+    "box": [
+      0,
+      0,
+      188,
+      191
+    ],
+    "label": "꿀꺽",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 731,
+    "name": "P32",
+    "catalogNumber": 128,
+    "url": "sticker-assets/pink-reactions/haa-eung.png",
+    "box": [
+      0,
+      0,
+      120,
+      222
+    ],
+    "label": "하으응♡ · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 732,
+    "name": "P33",
+    "catalogNumber": 129,
+    "url": "sticker-assets/pink-reactions/pang-v2.png",
+    "box": [
+      0,
+      0,
+      167,
+      163
+    ],
+    "label": "팡♡",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 733,
+    "name": "P34",
+    "catalogNumber": 130,
+    "url": "sticker-assets/pink-reactions/pyut-pink.png",
+    "box": [
+      0,
+      0,
+      118,
+      142
+    ],
+    "label": "퓻",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 734,
+    "name": "P35",
+    "catalogNumber": 131,
+    "url": "sticker-assets/pink-reactions/pyuut-pink.png",
+    "box": [
+      0,
+      0,
+      190,
+      194
+    ],
+    "label": "퓨웃♡",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 735,
+    "name": "P36",
+    "catalogNumber": 132,
+    "url": "sticker-assets/pink-reactions/byureut.png",
+    "box": [
+      0,
+      0,
+      152,
+      256
+    ],
+    "label": "뷰릇!♡",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 736,
+    "name": "P37",
+    "catalogNumber": 133,
+    "url": "sticker-assets/pink-reactions/heart-filled.png",
+    "box": [
+      0,
+      0,
+      132,
+      160
+    ],
+    "label": "분홍 하트",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 737,
+    "name": "P38",
+    "catalogNumber": 134,
+    "url": "sticker-assets/pink-reactions/hearts-filled.png",
+    "box": [
+      0,
+      0,
+      170,
+      180
+    ],
+    "label": "분홍 하트 둘",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 738,
+    "name": "P39",
+    "catalogNumber": 135,
+    "url": "sticker-assets/pink-reactions/ossak.png",
+    "box": [
+      0,
+      0,
+      191,
+      133
+    ],
+    "label": "오싹",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 739,
+    "name": "P40",
+    "catalogNumber": 136,
+    "url": "sticker-assets/pink-reactions/chup.png",
+    "box": [
+      0,
+      0,
+      134,
+      164
+    ],
+    "label": "츕♡",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 740,
+    "name": "P41",
+    "catalogNumber": 137,
+    "url": "sticker-assets/pink-reactions/chu-eup-v2.png",
+    "box": [
+      0,
+      0,
+      161,
+      213
+    ],
+    "label": "츄읍",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 741,
+    "name": "P42",
+    "catalogNumber": 138,
+    "url": "sticker-assets/pink-reactions/eung-v2.png",
+    "box": [
+      0,
+      0,
+      121,
+      212
+    ],
+    "label": "응…♡ · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 742,
+    "name": "P43",
+    "catalogNumber": 139,
+    "url": "sticker-assets/pink-reactions/haljjak-v2.png",
+    "box": [
+      0,
+      0,
+      180,
+      183
+    ],
+    "label": "할짝♡",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 743,
+    "name": "P44",
+    "catalogNumber": 140,
+    "url": "sticker-assets/pink-reactions/kkulleong-v2.png",
+    "box": [
+      0,
+      0,
+      184,
+      211
+    ],
+    "label": "꿀렁♡",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 744,
+    "name": "P45",
+    "catalogNumber": 141,
+    "url": "sticker-assets/pink-reactions/impact-left.png",
+    "box": [
+      0,
+      0,
+      139,
+      242
+    ],
+    "label": "충격 강조 · 왼쪽",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 745,
+    "name": "P46",
+    "catalogNumber": 142,
+    "url": "sticker-assets/pink-reactions/impact-right.png",
+    "box": [
+      0,
+      0,
+      132,
+      200
+    ],
+    "label": "충격 강조 · 오른쪽",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 746,
+    "name": "P47",
+    "catalogNumber": 143,
+    "url": "sticker-assets/pink-reactions/motion-curves.png",
+    "box": [
+      0,
+      0,
+      149,
+      150
+    ],
+    "label": "떨림 곡선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 747,
+    "name": "P48",
+    "catalogNumber": 144,
+    "url": "sticker-assets/pink-reactions/motion-lines.png",
+    "box": [
+      0,
+      0,
+      52,
+      187
+    ],
+    "label": "세로 떨림선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 748,
+    "name": "P49",
+    "catalogNumber": 145,
+    "url": "sticker-assets/pink-reactions/hak.png",
+    "box": [
+      0,
+      0,
+      107,
+      153
+    ],
+    "label": "학♡ · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 749,
+    "name": "P50",
+    "catalogNumber": 146,
+    "url": "sticker-assets/pink-reactions/hou.png",
+    "box": [
+      0,
+      0,
+      107,
+      206
+    ],
+    "label": "호우… · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 750,
+    "name": "P51",
+    "catalogNumber": 147,
+    "url": "sticker-assets/pink-reactions/squiggle.png",
+    "box": [
+      0,
+      0,
+      132,
+      279
+    ],
+    "label": "구불선·느낌표·하트 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 751,
+    "name": "P52",
+    "catalogNumber": 148,
+    "url": "sticker-assets/pink-reactions/hat.png",
+    "box": [
+      0,
+      0,
+      107,
+      151
+    ],
+    "label": "핫 · 흰 말풍선",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff",
+    "paperOpacity": true,
+    "defaultOpacity": 1
+  },
+  {
+    "id": 752,
+    "name": "P53",
+    "catalogNumber": 149,
+    "url": "sticker-assets/pink-reactions/chururup.png",
+    "box": [
+      0,
+      0,
+      616,
+      916
+    ],
+    "label": "츄루루룹♡ · 복원",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  },
+  {
+    "id": 753,
+    "name": "P54",
+    "catalogNumber": 150,
+    "url": "sticker-assets/pink-reactions/budeul.png",
+    "box": [
+      0,
+      0,
+      716,
+      550
+    ],
+    "label": "부들 · 복원",
+    "fixed": true,
+    "featured": true,
+    "preserveAlpha": true,
+    "collection": "reactions",
+    "body": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "color": "#222222",
+    "fill": "#ffffff"
+  }
+]

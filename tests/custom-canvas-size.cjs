@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const {createCanvas}=require('@napi-rs/canvas');
+const nodes=new Map(),$=id=>{if(!nodes.has(id))nodes.set(id,{value:'',style:{},setAttribute(){}});return nodes.get(id)};
+let undo=[],message='',fits=0;const sb=vm.createContext({state:{width:800,height:1200,items:[{x:100,y:200,w:200,h:100,fontSize:24}],panels:[],imageLayers:[{id:'fixed',locked:true,x:0,y:0,w:800,h:1200}],masks:[]},bg:null,drag:null,emptyPhotoPress:null,zoom:1,projectBusy:false,$,currentImageLayer:()=>null,current:()=>null,document:{createElement:()=>createCanvas(1,1)},drawPatches(){},checkpoint(){undo.push(JSON.stringify(sb.state))},cancelRetouch(){},setProtrusionMode(){},fit(){fits++},sync(){sb.syncCanvasImageSize()},status:t=>{message=t}});
+for(const name of ['panels','canvas-image-size'])vm.runInContext(fs.readFileSync('public/'+name+'.js','utf8'),sb);
+sb.setProtrusionMode=()=>{};sb.initCanvasImageSize();assert.equal($('canvasCustomWidth').value,800);assert.equal($('canvasCustomHeight').value,1200);
+const enter=(w,h)=>{$('canvasCustomWidth').value=String(w);$('canvasCustomHeight').value=String(h)};
+enter(1600,1200);sb.syncCanvasImageSize();assert.equal($('canvasCustomWidth').value,'1600','unrelated render preserves draft');assert(sb.applyCustomCanvasSize(),message);assert.equal(undo.length,1);assert.equal(sb.state.width,1600);assert.equal(sb.state.items[0].x,500);assert.equal(sb.state.items[0].w,200);assert.equal(sb.state.imageLayers[0].w,1600);assert.equal(fits,1);
+assert(!sb.applyCustomCanvasSize());assert.equal(undo.length,1,'same dimensions do not add undo');
+for(const [w,h]of [[0,1000],['',1000],[40.5,1000],[16001,1000],[1000,30001],[8000,8000],['no',1000]]){enter(w,h);assert(!sb.applyCustomCanvasSize());assert.equal(sb.state.width,1600);assert.equal(undo.length,1)}
+sb.state.panels=[{shape:'rect',x:0,y:0,w:40,h:40}];enter(800,600);assert(!sb.applyCustomCanvasSize());assert(message.includes('既存')||message.includes('기존 컷'));sb.state.panels=[];
+sb.projectBusy=true;enter(800,600);assert(!sb.applyCustomCanvasSize());sb.syncCanvasImageSize();assert($('canvasCustomApply').disabled);sb.projectBusy=false;
+let prevented=false;$('canvasCustomHeight').onkeydown({key:'Enter',preventDefault(){prevented=true}});assert(prevented);assert.equal(sb.state.height,600);assert.equal(undo.length,2);assert.equal(sb.state.items[0].fontSize,12);
+sb.state=JSON.parse(undo[0]);sb.syncCanvasImageSize();assert.equal($('canvasCustomWidth').value,800,'Undo/page change refreshes dimensions');assert.equal(sb.state.items[0].fontSize,24);
+const canvas=createCanvas(800,1200);canvas.getContext('2d').fillStyle='#357b98';canvas.getContext('2d').fillRect(0,0,800,1200);sb.bg=canvas;enter(800,1600);assert(sb.applyCustomCanvasSize(),message);assert(sb.state.image.startsWith('data:image/png;'));assert.equal(sb.bg.height,1600);
+const html=fs.readFileSync('public/index.html','utf8');assert(html.includes('<div data-mobile-section="image"><section class="canvas-custom-size"'),'size settings are first in shared PC/mobile image tab');for(const id of ['canvasCustomWidth','canvasCustomHeight','canvasCustomApply'])assert.equal(html.split('id="'+id+'"').length,2);
+console.log('PASS custom canvas: first image section, draft preservation, input/Enter, real proportional resize and fixed layers, one Undo, no-op/limits/small panel/busy guards, restored values and background bitmap');

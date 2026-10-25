@@ -1,0 +1,896 @@
+[
+  {
+    "id": 700,
+    "label": "읏♡ · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/eut.png",
+    "sourceSize": [
+      117,
+      148
+    ],
+    "size": [
+      468,
+      592
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 701,
+    "label": "흐으응… · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/heueung.png",
+    "sourceSize": [
+      144,
+      274
+    ],
+    "size": [
+      576,
+      1096
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 702,
+    "label": "앗♡ · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/at.png",
+    "sourceSize": [
+      119,
+      150
+    ],
+    "size": [
+      476,
+      600
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 703,
+    "label": "하앙♡ · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/haang.png",
+    "sourceSize": [
+      120,
+      205
+    ],
+    "size": [
+      480,
+      820
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 704,
+    "label": "꿀럭♡ · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/kkulreok-black.png",
+    "sourceSize": [
+      137,
+      211
+    ],
+    "size": [
+      548,
+      844
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 60
+  },
+  {
+    "id": 705,
+    "label": "꾸욱 · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/kkuuk-black.png",
+    "sourceSize": [
+      146,
+      223
+    ],
+    "size": [
+      584,
+      892
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 42
+  },
+  {
+    "id": 706,
+    "label": "두근 · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/dugeun-black.png",
+    "sourceSize": [
+      116,
+      210
+    ],
+    "size": [
+      464,
+      840
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 50
+  },
+  {
+    "id": 707,
+    "label": "퓨웃♡ · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/pyuut-black.png",
+    "sourceSize": [
+      126,
+      227
+    ],
+    "size": [
+      504,
+      908
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 32
+  },
+  {
+    "id": 708,
+    "label": "퓻 · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/pyut-black.png",
+    "sourceSize": [
+      103,
+      163
+    ],
+    "size": [
+      412,
+      652
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 26
+  },
+  {
+    "id": 709,
+    "label": "부르르릇♡ · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/bureureut-black.png",
+    "sourceSize": [
+      139,
+      273
+    ],
+    "size": [
+      556,
+      1092
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 49
+  },
+  {
+    "id": 710,
+    "label": "윤곽 하트 · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/heart-black.png",
+    "sourceSize": [
+      100,
+      137
+    ],
+    "size": [
+      400,
+      548
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 9
+  },
+  {
+    "id": 711,
+    "label": "윤곽 하트 둘 · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/double-heart-black.png",
+    "sourceSize": [
+      124,
+      216
+    ],
+    "size": [
+      496,
+      864
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 23
+  },
+  {
+    "id": 712,
+    "label": "하아―♡ · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/haa.png",
+    "sourceSize": [
+      129,
+      282
+    ],
+    "size": [
+      516,
+      1128
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 713,
+    "label": "머엉…",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/meoeong-v2.png",
+    "sourceSize": [
+      244,
+      146
+    ],
+    "size": [
+      976,
+      584
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 714,
+    "label": "화아아아",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/hwaaaa-v2.png",
+    "sourceSize": [
+      171,
+      329
+    ],
+    "size": [
+      684,
+      1316
+    ],
+    "method": "Imagegen restoration, visually verified 화아아아; aligned to original canvas and content bounds",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 715,
+    "label": "욱신",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/uksin.png",
+    "sourceSize": [
+      186,
+      143
+    ],
+    "size": [
+      744,
+      572
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 716,
+    "label": "머뭇",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/meomut.png",
+    "sourceSize": [
+      163,
+      111
+    ],
+    "size": [
+      652,
+      444
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 717,
+    "label": "꾸욱",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/kkuuk-pink.png",
+    "sourceSize": [
+      156,
+      132
+    ],
+    "size": [
+      624,
+      528
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 718,
+    "label": "찔걱♡",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/jjilgeok.png",
+    "sourceSize": [
+      217,
+      128
+    ],
+    "size": [
+      868,
+      512
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 719,
+    "label": "두근♡",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/dugeun-pink.png",
+    "sourceSize": [
+      156,
+      119
+    ],
+    "size": [
+      624,
+      476
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 720,
+    "label": "하으으읏♡ · 긴 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/haeueut.png",
+    "sourceSize": [
+      138,
+      293
+    ],
+    "size": [
+      552,
+      1172
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 721,
+    "label": "흠칫",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/heumchit.png",
+    "sourceSize": [
+      158,
+      147
+    ],
+    "size": [
+      632,
+      588
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 722,
+    "label": "움찔",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/umjjil-v2.png",
+    "sourceSize": [
+      153,
+      180
+    ],
+    "size": [
+      612,
+      720
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 723,
+    "label": "탁",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/tak.png",
+    "sourceSize": [
+      114,
+      140
+    ],
+    "size": [
+      456,
+      560
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 724,
+    "label": "출렁",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/chulleong.png",
+    "sourceSize": [
+      161,
+      153
+    ],
+    "size": [
+      644,
+      612
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 725,
+    "label": "질척♡",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/jilcheok.png",
+    "sourceSize": [
+      160,
+      121
+    ],
+    "size": [
+      640,
+      484
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 726,
+    "label": "뷰르르릇♡ · 분홍",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/bureureut-pink-v2.png",
+    "sourceSize": [
+      132,
+      315
+    ],
+    "size": [
+      528,
+      1260
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 727,
+    "label": "물음표 ?",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/question.png",
+    "sourceSize": [
+      128,
+      191
+    ],
+    "size": [
+      512,
+      764
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 728,
+    "label": "느낌표·물음표 !?",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/exclamation-question.png",
+    "sourceSize": [
+      177,
+      200
+    ],
+    "size": [
+      708,
+      800
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 729,
+    "label": "끈적",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/kkeunkjeok.png",
+    "sourceSize": [
+      165,
+      141
+    ],
+    "size": [
+      660,
+      564
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 730,
+    "label": "꿀꺽",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/kkulkkuk.png",
+    "sourceSize": [
+      188,
+      191
+    ],
+    "size": [
+      752,
+      764
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 731,
+    "label": "하으응♡ · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/haa-eung.png",
+    "sourceSize": [
+      120,
+      222
+    ],
+    "size": [
+      480,
+      888
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 732,
+    "label": "팡♡",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/pang-v2.png",
+    "sourceSize": [
+      167,
+      163
+    ],
+    "size": [
+      668,
+      652
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 733,
+    "label": "퓻",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/pyut-pink.png",
+    "sourceSize": [
+      118,
+      142
+    ],
+    "size": [
+      472,
+      568
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 734,
+    "label": "퓨웃♡",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/pyuut-pink.png",
+    "sourceSize": [
+      190,
+      194
+    ],
+    "size": [
+      760,
+      776
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 735,
+    "label": "뷰릇!♡",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/byureut.png",
+    "sourceSize": [
+      152,
+      256
+    ],
+    "size": [
+      608,
+      1024
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 736,
+    "label": "분홍 하트",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/heart-filled.png",
+    "sourceSize": [
+      132,
+      160
+    ],
+    "size": [
+      528,
+      640
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 737,
+    "label": "분홍 하트 둘",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/hearts-filled.png",
+    "sourceSize": [
+      170,
+      180
+    ],
+    "size": [
+      680,
+      720
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 738,
+    "label": "오싹",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/ossak.png",
+    "sourceSize": [
+      191,
+      133
+    ],
+    "size": [
+      764,
+      532
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 739,
+    "label": "츕♡",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/chup.png",
+    "sourceSize": [
+      134,
+      164
+    ],
+    "size": [
+      536,
+      656
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 740,
+    "label": "츄읍",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/chu-eup-v2.png",
+    "sourceSize": [
+      161,
+      213
+    ],
+    "size": [
+      644,
+      852
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 741,
+    "label": "응…♡ · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/eung-v2.png",
+    "sourceSize": [
+      121,
+      212
+    ],
+    "size": [
+      484,
+      848
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 742,
+    "label": "할짝♡",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/haljjak-v2.png",
+    "sourceSize": [
+      180,
+      183
+    ],
+    "size": [
+      792,
+      916
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed; original-source re-extraction restores the upper heart and full ㅎ",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 743,
+    "label": "꿀렁♡",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/kkulleong-v2.png",
+    "sourceSize": [
+      184,
+      211
+    ],
+    "size": [
+      736,
+      844
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 744,
+    "label": "충격 강조 · 왼쪽",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/impact-left.png",
+    "sourceSize": [
+      139,
+      242
+    ],
+    "size": [
+      556,
+      968
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 745,
+    "label": "충격 강조 · 오른쪽",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/impact-right.png",
+    "sourceSize": [
+      132,
+      200
+    ],
+    "size": [
+      528,
+      800
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 746,
+    "label": "떨림 곡선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/motion-curves.png",
+    "sourceSize": [
+      149,
+      150
+    ],
+    "size": [
+      596,
+      600
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 747,
+    "label": "세로 떨림선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/motion-lines.png",
+    "sourceSize": [
+      52,
+      187
+    ],
+    "size": [
+      208,
+      748
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 748,
+    "label": "학♡ · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/hak.png",
+    "sourceSize": [
+      107,
+      153
+    ],
+    "size": [
+      428,
+      612
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 749,
+    "label": "호우… · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/hou.png",
+    "sourceSize": [
+      107,
+      206
+    ],
+    "size": [
+      428,
+      824
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 750,
+    "label": "구불선·느낌표·하트 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/squiggle.png",
+    "sourceSize": [
+      132,
+      279
+    ],
+    "size": [
+      528,
+      1116
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 751,
+    "label": "핫 · 흰 말풍선",
+    "decision": "upscale",
+    "reason": "Source width below 320px default insertion and 424px catalog preview; visible enlargement on review sheet.",
+    "sourceUrl": "sticker-assets/pink-reactions/hat.png",
+    "sourceSize": [
+      107,
+      151
+    ],
+    "size": [
+      428,
+      604
+    ],
+    "method": "4x Lanczos3 resampling and mild luminance sharpening; no new detail claimed",
+    "removedDetachedPixels": 0
+  },
+  {
+    "id": 752,
+    "decision": "keep",
+    "reason": "Existing restoration has 616×916 / 716×550 pixels; sufficient for the 424px catalog and 320px default placement."
+  },
+  {
+    "id": 753,
+    "decision": "keep",
+    "reason": "Existing restoration has 616×916 / 716×550 pixels; sufficient for the 424px catalog and 320px default placement."
+  }
+]

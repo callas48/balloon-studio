@@ -1,0 +1,5 @@
+Galmuri9 by quiple (Lee Minseo)
+Official source: https://github.com/quiple/galmuri
+Downloaded 2026-10-25 from dist/Galmuri9.ttf (2.40.4).
+Unmodified. SIL Open Font License 1.1; see OFL.md.
+SHA256 e84e821b18be15b9e3a907ceb83cfba25fabf51c80b7edf0d2921cf8f8e1a11d

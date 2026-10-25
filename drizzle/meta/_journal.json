@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791273450696,
+      "tag": "0000_aromatic_fat_cobra",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791297592831,
+      "tag": "0001_shared_assets",
+      "breakpoints": true
+    }
+  ]
+}
