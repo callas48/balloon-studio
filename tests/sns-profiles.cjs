@@ -20,7 +20,7 @@ for(const f of ['social-icons','image-layers','sns-profiles'])vm.runInContext(fs
   const a=regions.avatar;assert.equal(sb.snsProfileTarget(l,{x:(a.x+a.w/2)*1.5,y:(a.y+a.h/2)*1.5}).snsPhoto,l.avatar);
   const image=sb.snsProfileBitmap(l),before=image.toBuffer('image/png');assert.equal(image.height,l.h);
   const reload=JSON.parse(JSON.stringify(l));await sb.loadImageLayers([reload]);assert.deepEqual(sb.snsProfileBitmap(reload).toBuffer('image/png'),before,'Project reload preserves photo crops and font output');
-  fs.writeFileSync('/tmp/sns-'+preset+'-qa.png',before);
+  fs.writeFileSync(require('./helpers/qa-output.cjs')('sns-')+preset+'-qa.png',before);
   if(n){const b=regions.feed[0],pixel=image.getContext('2d').getImageData(Math.round((b.x+3)*1.5),Math.round((b.y+3)*1.5),1,1).data;assert.equal(pixel[0],228,'Actual feed photo rendered')}
   const invalid=JSON.parse(JSON.stringify(l));invalid.avatar.zoom=0;assert.throws(()=>sb.validateImageLayers({imageLayers:[invalid]}));
  }

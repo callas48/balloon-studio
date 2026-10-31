@@ -1,5 +1,20 @@
 # 말풍선 공방 — GitHub 이식 인수인계
 
+## 2026-11-01 — MSI 0.3.4 재구성·v260 병합 / 생성·검사 완료, 실제 업그레이드 미실시
+- 사용자 승인에 따라 노트북 원본 폴더 없이 설치본0.3.3의 Electron/브러시/공통함수와 Sites v260 편집기를 합쳤다. 현재 package/lock은0.3.4이며 MSI 빌드·한국어 사용자별 설치·588개 기존 파일 GUID·기존 설치위치 탐색·트랜잭션 내 교체를 복원했다. 이전 비교 단계의 원본 폴더 준비 요청은 더 이상 필수가 아니다.
+- scripts/msi-project.cjs, build-msi.mjs, build/msi-0.3.3-identities.json 및 MSI 전용 실행 코드를 보존했다. Node24.22.1/Electron45.0.0/builder26.18.0/updater6.8.11. 구체적 재빌드 명령과 한계는 docs/msi-reconstruction.md, 검사 기록은 docs/qa/msi-0.3.4.json.
+- MSI267537232bytes, SHA256 777e21338d87ba1af95340cae05ad2467be37115a9f6e35f0191354d9da05a44. compiled MSI의595파일·기존588GUID·한국어1042·UpgradeCode·RemoveExistingProducts1501 검사 통과. 작업 폴더에 source image 추출 후595파일 전부가 unpacked와 바이트 일치. 기존 설치본은0.3.3.0/편집기516파일 해시 그대로이며 실제 설치·업그레이드는 하지 않았다.
+- 편집기24/24, 메모리/복구·림버스·포켓몬3종·검열·30장 PNG ZIP/Python CRC·브러시25팁·자동저장/입력·desktop 저장/업데이트/패키지 검사 통과. 격리 프로필의 실제 Electron/패키지 ASAR에서 네이티브 JSON 저장·실제 IndexedDB 저장·PNG/ZIP 다운로드 통과. 사람의 창 조작 검증과 구분한다. Windows QA 경로/UTF8 및 과거 Sites Git 의존 테스트를 독립 실행 가능하게 고쳤다.
+- 실제 MSI0.3.3→0.3.4 차등 복원 SHA256일치,266 Range/263668980bytes로1.45%절감. 기준본 없을 때 자동 전체 다운로드 없음과 명시적 선택도 검사했다. 재구성 압축 스트림이 달라 첫 업데이트 절감이 작으며 블록맵/메타 전송량은 제외다.
+- ICE는 호스트 정책LGHT1105 때문에 --skip-ice-validation을 명시해 제외했다. 기본 빌드는 ICE 활성. 실제 업그레이드/재시작/롤백·삭제, 수동 UI/휴대폰은 미검증. 운영 feed null/서명 미설정. 원래 Sites와 설치본을 수정하지 않았다.
+
+## 2026-11-01 — 업데이트 전 비교 / 로컬 조사 기록
+- GitHub main 427d2c1(0.1.1), 현재 MSI 0.3.3, Sites v260(기능4f72313)을 비교했다. 0.3.3 릴리스는 MSI/림버스 병합 소스를 아직 main에 반영하지 않았다고 명시한다. 다운로드 MSI SHA256은 릴리스 Asset과 일치한다.
+- 설치본의 편집기516파일과 Electron 실행 코드를 읽어 확보했다. 사이트의 메모리/자동저장복구·전체PNG ZIP·검열 도구·썬문 여백 개선은 설치형 병합 대상이다. 림버스3모듈은 동일하며 설치형 전용 브러시/공통입력/네이티브저장/MSI업데이트 변경은 보존해야 한다. 공통8파일은 양쪽 변경 검토가 필요하다.
+- 다음 준비물은 0.3.3 MSI를 실제로 빌드한 프로젝트의 package/lock/desktop/public/scripts/tests 및 MSI/WiX 설정이다. 실행 코드 추출과 원래 빌드 설정 확보를 구분한다. 운영 업데이트 feed는 null이다.
+- 검증: GitHub 원본659파일의 SHA256과 기존 웹 build의 HTML/83스크립트/Worker 일치 검사 및 diff검사를 통과했다. Windows 줄바꿈 변환은 원본 LF 바이트로 맞춘 뒤 검사했으며 실제 코드 차이로 집계하지 않았다.
+- 이번 작업은 비교와 로컬 문서 기록만 수행했다. GitHub push/릴리스 게시, 기존 설치본 변경, 새 MSI 빌드/설치, Sites 수정/배포, 실제 UI 검증은 하지 않았다.
+
 갱신: 2026-10-25 (Asia/Seoul). 아래 운영 버전 기록은 원본의 과거 이력이며 이 저장소의 배포 상태가 아니다.
 
 ## Windows 설치형 0.1.1 — 로컬 설치·기동 / 차등 다운로드 검증 완료

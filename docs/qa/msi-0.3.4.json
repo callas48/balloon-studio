@@ -1,0 +1,98 @@
+{
+  "version": "0.3.4",
+  "date": "2026-11-01",
+  "siteBaseline": "4f72313067eb28dc3035c9ce9f5c6d0f688144b8",
+  "desktopBaseline": "0.3.3",
+  "artifact": {
+    "filename": "Balloon-Studio-Setup-0.3.4-x64.msi",
+    "bytes": 267537232,
+    "sha256": "777e21338d87ba1af95340cae05ad2467be37115a9f6e35f0191354d9da05a44"
+  },
+  "runtime": {
+    "node": "24.22.1",
+    "electron": "45.0.0",
+    "electronBuilder": "26.18.0",
+    "electronUpdater": "6.8.11"
+  },
+  "checks": {
+    "editorAudit": "24/24",
+    "desktop": [
+      "updates",
+      "files",
+      "client",
+      "shell",
+      "build-contract",
+      "packaged-resources"
+    ],
+    "features": [
+      "project-memory-recovery",
+      "limbus-ui",
+      "pokemon-sunmoon",
+      "pokemon-masters",
+      "pokemon-gold-battle",
+      "censor-assets",
+      "censor-signs",
+      "batch-export/Python-zipfile",
+      "brushes",
+      "builtin-brushes",
+      "autosave-scheduling",
+      "editor-input-performance"
+    ],
+    "compiledMsi": {
+      "version": "0.3.4",
+      "productCode": "{5A5AF32F-E170-4494-B639-CC040CBBF002}",
+      "upgradeCode": "{5A79FDF4-583C-41C0-B75B-8A01887417A6}",
+      "language": "1042",
+      "fileCount": 595,
+      "retainedComponentGuids": 588,
+      "rollbackSchedule": 1501,
+      "verified": true,
+      "installed": false
+    },
+    "extraction": {
+      "files": 595,
+      "byteIdentical": true,
+      "installed": false
+    },
+    "offlineEditorFiles": 523,
+    "electronSmoke": {
+      "version": "0.3.4",
+      "configured": false,
+      "pages": 1,
+      "nativeSave": true,
+      "realIndexedDBSave": true,
+      "scriptCount": 94,
+      "title": "말풍선 공방 · 만화 편집기",
+      "downloadFiles": [
+        "나의 첫 번째 만화_이미지 1.png",
+        "나의 첫 번째 만화_PNG.zip"
+      ],
+      "isolatedUserData": "work/qa/electron/profile/BalloonStudio",
+      "verified": true,
+      "errors": [],
+      "error": null
+    },
+    "differential": {
+      "oldVersion": "0.3.3",
+      "newVersion": "0.3.4",
+      "fullBytes": 267537232,
+      "differentialBytes": 263668980,
+      "rangeRequests": 266,
+      "savedPercent": 1.45,
+      "sha256": "777e21338d87ba1af95340cae05ad2467be37115a9f6e35f0191354d9da05a44",
+      "verified": true,
+      "installed": false
+    },
+    "existingInstallation": {
+      "version": "0.3.3.0",
+      "unchangedEditorFiles": 516
+    }
+  },
+  "limits": {
+    "ice": "Explicitly skipped because WiX returned LGHT1105 under host policy; default build keeps ICE enabled",
+    "actualInstallUpgrade": "Not performed",
+    "manualUiDeviceTesting": "Not performed",
+    "productionUpdateFeed": "url=null",
+    "codeSigning": "Not configured"
+  }
+}

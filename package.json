@@ -9,16 +9,18 @@
     "verify:snapshot": "node scripts/verify-snapshot.mjs",
     "desktop": "electron .",
     "desktop:dir": "node scripts/build.mjs && electron-builder --win --dir --publish never",
-    "desktop:installer": "node scripts/build.mjs && electron-builder --win nsis --x64 --publish never",
-    "test:desktop": "node tests/desktop-updates.cjs && node tests/desktop-files.cjs"
+    "desktop:installer": "node scripts/build.mjs && node scripts/build-msi.mjs",
+    "test:desktop": "node tests/desktop-updates.cjs && node tests/desktop-files.cjs && node tests/desktop-client.cjs && node tests/desktop-shell.cjs && node tests/msi-build.cjs",
+    "test:msi": "node tests/msi-build.cjs && node tests/msi-package.cjs"
   },
   "devDependencies": {
     "drizzle-kit": "^0.31.0",
     "drizzle-orm": "^0.44.0",
     "electron": "45.0.0",
-    "electron-builder": "26.18.0"
+    "electron-builder": "26.18.0",
+    "@napi-rs/canvas": "0.1.100"
   },
-  "version": "0.1.1",
+  "version": "0.3.4",
   "description": "말풍선 공방 Windows 만화 편집기",
   "main": "desktop/main.cjs",
   "author": "Balloon Studio",

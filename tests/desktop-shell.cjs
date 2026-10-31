@@ -8,7 +8,7 @@ const {UpdateController}=require('../desktop/update-controller.cjs');
  Object.assign(app,{isPackaged:false,setAppUserModelId(){},getPath:name=>paths.get(name),setPath:(name,value)=>paths.set(name,value),requestSingleInstanceLock:()=>true,whenReady:async()=>{},getVersion:()=> '0.1.1',quit(){}});
  class Window extends EventEmitter{
   constructor(options){super();this.options=options;win=this;this.webContents=new EventEmitter();Object.assign(this.webContents,{mainFrame:{url:'studio://app/index.html'},send(){},setWindowOpenHandler:fn=>this.openHandler=fn});}
-  isDestroyed(){return false}show(){this.shown=true}async loadURL(url){this.loadedURL=url;this.emit('ready-to-show');this.webContents.emit('did-finish-load')}isMinimized(){return false}focus(){}
+  isDestroyed(){return false}show(){this.shown=true}isVisible(){return !!this.shown}async loadURL(url){this.loadedURL=url;this.emit('ready-to-show');this.webContents.emit('did-finish-load')}isMinimized(){return false}focus(){}
  }
  const electron={app,BrowserWindow:Window,protocol:{registerSchemesAsPrivileged:schemes=>schemeConfig=schemes,handle:(scheme,fn)=>protocolHandler=fn},net:{isOnline:()=>false,fetch:async url=>new Response(await fs.readFile(fileURLToPath(url)))},
   ipcMain:{handle:(channel,fn)=>handlers.set(channel,fn)},dialog:{showOpenDialog:async()=>dialogResults.shift(),showSaveDialog:async()=>{saveDialogs++;return dialogResults.shift()},showMessageBoxSync:()=>0},

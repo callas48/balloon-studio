@@ -22,8 +22,8 @@ function pokemonGoldCard(l,height=48){
 function pokemonGoldLayout(l){const w=Math.max(1,Math.round(Math.min(l.w*l.pokeGoldWidth/100,l.h*160/48))),h=w*48/160;return{x:Math.round((l.w-w)*l.pokeGoldX/100),y:Math.round((l.h-h)*l.pokeGoldY/100),w,h};}
 function pokemonGoldBitmap(l,photo=postMediaImages.get(l.id)){
  if(isPokemonGoldBattle(l))return pokemonGoldBattleBitmap(l,photo);
- const out=document.createElement('canvas'),scale=Math.min(1,2000/l.w,3000/l.h);out.width=Math.max(1,Math.round(l.w*scale));out.height=Math.max(1,Math.round(l.h*scale));const c=out.getContext('2d');c.scale(scale,scale);
- if(l.media&&photo){const iw=photo.naturalWidth||photo.width,ih=photo.naturalHeight||photo.height,s=Math.max(l.w/iw,l.h/ih)*l.mediaZoom/100,w=iw*s,h=ih*s;c.drawImage(photo,(l.w-w)*l.mediaX/100,(l.h-h)*l.mediaY/100,w,h);}
+ const {out,c}=gameOutputCanvas(l);
+ drawGameMedia(c,l,photo);
  const card=pokemonGoldCard(l).canvas,m=pokemonGoldLayout(l);c.imageSmoothingEnabled=false;c.drawImage(card,m.x,m.y,m.w,m.h);return out;
 }
 function appendGoldBorderControl(host,l){const label=document.createElement('label'),select=document.createElement('select');label.textContent='도트 테두리';for(const [value,title]of [['bevel','첨부형 · 회색 입체 테두리'],['simple','기본 · 흑백 이중 테두리']]){const o=document.createElement('option');o.value=value;o.textContent=title;select.append(o);}select.value=l.pokeGoldBorder||'bevel';select.oninput=()=>{if(projectBusy||currentImageLayer()!==l)return;recordInput('gold-border');l.pokeGoldBorder=select.value;render();};label.append(select);host.append(label);}

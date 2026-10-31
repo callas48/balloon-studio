@@ -36,7 +36,7 @@ function moveObjectResize(e){
  const o=d.target.object,a=d.start,p=pos(e),delta=rotationVector({x:p.x-d.p.x,y:p.y-d.p.y},rotationAngle({kind:d.target.kind,object:a}),true),{u,v}=d.handle,sideX=u===.5,sideY=v===.5;
  if(!d.recorded&&Math.hypot(delta.x,delta.y)<1/zoom)return true;
  if(!d.recorded){checkpoint();d.recorded=true}
- const image=d.target.kind==='image',fixedAsset=!image&&o.kind==='asset'&&(referenceInfo(o.assetId)?.fixed||referenceInfo(o.assetId)?.category==='handdrawn'),ratio=a.w/a.h,keepRatio=image||o.kind==='circle'||fixedAsset,minW=image?20:70,minH=image?20:50;
+ const image=d.target.kind==='image',fixedAsset=!image&&o.kind==='asset'&&!referenceInfo(o.assetId)?.censor&&(referenceInfo(o.assetId)?.fixed||referenceInfo(o.assetId)?.category==='handdrawn'),ratio=a.w/a.h,keepRatio=image||o.kind==='circle'||fixedAsset,minW=image?20:70,minH=image?20:50;
  let w=sideX?a.w:Math.max(minW,a.w+(u?delta.x:-delta.x)),h=sideY?a.h:Math.max(minH,a.h+(v?delta.y:-delta.y));
  if(keepRatio){if(sideX)w=h*ratio;else if(sideY)h=w/ratio;else if(Math.abs(delta.x)>=Math.abs(delta.y))h=w/ratio;else w=h*ratio;const scale=Math.max(1,minW/w,minH/h);w*=scale;h*=scale}
  o.w=w;o.h=h;o.x=sideX?a.x+(a.w-w)/2:u?a.x:a.x+a.w-w;o.y=sideY?a.y+(a.h-h)/2:v?a.y:a.y+a.h-h;

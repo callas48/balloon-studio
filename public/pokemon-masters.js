@@ -18,8 +18,8 @@ function pokemonDialogueLayout(l,c){
 async function loadPokemonAssets(l){if(l.gamePreset===7&&typeof loadGoldBattleAssets==='function')await loadGoldBattleAssets(l);await ensureComicFont([7,9].includes(l.gamePreset)?POKEMON_GOLD_FONT:GAME_UI_FONT);if(l.media&&(!postMediaImages.has(l.id)||postMediaImages.get(l.id).src!==l.media))postMediaImages.set(l.id,await imageFrom(l.media));}
 function pokemonBitmap(l,photo=postMediaImages.get(l.id)){
  if(l.gamePreset===7)return pokemonGoldBitmap(l,photo);if(l.gamePreset===8)return pokemonSunBitmap(l,photo);if(l.gamePreset===9)return pokemonBattleBitmap(l,photo);
- const out=document.createElement('canvas'),scale=Math.min(1,2000/l.w,3000/l.h);out.width=Math.max(1,Math.round(l.w*scale));out.height=Math.max(1,Math.round(l.h*scale));const c=out.getContext('2d');c.scale(scale,scale);
- if(l.media&&photo){const iw=photo.naturalWidth||photo.width,ih=photo.naturalHeight||photo.height,s=Math.max(l.w/iw,l.h/ih)*l.mediaZoom/100,w=iw*s,h=ih*s;c.drawImage(photo,(l.w-w)*l.mediaX/100,(l.h-h)*l.mediaY/100,w,h);}
+ const {out,c}=gameOutputCanvas(l);
+ drawGameMedia(c,l,photo);
  const m=pokemonDialogueLayout(l,c),{x,y,w,h,u,font}=m,family=fonts[GAME_UI_FONT]||fonts.sans;
  const round=(x,y,w,h,r,fill,stroke,width=1)=>{c.beginPath();c.roundRect(x,y,w,h,r);if(fill){c.fillStyle=fill;c.fill();}if(stroke){c.strokeStyle=stroke;c.lineWidth=width;c.stroke();}};
  c.save();c.shadowColor='#324f5866';c.shadowBlur=1*u;c.shadowOffsetY=5*u;round(x,y,w,h,22*u,'#fafafa','#dce7e3',1.5*u);c.restore();
