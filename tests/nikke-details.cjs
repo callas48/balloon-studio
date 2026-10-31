@@ -29,7 +29,7 @@ for(const type of ['consult','confirm']){
   assert.notDeepEqual(api.nikkeBitmap({...layer,nikkeBond:0,nikkeCount:0,nikkeGems:'123456',nikkeCredits:'123456 K'},null).toBuffer('image/png'),plain.toBuffer('image/png'),'Editable parameters remain effective');
  }
  for(const [w,h]of[[360,780],[832,1200]]){const b=api.nikkeBitmap({...layer,w,h},photo);assert.equal(b.width,w);assert.equal(b.height,h)}
- fs.writeFileSync('/tmp/nikke-'+type+'-details.png',api.nikkeBitmap(layer,photo).toBuffer('image/png'));
+ fs.writeFileSync(require('./helpers/qa-output.cjs')('nikke-')+type+'-details.png',api.nikkeBitmap(layer,photo).toBuffer('image/png'));
 }
 console.log('PASS: detailed currency pixels, transparent overlay, favorite/top toggles, editable counters, reload/export agreement, consultation and confirmation at three resolutions');
 // Exercise the real inspector toggle and its undo checkpoint.

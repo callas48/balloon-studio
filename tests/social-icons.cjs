@@ -22,6 +22,6 @@ vm.runInContext(fs.readFileSync('public/image-layers.js','utf8'),sb);
  assert.notDeepEqual(sb.instagramCardBitmap(instagram).toBuffer('image/png'),oldInstagram);
  assert.deepEqual(sb.postCardBitmap(layer).toBuffer('image/png'),sb.postCardBitmap(JSON.parse(JSON.stringify(layer))).toBuffer('image/png'),'Reload/export uses the same font pixels');
  assert(fs.readFileSync('public/export.js','utf8').includes('await ensureSocialIconFonts();'));
- fs.writeFileSync('/workspace/scratch/04f5ef9299e7/material-icons-qa.png',c.toBuffer('image/png'));
+ fs.writeFileSync(require("./helpers/qa-output.cjs")('material-icons-qa.png'),c.toBuffer('image/png'));
  console.log('PASS: real embedded font glyphs, loading fallback, color, bitmap invalidation and reload/export parity');
 })().catch(e=>{console.error(e);process.exitCode=1});

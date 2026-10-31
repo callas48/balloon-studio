@@ -2,7 +2,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('nod
 const source=fs.readFileSync('public/autosave.js','utf8');
 function setup(){
  let now=0,next=0;const timers=new Map(),events={},win={},nodes=new Map(),records=[];
- const get=id=>{if(!nodes.has(id))nodes.set(id,{textContent:'',classList:{toggle(){}},disabled:false});return nodes.get(id)};
+ const get=id=>{if(!nodes.has(id))nodes.set(id,{textContent:'',classList:{toggle(){}},disabled:false,addEventListener(){}});return nodes.get(id)};
  class Clock extends Date{static now(){return now}}
  const s=vm.createContext({Date:Clock,crypto:require('node:crypto').webcrypto,structuredClone,$:get,projectBusy:false,projectDirty:true,drag:null,retouchDrag:null,document:{addEventListener:(t,f)=>events[t]=f,querySelector:()=>null,visibilityState:'visible'},window:{addEventListener:(t,f)=>win[t]=f},setTimeout:(f,ms)=>{timers.set(++next,{f,at:now+ms});return next},clearTimeout:id=>timers.delete(id),activePage:()=>({thumbnail:'preview'}),serializableBook:()=>({title:'테스트',pages:[{id:'p',doc:{items:[{text:'원문'}],fonts:[{id:'custom',data:'font-bytes'}]}}]}),setProjectBusy:v=>s.projectBusy=v,status(){}});
  vm.runInContext(source.slice(0,source.lastIndexOf('initProjectStorage();')),s);

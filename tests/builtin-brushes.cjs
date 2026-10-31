@@ -1,0 +1,7 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),{loadImage}=require('@napi-rs/canvas');
+const s=vm.createContext({console,WeakMap,fetch:async file=>{assert(file.startsWith('builtin-brush-tips/'));return new Response(fs.readFileSync(path.join('public',file)));},read:async blob=>'data:image/png;base64,'+Buffer.from(await blob.arrayBuffer()).toString('base64')});
+vm.runInContext(fs.readFileSync('public/brush-engine.js','utf8'),s);vm.runInContext(fs.readFileSync('public/builtin-brushes.js','utf8'),s);
+(async()=>{let count=0;const brushes=vm.runInContext('BUILTIN_BRUSHES',s);assert.equal(brushes.length,3);
+for(const brush of brushes){const originals=[...brush.tips];await s.materializeBuiltinBrush(brush);s.BrushEngine.validate(brush);for(let i=0;i<brush.tips.length;i++){const bytes=Buffer.from(brush.tips[i].split(',')[1],'base64');assert(bytes.equals(fs.readFileSync(path.join('public',originals[i]))));const im=await loadImage(bytes);assert.equal(im.width,brush.source.dimensions[i][0]);assert.equal(im.height,brush.source.dimensions[i][1]);count++;}assert(JSON.parse(JSON.stringify(brush)).tips.every(t=>t.startsWith('data:image/png;base64,')));}
+assert.equal(count,25);console.log('PASS built-in brushes: all 25 offline PNG tips load unchanged, preserve dimensions and export as portable embedded data');})().catch(e=>{console.error(e);process.exitCode=1});

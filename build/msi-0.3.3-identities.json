@@ -1,0 +1,2360 @@
+{
+  "sourceVersion": "0.3.3",
+  "sourceSha256": "f1b45759ecdaa51601c9feb572372bffb387f13acf5b4e9fce7707120265af1c",
+  "upgradeCode": "5A79FDF4-583C-41C0-B75B-8A01887417A6",
+  "cleanupGuid": "{2D0DF68A-1BA3-5F64-9425-0D2884149984}",
+  "files": {
+    "license.electron.txt": {
+      "id": "cb66c772d5a66204eec62b244c49c2b",
+      "guid": "{B6E7678C-129D-5923-8B93-60F7F8566FBA}"
+    },
+    "licenses.chromium.html": {
+      "id": "c12adc61259946adf69f300afd2a7af",
+      "guid": "{0FFACB22-F316-5EE1-821F-7C35763F0A2E}"
+    },
+    "chrome_100_percent.pak": {
+      "id": "c6ee8c5f32a18ec91a383f3aa11068f",
+      "guid": "{2BBF76EF-7CEC-55A8-A15F-C159088F1232}"
+    },
+    "chrome_200_percent.pak": {
+      "id": "c9bc165533d68e4380ac5b883a61256",
+      "guid": "{484319D7-CE34-559D-9CE9-658FB73BE472}"
+    },
+    "d3dcompiler_47.dll": {
+      "id": "cdc9a76cab8ca0968429e2866ea3521",
+      "guid": "{C736E883-396F-5E9B-8A89-DEE1FFE996C3}"
+    },
+    "dxcompiler.dll": {
+      "id": "cdc9f9807c62ed8a98e62af46b400f6",
+      "guid": "{09DE3564-AD34-5F1D-967D-6DD3348316C0}"
+    },
+    "electron_wer.dll": {
+      "id": "cf014d7032ec778eb7c7f1291449496",
+      "guid": "{A0EA4915-08FF-5C9D-AC39-BED5ED0482DA}"
+    },
+    "ffmpeg.dll": {
+      "id": "c5b77bc8c4ff536b4d4ce5bdde106c6",
+      "guid": "{F7468A14-FB36-5D49-8540-0E7BD1BAF706}"
+    },
+    "icudtl.dat": {
+      "id": "cc0cd57cb235098bc9961b160ed7644",
+      "guid": "{DA7FD0AE-899D-5249-98EA-C527E87071DE}"
+    },
+    "resources.pak": {
+      "id": "c5fae756a93da83e60d0426714ae36c",
+      "guid": "{796347D6-5FF0-5BC2-8C6E-D1C764D3E03A}"
+    },
+    "snapshot_blob.bin": {
+      "id": "cc2379f5b9959bf6239af3a02cfa5cb",
+      "guid": "{702B7980-F6A4-5547-893F-ACA876825FFA}"
+    },
+    "v8_context_snapshot.bin": {
+      "id": "c7db2eff07153854fc32033dd8e9ee5",
+      "guid": "{06B519FA-B933-55C1-818A-834782FB2CA7}"
+    },
+    "vk_swiftshader.dll": {
+      "id": "cf663200f0c364d828824de2be482ee",
+      "guid": "{42278A78-EA44-5AD5-999F-C31673C7532A}"
+    },
+    "vk_swiftshader_icd.json": {
+      "id": "cd912162c0b22e8aac87a2a67add15c",
+      "guid": "{6A1AFE21-7D66-5566-AABA-5B79C3E74815}"
+    },
+    "vulkan-1.dll": {
+      "id": "ce85cd9a21643f4776f2bd3ac9eb8d3",
+      "guid": "{72213395-21AD-51A8-B509-3E8E5FED25ED}"
+    },
+    "말풍선 공방.exe": {
+      "id": "ce71a87d3c456f572f68e14e1c1a867",
+      "guid": "{BC4CFBBF-C31A-52C0-9FF1-AA47E1CB76DE}"
+    },
+    "resources/app.asar": {
+      "id": "c0a3e61594ad42a5c369905b7315860",
+      "guid": "{BD3DF0D0-6B45-5649-894F-FBEFE1BE3D2C}"
+    },
+    "resources/editor/analytics.css": {
+      "id": "ce37cbca6ee15903d5644a96496ee7b",
+      "guid": "{BC32D55F-2D8F-5ACF-BF18-A0B6F7CB6AA3}"
+    },
+    "resources/editor/analytics.js": {
+      "id": "ca3c880d89691ef92c898ff21dc92b2",
+      "guid": "{5F26735F-56AB-5055-9F23-38FF80572E19}"
+    },
+    "resources/editor/app.js": {
+      "id": "c8b2a0339a8059ae18462869792ddb8",
+      "guid": "{303B72D0-FF80-5813-8B0D-F6B3A4FF5367}"
+    },
+    "resources/editor/arknights-ui.js": {
+      "id": "c6d006ed710c35923968c4cf113492f",
+      "guid": "{FD77350E-F778-5A10-BCCA-FD0B88D3BA47}"
+    },
+    "resources/editor/asset-composer.js": {
+      "id": "ce02af38f58b85f25a303ceca1d0a80",
+      "guid": "{11A9AB61-485A-5C65-91ED-433A2CA95544}"
+    },
+    "resources/editor/autosave.js": {
+      "id": "cc772dae63482c181b7d09390fbb20f",
+      "guid": "{1678FEB2-40E3-513B-B259-7003E8A452F8}"
+    },
+    "resources/editor/bad-status-controls.js": {
+      "id": "cb4007e59242835f9e1c9a16e314a7e",
+      "guid": "{FCE888A9-0D5B-51F5-9BD4-76B9F80E18BA}"
+    },
+    "resources/editor/bad-status-data.js": {
+      "id": "cd7069b585fad2a603769384abfc2f3",
+      "guid": "{C20ED545-C0EA-5106-9E1F-94F047649855}"
+    },
+    "resources/editor/bad-status.js": {
+      "id": "c2b98f0aa95d007a69e79742ce34f47",
+      "guid": "{A739BA0B-279F-5097-9EF6-E42B649EEBDE}"
+    },
+    "resources/editor/balloon-groups.js": {
+      "id": "c098512d19133f3d53232ee99efc824",
+      "guid": "{34D1F8BE-5991-5E12-BC19-0F3766F362FC}"
+    },
+    "resources/editor/balloons.js": {
+      "id": "ccc3e21509d52dc134dedb77505a28d",
+      "guid": "{F5DE3403-EB5B-51EC-AE55-78AD0CAECD36}"
+    },
+    "resources/editor/brush-engine.js": {
+      "id": "c4bc97dc1589e0ef5acb7d7781f6812",
+      "guid": "{B91BC460-2ED1-5C3D-B8D8-46DB8A85B42F}"
+    },
+    "resources/editor/brushes.js": {
+      "id": "cf8f660555de727001fe9357f74e61d",
+      "guid": "{EE42BD4E-64BA-5562-8A03-39954A1CCD6B}"
+    },
+    "resources/editor/builtin-brushes.js": {
+      "id": "c1cdad479cf2f524522a4b80beecdd4",
+      "guid": "{065FC22F-9C70-5CAA-9AB0-761953A661FD}"
+    },
+    "resources/editor/camera-templates.js": {
+      "id": "c50e1811daf443344e30e8850017417",
+      "guid": "{3C8E4E98-4F43-5D7F-BD43-1428C36A8CD3}"
+    },
+    "resources/editor/canvas-image-size.js": {
+      "id": "c8bea72c2067891c467a7022527c2f7",
+      "guid": "{BC8E4171-9A73-5D02-9FCF-E16C1048E1DE}"
+    },
+    "resources/editor/character-profile.js": {
+      "id": "c903962f61712b945e158ec694758d4",
+      "guid": "{8ECD89DB-DA5D-56B5-8C3C-E59643A09F07}"
+    },
+    "resources/editor/clone-fill.js": {
+      "id": "c9749970138c9e2ee12ba00d126beff",
+      "guid": "{579AA6D1-FDAF-5DE3-A269-140F405039BB}"
+    },
+    "resources/editor/color-picker.js": {
+      "id": "c655e28aaf7418bc90ba6b60736e854",
+      "guid": "{C6E990BC-9DAC-581D-98A0-1DCB3A5B4D6A}"
+    },
+    "resources/editor/comic-fonts.js": {
+      "id": "c68c8f6a8f134bf9f31873d8f52c45e",
+      "guid": "{86A7474D-0B54-500C-94FD-A7D558EFE4C9}"
+    },
+    "resources/editor/compound-title-templates.js": {
+      "id": "c4873aa5b9a4f74fd91626c166b2801",
+      "guid": "{FF7E768F-0370-5B17-B6D7-CB0B1FC28DDD}"
+    },
+    "resources/editor/connection-actions.js": {
+      "id": "ca41973a024d7cfa7dfd10250bb090e",
+      "guid": "{65207FFA-B369-5F4D-A3D6-1825F4A8C4A5}"
+    },
+    "resources/editor/corner-fit.js": {
+      "id": "ca051945467550e64e0360ceb4b123d",
+      "guid": "{10E4263C-E9AA-575C-8BE9-368325AD72BF}"
+    },
+    "resources/editor/cover-title-templates.js": {
+      "id": "ce80359564a8ceecdbf7a5836649621",
+      "guid": "{1C03E90B-B376-54C6-8B2F-4FAEEC3187D0}"
+    },
+    "resources/editor/custom-assets.js": {
+      "id": "c0c103fbd1a29fb80de9062db3442e1",
+      "guid": "{ABBE9753-E0DA-5264-A93F-FEE0F0489C6E}"
+    },
+    "resources/editor/desktop-client.js": {
+      "id": "cf86848501c0ebe145656beef4fd27a",
+      "guid": "{5FE7C7EA-C088-51C0-9EB6-FB073EF25B16}"
+    },
+    "resources/editor/empty-panel-upload.js": {
+      "id": "c2500ecc9fb798212c598457c3aaecc",
+      "guid": "{CD043F4D-3B36-5839-BF5C-FA1155291241}"
+    },
+    "resources/editor/empty-photo-upload.js": {
+      "id": "c0e0915fb78c552658b948bdeb47fe0",
+      "guid": "{A918B886-4543-5687-A18C-0615DDFA9F4E}"
+    },
+    "resources/editor/eroste-status-backdrop.js": {
+      "id": "cc393753559acbe37683aed9b3eacfd",
+      "guid": "{14B85B0B-F9D1-5716-8AEC-BD6CF44A61E5}"
+    },
+    "resources/editor/eroste-status-controls.js": {
+      "id": "c684f7491ec715e2e0b947c6bd2f53f",
+      "guid": "{3D190624-2886-5F3B-994A-71BC049126AE}"
+    },
+    "resources/editor/eroste-status.js": {
+      "id": "cc0eede984495155cf3b45e68aa65ba",
+      "guid": "{00B41F82-CF66-5005-B4F7-86EDE4A958EC}"
+    },
+    "resources/editor/eroste.js": {
+      "id": "cc7ddcb513a4d167b47f5bbcd3b60af",
+      "guid": "{1AB899F6-BE92-5908-AC98-C0D18DFAB621}"
+    },
+    "resources/editor/export.js": {
+      "id": "c2fcef445acbe03d64f0709e05ee98d",
+      "guid": "{9819350D-DFDA-520B-BB06-D6401FF8169F}"
+    },
+    "resources/editor/expression-templates.js": {
+      "id": "cd908d517fde3c8971c1a68a32d56d2",
+      "guid": "{BC1128F7-F73A-5530-AAC9-91651DF8EAD8}"
+    },
+    "resources/editor/favicon.svg": {
+      "id": "c22726158bdc660e24970a15e5477b2",
+      "guid": "{12102BC8-6F4A-5843-A26A-9DD5EF9A5FE6}"
+    },
+    "resources/editor/font-import.js": {
+      "id": "c655e2f26ced7144f2f8054ad6aa8a3",
+      "guid": "{E472DA84-6708-5BA7-BE0B-07996FE7C597}"
+    },
+    "resources/editor/font-preview.js": {
+      "id": "c4c9659c602d9a7e4171efe1fb09fd5",
+      "guid": "{3D48438A-2411-5B1F-9B8A-BD60C456056D}"
+    },
+    "resources/editor/font-storage.js": {
+      "id": "c5c178fd6cbd4594cbcd1e373c55ea6",
+      "guid": "{10690EB1-AAF3-53C3-A3A5-F85BB42F830D}"
+    },
+    "resources/editor/frame-picker.js": {
+      "id": "caae8459c89882e8ee168fd37eabbd6",
+      "guid": "{B8814A3F-CAE6-553E-8343-68C97CD65C52}"
+    },
+    "resources/editor/game-ui.js": {
+      "id": "c0058b0d2030a238ee45e9f842bc87f",
+      "guid": "{A4933327-E050-5F67-B195-26F9B7F5D0C5}"
+    },
+    "resources/editor/handdrawn-data.js": {
+      "id": "c2286467191d73a00670881e68e2908",
+      "guid": "{502E9CF6-D8DC-514A-8275-D8553996386A}"
+    },
+    "resources/editor/identity-cards.js": {
+      "id": "cf4454393f08ad03a79f20e56f9bd16",
+      "guid": "{F2427295-F3E8-52F7-9056-37A2BAD31ABA}"
+    },
+    "resources/editor/image-layers.js": {
+      "id": "c24b43c636bf368ef4a3ad565702312",
+      "guid": "{2E406BAB-BE0F-556C-9019-C1BD3FC93B5A}"
+    },
+    "resources/editor/image-selection.js": {
+      "id": "ccb6ddb4898cf29b40fcf6ea85e7d13",
+      "guid": "{4F7BA25B-2E65-5ABA-BC29-7FA32B1D4B98}"
+    },
+    "resources/editor/index.html": {
+      "id": "ce955a8ef8bd66eb2032bca2c7d470b",
+      "guid": "{191F3D74-E818-5E0B-B04D-F4499603E036}"
+    },
+    "resources/editor/layer-panel.js": {
+      "id": "c1b3465912a6387ac04acf421c02868",
+      "guid": "{552642D8-31ED-53B1-9F1D-6C48B1BA789D}"
+    },
+    "resources/editor/lettering.js": {
+      "id": "c77693572dc1b9274aa7306f9d47eb6",
+      "guid": "{4F925C7B-02BB-5C2D-92CA-45C600A18CC1}"
+    },
+    "resources/editor/limbus-controls.js": {
+      "id": "c2f4ce4edf17ed5d3600288c8e631c7",
+      "guid": "{C44F31B7-6D5B-5CCE-82DE-9ABB75673CE6}"
+    },
+    "resources/editor/limbus-data.js": {
+      "id": "cad2f43736faabddd21f2d42b1df40b",
+      "guid": "{E051FCAA-A598-5885-996C-EA100CB9FE31}"
+    },
+    "resources/editor/limbus-ui.js": {
+      "id": "ccb1a044a635a9490268f496fe42a5c",
+      "guid": "{CD40D389-8D41-515A-9250-9C6BA76E04EB}"
+    },
+    "resources/editor/live-chat-assets.js": {
+      "id": "c754fb40bdf75d74cd1618c9174ed69",
+      "guid": "{7854D616-BCDA-54FF-A637-B91BFEEC3791}"
+    },
+    "resources/editor/live-chat-generator.js": {
+      "id": "c8bb1e5342b899c4c7eb85d62eb2f9f",
+      "guid": "{AEA699E5-174B-5EA5-81E0-BF73FBE0F1DB}"
+    },
+    "resources/editor/live-layouts.js": {
+      "id": "ccd8965d8ee171f2285ad81c77e83e4",
+      "guid": "{04D90CC2-E117-51AF-9163-169DDC2709FB}"
+    },
+    "resources/editor/manga-sfx.js": {
+      "id": "c34ee76ed4506366cda415c2f0217d6",
+      "guid": "{A3811297-C53A-50C8-A1A9-C9ECED2758F2}"
+    },
+    "resources/editor/manifest.webmanifest": {
+      "id": "c0eed6faef048bdfd23f776fcc032e1",
+      "guid": "{7B7E05E7-93E1-5FDB-AD02-05653A8353A6}"
+    },
+    "resources/editor/messenger.js": {
+      "id": "c7afbca7a705b5f7129f21ba2e87e3b",
+      "guid": "{6079C07D-9BA8-5F41-89C0-66E0393C5A41}"
+    },
+    "resources/editor/mobile.js": {
+      "id": "c5e5fa3f7a2b77a5032959cb68794e9",
+      "guid": "{A09FD7E4-C229-5D36-8D1B-197F3F4DA26E}"
+    },
+    "resources/editor/momotalk.js": {
+      "id": "c2e0ebbd12d8e7ccb3f61864458cc82",
+      "guid": "{BA530156-BA76-5B12-A09E-92ABF8597679}"
+    },
+    "resources/editor/nikke-ui.js": {
+      "id": "c580d2ec3a62ef57333a5cdc6f93a47",
+      "guid": "{EB276FFC-78A4-5453-A8BB-01CBE2F31F1F}"
+    },
+    "resources/editor/object-rotation.js": {
+      "id": "c90a6d5a20cace65ef4c2192f9af5d0",
+      "guid": "{2B3082EE-F555-5622-9878-548CF2E5618C}"
+    },
+    "resources/editor/panel-boundaries.js": {
+      "id": "c9f10cd270ecc7115520611fc8e88cd",
+      "guid": "{ED4CA484-3F61-58A4-AE35-08BC736BA800}"
+    },
+    "resources/editor/panel-photo-zoom.js": {
+      "id": "c89a53be325de9986263e175d5012b9",
+      "guid": "{684DF185-C0CB-567C-ABE1-3B0917ACAF40}"
+    },
+    "resources/editor/panels.js": {
+      "id": "c1d487bab2e0f302f9af820ac838c71",
+      "guid": "{C2AF6011-2A44-5459-B371-04F14D075A19}"
+    },
+    "resources/editor/phone-frames.js": {
+      "id": "ca931a77fb8c23ab220de1c2e183065",
+      "guid": "{3475F2F9-A0D2-534D-8683-CC1151F787D6}"
+    },
+    "resources/editor/phone-screen-fit.js": {
+      "id": "ceb5dbe0eb9962a0f75d08ba554f198",
+      "guid": "{6623151C-5802-5351-974A-DB126FD188FD}"
+    },
+    "resources/editor/pixel-rpg-positive.js": {
+      "id": "cfb93df1ad7f992a43593e73777cd40",
+      "guid": "{955384D9-BD96-5E3C-A505-92C6C2B2CF15}"
+    },
+    "resources/editor/pixel-rpg.js": {
+      "id": "cfdfadcd15845036275e8cdc853f045",
+      "guid": "{866E8866-1B71-5819-B113-66653511EE8D}"
+    },
+    "resources/editor/pokemon-gold-battle.js": {
+      "id": "cdcf85e4a767d4ee562ee4531943983",
+      "guid": "{EAA7D1F3-2C66-5F85-A7BD-CCF7726018A9}"
+    },
+    "resources/editor/pokemon-gold.js": {
+      "id": "c592d6c1cb84ab5e72a1710bab3ca15",
+      "guid": "{9276B087-B96D-5FEE-9D39-DC2B919DC087}"
+    },
+    "resources/editor/pokemon-masters.js": {
+      "id": "c2e1116f71a04ea539be1c12a2b1419",
+      "guid": "{5D491DC0-7BE2-5F76-B1F7-3CEBB32986C3}"
+    },
+    "resources/editor/pokemon-sunmoon.js": {
+      "id": "c6b940faf246f072ecfcfb1affd3518",
+      "guid": "{238ABA08-8463-5868-AF2B-5A2B4D7B9F5A}"
+    },
+    "resources/editor/polaroid.js": {
+      "id": "cf73ba0f25d7d00f31a916ec75d96f7",
+      "guid": "{D708CB72-C3F7-50F6-9ECE-98653728892A}"
+    },
+    "resources/editor/protrusion-ai-worker.js": {
+      "id": "c220032273aa6a2b47fbfab9c45d87e",
+      "guid": "{A5BC1F34-DA9E-5132-A28B-9BC6373B00BF}"
+    },
+    "resources/editor/protrusion-ai.js": {
+      "id": "c909f30c9780da9168d30cc15cc5924",
+      "guid": "{26934225-19D5-5EB9-AF42-16FCE80CAD90}"
+    },
+    "resources/editor/pwa.js": {
+      "id": "c1535d57e97a1101952f0c19efd8295",
+      "guid": "{F9950168-810B-5CF0-8889-4302480C9F7D}"
+    },
+    "resources/editor/reference-data.js": {
+      "id": "c4e2d22f114cc190e13a28b90ba6853",
+      "guid": "{1F55B776-A4A1-5381-AE1F-B41BDDDDD18F}"
+    },
+    "resources/editor/references.js": {
+      "id": "ce8dbb9ca355f0f121439a8a3c9c782",
+      "guid": "{0CCAA172-7F21-5F89-83FA-6192D0C4F6F7}"
+    },
+    "resources/editor/renewal.css": {
+      "id": "cfab02bc64503b7e1cec8d6194ff693",
+      "guid": "{58721C1E-6933-59FC-BBB2-9E42DBE2B79F}"
+    },
+    "resources/editor/renewal.js": {
+      "id": "c6789a0eafa96a0bb091e06f1f40221",
+      "guid": "{2B96CF3D-966B-598B-AAE9-9FF88039C772}"
+    },
+    "resources/editor/rich-text.js": {
+      "id": "cd2b72f75428bfb38cf8121df26b128",
+      "guid": "{7F607D8B-F12B-56AA-B658-598A29FD0903}"
+    },
+    "resources/editor/romance-title-references.js": {
+      "id": "c579bf499dda8cd9ef36317a8ea7e8e",
+      "guid": "{408A701C-BF15-5FFA-8143-7FBAC38F5696}"
+    },
+    "resources/editor/shared-assets.js": {
+      "id": "c0d1f472e62c3baf758624e9aeb3685",
+      "guid": "{1A36FC30-6827-50F7-A178-FE79CC02306B}"
+    },
+    "resources/editor/sns-profiles.js": {
+      "id": "c497e28712efdcda3747f6f6d77cebc",
+      "guid": "{BE6BE951-CE3C-5068-A18D-722F9C1F7276}"
+    },
+    "resources/editor/social-icons.js": {
+      "id": "c74afe81a81b181992671d40ac879b4",
+      "guid": "{E4192B5D-EA6D-582E-B293-A0C42022246A}"
+    },
+    "resources/editor/sticker-assets.js": {
+      "id": "c3b6fc073b52b7a8d9e41d6213037d5",
+      "guid": "{9BEA9F04-AB26-53F6-89B4-3D84AD49C20D}"
+    },
+    "resources/editor/sticker-data.js": {
+      "id": "c42eb680af5a471975f0316d24a8156",
+      "guid": "{898F19A3-5BEC-5958-86BB-AC6E6F71B21C}"
+    },
+    "resources/editor/stream-templates.js": {
+      "id": "cccfa3029eabb8fb57b3b7a0cb7e66d",
+      "guid": "{A35F393F-A15F-575B-AA86-C42AA46D9689}"
+    },
+    "resources/editor/studio.js": {
+      "id": "cdc4eafb360e1a6fb5f75ac4c6ea57a",
+      "guid": "{CE83BAD6-DE50-5A27-BBB8-6DBBCE04ED40}"
+    },
+    "resources/editor/style.css": {
+      "id": "cadca1d3586d93a9d1339bdb15f6341",
+      "guid": "{1FA1F42D-4054-5E54-9C4F-AAD3E862F19D}"
+    },
+    "resources/editor/text-font-preference.js": {
+      "id": "c793d46b37cc6998c43f9f239c08638",
+      "guid": "{BFB70B18-F0DE-5F27-AC12-E94499F8E244}"
+    },
+    "resources/editor/vertical-stream.js": {
+      "id": "c673567ffb54dfb39544e7d580fce5e",
+      "guid": "{5926A22D-4C60-56B1-BBD1-F686B558795C}"
+    },
+    "resources/editor/warp.js": {
+      "id": "cf750711cb91cee278e7c329b360fb0",
+      "guid": "{CECB68D9-7DD5-5BA3-9607-595F909F3CDD}"
+    },
+    "resources/editor/white-lettering.js": {
+      "id": "c43f72e53c6b27c6e3bbf170d08bc60",
+      "guid": "{18767038-DEB0-5AA7-B915-B6F91E8D68FA}"
+    },
+    "resources/editor/sticker-assets/3212.png": {
+      "id": "c8db56c943eb5812984c8e1680c6123",
+      "guid": "{EB1C2739-EB62-5A3F-A9F4-B74AC9A0C3F3}"
+    },
+    "resources/editor/sticker-assets/3213.png": {
+      "id": "c0c99c926bbb78f396e8e8ec4613a36",
+      "guid": "{7013861D-4436-58EF-B5E1-62884DDBC052}"
+    },
+    "resources/editor/sticker-assets/3214.png": {
+      "id": "c96cc73982c88dcb452f24f376ef08e",
+      "guid": "{AD41D240-E865-52A0-ACD1-64C700B56A24}"
+    },
+    "resources/editor/sticker-assets/3215.png": {
+      "id": "c9310f50046b354eb3113f4c7a55d50",
+      "guid": "{8348A574-0D36-5148-AB68-3074FF0F7597}"
+    },
+    "resources/editor/sticker-assets/3216.png": {
+      "id": "cf4977e5c93e000043e00b67cfbb712",
+      "guid": "{8CD5BDFD-8CF8-5006-8F82-AA135816989C}"
+    },
+    "resources/editor/sticker-assets/3217.png": {
+      "id": "cb1395cce885d966e17d9e87e465338",
+      "guid": "{5096DB40-4EB4-5FA8-AC17-33AD5D101B46}"
+    },
+    "resources/editor/sticker-assets/3218.png": {
+      "id": "c0a224c89bdf52bbc943fc6fbdf0411",
+      "guid": "{1B36362F-75FE-5A17-BCED-0896B9DC62C3}"
+    },
+    "resources/editor/sticker-assets/3219.png": {
+      "id": "ca9de2d8d067d9637d448b1782f8765",
+      "guid": "{FBE667DB-B791-5D54-A2C7-711C79787BBA}"
+    },
+    "resources/editor/sticker-assets/3223.png": {
+      "id": "c14c3bb73df7069087f4e3f5065a1f0",
+      "guid": "{11C476C6-672F-5BC9-8414-9DA3CEB87BBF}"
+    },
+    "resources/editor/sticker-assets/3591.png": {
+      "id": "c7896424181dbb95ae33144dc26e89d",
+      "guid": "{07CB29DE-AD73-50F0-9A59-FB3093F29E30}"
+    },
+    "resources/editor/sticker-assets/3592.png": {
+      "id": "cf01ad067c57c70a028c9079be8d63c",
+      "guid": "{A3C94DF4-F973-5822-BC19-C22E8A4B3852}"
+    },
+    "resources/editor/sticker-assets/3593.png": {
+      "id": "ce89830a8b7b42ea0d4c38ac8ac866e",
+      "guid": "{A6287407-F7EB-5A51-B927-61703058314E}"
+    },
+    "resources/editor/sticker-assets/3594.png": {
+      "id": "cf28e47e8a2ec65805fd7ab782d56c1",
+      "guid": "{9F7AC38E-F4C7-5697-B683-314A14F6CB77}"
+    },
+    "resources/editor/sticker-assets/breath-sheet.png": {
+      "id": "c1096ab1788a2a35d007f9e80959b71",
+      "guid": "{5F09CDCD-E1A6-5080-838D-0D5BF7099D5C}"
+    },
+    "resources/editor/sticker-assets/clear-1.png": {
+      "id": "c786cdd923148d86fb1d282f6de1c5f",
+      "guid": "{F0D6FDF5-FC6C-5654-B66A-E29125D165F4}"
+    },
+    "resources/editor/sticker-assets/clear-2.png": {
+      "id": "cecd847849b3d9dde1f9ae4152461f3",
+      "guid": "{573A1162-76BA-5BF3-9731-7CC479DFD856}"
+    },
+    "resources/editor/sticker-assets/clear-3.png": {
+      "id": "c14d5d753406b24ba3750dfd29c2c4b",
+      "guid": "{6E458EDD-5BD5-5F06-8194-5BA87DFE047C}"
+    },
+    "resources/editor/sticker-assets/clear-4.png": {
+      "id": "ca17896bb0cd2513444bd182d90e82c",
+      "guid": "{021C4FB4-BC71-5074-B2D0-6D09809CF699}"
+    },
+    "resources/editor/sticker-assets/clear-5.png": {
+      "id": "c4840c34e4f6784a2a0a63f4d35b435",
+      "guid": "{CEC677B1-07B0-573A-9E79-008E926F26F9}"
+    },
+    "resources/editor/sticker-assets/clear-6.png": {
+      "id": "ce483211872de08ab976b3e2a691754",
+      "guid": "{944853FE-27BC-5402-AB88-A80620E0D5DA}"
+    },
+    "resources/editor/sticker-assets/clear-7.png": {
+      "id": "ccad8a9c5e56b7fb267b6d94a08fa42",
+      "guid": "{DE50656F-6852-5FCD-85D2-AFA1A10557F3}"
+    },
+    "resources/editor/sticker-assets/clear-8.png": {
+      "id": "c4227803cdfaff6d999d3996df5a159",
+      "guid": "{37391AC4-AEE0-55DD-AAA5-4BAE2F20A584}"
+    },
+    "resources/editor/sticker-assets/connected-lettering-1.png": {
+      "id": "c81ba37f6d969b8fb2324a1af96cebd",
+      "guid": "{A3A52EE6-A3CB-5E01-8AB5-F713362610A8}"
+    },
+    "resources/editor/sticker-assets/connected-lettering-2.png": {
+      "id": "cbac71b79141c1fdefb815320ed4369",
+      "guid": "{20E06021-5AAC-5DF5-B60E-6BFF8D24865A}"
+    },
+    "resources/editor/sticker-assets/connected-lettering-3.png": {
+      "id": "c205a97616af34d8c06f06c46632870",
+      "guid": "{250D7108-1723-5E8A-B680-54BB1B370D76}"
+    },
+    "resources/editor/sticker-assets/connected-lettering-4.png": {
+      "id": "c455da6ebe9ddc439eff5ffdf58be3b",
+      "guid": "{A906FCCF-F3B1-5B67-98FC-23215A8302C7}"
+    },
+    "resources/editor/sticker-assets/connected-lettering-5.png": {
+      "id": "c233634f9f4b196345b7356c688cda3",
+      "guid": "{2CE20BE8-58FB-5C05-AB21-807F771105E7}"
+    },
+    "resources/editor/sticker-assets/connected-lettering-6.png": {
+      "id": "c5211dda48e2af73f63a07bc9f6f33b",
+      "guid": "{6245A2BA-43AB-5934-A627-88B0EA7BC7DD}"
+    },
+    "resources/editor/sticker-assets/connected-lettering-7.png": {
+      "id": "cad15d2dca911db1d5e0291f595a3f1",
+      "guid": "{FADEBE75-E719-5539-A904-EFA906D5C946}"
+    },
+    "resources/editor/sticker-assets/connected-lettering-8.png": {
+      "id": "c70fab5adcb13b817e36797c768c499",
+      "guid": "{56FE2DA1-325B-5471-B46E-826553FF6B28}"
+    },
+    "resources/editor/sticker-assets/connected-lettering-9.png": {
+      "id": "c9303e8e828b43c45186dc66a88a19e",
+      "guid": "{5586516C-4F0C-5D99-B1C1-D158AC625865}"
+    },
+    "resources/editor/sticker-assets/heart-lettering-1.png": {
+      "id": "c17ddf10233e521af99fc8658906ac4",
+      "guid": "{11335751-1F04-5983-80FE-5EBE44174F7D}"
+    },
+    "resources/editor/sticker-assets/heart-lettering-2.png": {
+      "id": "c2bc132ad10efea7689b4a1047e0215",
+      "guid": "{B6FEE1CF-12FB-5191-942C-43473C012FEE}"
+    },
+    "resources/editor/sticker-assets/heart-lettering-3.png": {
+      "id": "cfafeed4a6bde71313ec43c748a199e",
+      "guid": "{D647645F-853B-5267-9594-C18C4E8E70CA}"
+    },
+    "resources/editor/sticker-assets/heart-lettering-4.png": {
+      "id": "c278d34580c0a753aaafb9404573558",
+      "guid": "{06458575-A6C7-5408-9131-5C89B3B46820}"
+    },
+    "resources/editor/sticker-assets/heart-lettering-5.png": {
+      "id": "c35f1e3ac0eda94906b9c30dca5d3be",
+      "guid": "{303D09BD-413B-54A1-BB30-507E08019204}"
+    },
+    "resources/editor/sticker-assets/heart-lettering-6.png": {
+      "id": "cdd928ece7f90d937a790737a9ea8cd",
+      "guid": "{B948D757-57EB-5848-8223-C26BF95D6FF2}"
+    },
+    "resources/editor/sticker-assets/heart-lettering-7.png": {
+      "id": "cbe8fbf83e649817c4da11bedb094ce",
+      "guid": "{B6ED0DB9-2FA6-5FB1-B182-6B313D3896CA}"
+    },
+    "resources/editor/sticker-assets/heart-squiggle.png": {
+      "id": "c731b668947446fb60e51e8e4db0ff9",
+      "guid": "{28A97909-9193-5DF0-B4C1-B97E83411AA7}"
+    },
+    "resources/editor/sticker-assets/ogok-6007.png": {
+      "id": "c636b61c28350454ef1b46076f82c73",
+      "guid": "{3AAC1378-A1E5-518F-A64C-0FB9ACE943F1}"
+    },
+    "resources/editor/sticker-assets/ogok-6010.png": {
+      "id": "c3b40d563c689add4a5adfff59c49c8",
+      "guid": "{AA1FF801-0036-58FF-9E4E-245CA19A7F23}"
+    },
+    "resources/editor/sticker-assets/ogok-6013.png": {
+      "id": "c2478bab4aec2662d242684dbb9b2e8",
+      "guid": "{F1D95517-B5C0-5D99-8563-C88CE7324B5E}"
+    },
+    "resources/editor/sticker-assets/ogok-6016.png": {
+      "id": "c0de93629c6e576b04e6ad1f40580c0",
+      "guid": "{D9714566-B73E-5685-8D42-711D9302FF35}"
+    },
+    "resources/editor/sticker-assets/ogok-6025.png": {
+      "id": "cbdacfb616a80cdbc83e9955fa1e9d5",
+      "guid": "{420AFF27-4FA5-5A33-9C0D-1854915E00D4}"
+    },
+    "resources/editor/sticker-assets/ogok-6069.png": {
+      "id": "c508f7181d5ae0b0b10a92f558bb87d",
+      "guid": "{3A6D0094-DD33-5149-A167-12E3225F7C36}"
+    },
+    "resources/editor/sticker-assets/ogok-6101-pair.png": {
+      "id": "c0a6e1833ec5c1e07a6cf65f3c168c8",
+      "guid": "{DDE6C43D-40EF-5D46-8926-87CEAA6D7AA8}"
+    },
+    "resources/editor/sticker-assets/ogok-6104.png": {
+      "id": "c75518013efb9406a7208479470e9bb",
+      "guid": "{B7B71EAC-C2AF-528C-A66D-7E87187F56B6}"
+    },
+    "resources/editor/sticker-assets/ogok-6107.png": {
+      "id": "c056093a3e99f42037cc8544ab014bc",
+      "guid": "{F657839D-330C-56A4-8B0A-3C355015ED98}"
+    },
+    "resources/editor/sticker-assets/ogok-6110.png": {
+      "id": "c0a04c2778ef2cb44482361dd57e295",
+      "guid": "{69CE77AB-C15F-5CAC-99E8-906A5894944F}"
+    },
+    "resources/editor/sticker-assets/ogok-6113.png": {
+      "id": "c5186debb5f27fea80e05166a2dc61e",
+      "guid": "{EB5E3401-8052-5E6F-AD6D-F979CDDE858E}"
+    },
+    "resources/editor/sticker-assets/ogok-6118.png": {
+      "id": "ca0b10bb8c9a8571eb50b3e6066cc0f",
+      "guid": "{4F427001-67C6-5AE5-B61A-544364BFF731}"
+    },
+    "resources/editor/sticker-assets/ogok-6121.png": {
+      "id": "c0be5d712ae5623e691fd96f11e22e2",
+      "guid": "{7508482E-6963-5F80-8332-6A8B4F212AD3}"
+    },
+    "resources/editor/sticker-assets/ogok-6124.png": {
+      "id": "ceda1e9ea21ac18f99e169e4d49088b",
+      "guid": "{45DCD115-18C1-520F-A77F-7F9D1D6A8BBA}"
+    },
+    "resources/editor/sticker-assets/sheet-38.jpg": {
+      "id": "c0809a8ab6ab0b300d8338b85b0ebc1",
+      "guid": "{AB499DB5-3C36-55C8-B5ED-8CBDDC49C411}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/at-hd-v3.png": {
+      "id": "c2e9bee383ffc6426dfd74171f9e705",
+      "guid": "{43220EC4-1FC6-56AD-B419-83C6B8A46FEC}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/at.png": {
+      "id": "c90ee8ad9a5f4c4cc71562f788f3483",
+      "guid": "{7CA0E81C-845E-58BD-9C02-0E59CAA4DCBF}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/budeul.png": {
+      "id": "c6e23fef797954185f2d32c1f9f071a",
+      "guid": "{3ECDD396-810E-5C1B-B18B-B38E75C67B73}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/bureureut-black-hd-v3.png": {
+      "id": "c4ef8ece8eb9b49af9da7b577f83635",
+      "guid": "{9E65FEFE-115D-5BFB-B228-DFBB8DDF021B}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/bureureut-black.png": {
+      "id": "c13e0511337494417a848f588210a8d",
+      "guid": "{E3381993-F5B0-5C0D-AE8F-8A4268998072}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/bureureut-pink-hd-v3.png": {
+      "id": "c4f758d9309f4f03e279dfd4ebb057a",
+      "guid": "{243E6087-0A68-5738-827D-C912BE7EB372}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/bureureut-pink-v2.png": {
+      "id": "c85baa44b9d897a4e54d61cad0d9f6a",
+      "guid": "{2F5D8B8B-ED60-5AFD-A757-6FECC497FF15}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/bureureut-pink.png": {
+      "id": "c4438d66bde5d7da6638c77e61c079a",
+      "guid": "{6AC3F4C9-D833-583A-B129-3525DDE0A30E}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/byureut-hd-v3.png": {
+      "id": "c44d80db4a1593998ebd53f40d8102a",
+      "guid": "{7C62B15B-9760-597F-9319-D97E6150E3AA}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/byureut.png": {
+      "id": "c3302a8343063ca9176d4cc90ce8653",
+      "guid": "{84BF01E4-3A53-53B9-B473-87B5F69BB5D0}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/chu-eup-hd-v3.png": {
+      "id": "cb4a53c9aa92d12b57dcaeff79128da",
+      "guid": "{2AD5E0A2-0B63-5131-8A9B-3CA473590EEB}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/chu-eup-v2.png": {
+      "id": "c9eb5cd6a02d5c45d0acf600dad407a",
+      "guid": "{63EEEF09-96E2-52E2-9A02-351C8CAC15B7}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/chu-eup.png": {
+      "id": "c83df27b007653e2e982cdb3759b29a",
+      "guid": "{5EDFA3FB-D6F3-5A90-9703-5230E60420C6}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/chulleong-hd-v3.png": {
+      "id": "cf97a97d29df13355b8cb680ade8a58",
+      "guid": "{B176B5AC-81FB-563D-AC67-90DB39AB47DE}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/chulleong.png": {
+      "id": "c8336c31a7af5c7698da048972b270b",
+      "guid": "{41FA5765-A317-50E4-8BA0-52FCABE85538}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/chup-hd-v3.png": {
+      "id": "c79a8cb840f20cc635247e0f0b3db80",
+      "guid": "{F1017EA2-484D-5E11-85C2-6E91DC4F5858}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/chup.png": {
+      "id": "c3e864df0ccca1054ca9094fdfe103f",
+      "guid": "{BB2B62D6-919D-52BB-ACB8-3E33CAA31F28}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/chururup.png": {
+      "id": "cc2c579e04566ee99f08397a1b17670",
+      "guid": "{E8C6677E-FD35-500D-995C-E79F97FE07CF}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/double-heart-black-hd-v3.png": {
+      "id": "c76a6488432b03dedf07f5b042f564f",
+      "guid": "{51FB9BBA-8232-5F68-855C-0AA698F80054}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/double-heart-black.png": {
+      "id": "c33598b369399795a78df22ec2fe174",
+      "guid": "{AB5A8EB2-7051-5555-80D8-55AC74B6577E}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/dugeun-black-hd-v3.png": {
+      "id": "c345af531b80247877b3758b61f3780",
+      "guid": "{99D51B97-A311-5A03-A264-9BE5A7F3B313}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/dugeun-black.png": {
+      "id": "cd8aeca5f6f7cd6da94b927d9db0d51",
+      "guid": "{901AC0FA-FEAE-55C8-A809-597FAA58E68B}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/dugeun-pink-hd-v3.png": {
+      "id": "c9b6ed0819ad4ec7917011e51657e53",
+      "guid": "{DED19876-5BAD-5F79-9A4A-DE19933E4FDF}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/dugeun-pink.png": {
+      "id": "c11b03720acadf8b16e7cc2f22c789d",
+      "guid": "{AD025B93-E5C2-5214-B907-572973DAFA16}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/eung-hd-v3.png": {
+      "id": "c09ba19d5ee65c9c36c94d6aacac6db",
+      "guid": "{E2AF03F8-DCEC-5B0E-B315-5C0B4E483C83}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/eung-v2.png": {
+      "id": "c3a42bf8b9ed12cbd87dfe0b8f2d177",
+      "guid": "{291147EE-A33F-5E38-8D9F-2C06D12A6B8E}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/eung.png": {
+      "id": "cae255c17acf561d635cd25b55f104f",
+      "guid": "{7B5E761E-402C-5D06-A7B1-03050CA31920}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/eut-hd-v3.png": {
+      "id": "cd24a7bf23a2d788454e4767825e4d6",
+      "guid": "{979FA86C-D395-5D68-91EC-23586AF5E6C5}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/eut.png": {
+      "id": "cc9e404fdd4233722de210520c80fb7",
+      "guid": "{DC972AA3-CB53-53C1-BA0A-E3BC106A6DA8}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/exclamation-question-hd-v3.png": {
+      "id": "c0c2e6d9461cd056e967a01dca82552",
+      "guid": "{62436EE6-A192-514C-88C9-B68D7B5894AF}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/exclamation-question.png": {
+      "id": "c0a82ab719b99ae67e1c0d407ef72a5",
+      "guid": "{01212D13-2001-5D8F-86D8-DD6CE2B749A5}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/haa-eung-hd-v3.png": {
+      "id": "c8c945724aede0e3d2d1b9820ba9bcc",
+      "guid": "{CE02A042-DBB5-5D50-8FB6-764D07A0A8BB}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/haa-eung.png": {
+      "id": "c8f08c223fcfd7d5b9533381bfbf703",
+      "guid": "{43B6F007-FBC9-5C76-B107-7DE7F7EBB3AD}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/haa-hd-v3.png": {
+      "id": "c94d81f2c33d8e227b66801adf7ed73",
+      "guid": "{977897D9-85A7-5CF5-AC03-4ECBD556CC7A}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/haa.png": {
+      "id": "ce792f296e9e404f9c2113db5c0198e",
+      "guid": "{E6729C81-18BC-5FAF-B984-8031894115F7}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/haang-hd-v3.png": {
+      "id": "c84242d22e755b33ddf9d590db0755d",
+      "guid": "{5041858A-9BEE-5D55-828D-DF96DBB49440}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/haang.png": {
+      "id": "c8e2305be7e6619cd390d0b12f3fa08",
+      "guid": "{178DFF50-62F6-5EC5-AE29-0ED178F91C8B}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/haeueut-hd-v3.png": {
+      "id": "cb37e6413deb98a531ff789214a3d75",
+      "guid": "{F8A984C6-0E45-50A1-8FEB-2A3B34DC4E1A}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/haeueut.png": {
+      "id": "ca95b02d8a75ba50e6b2a48837be57e",
+      "guid": "{13C53B2A-388C-587F-B896-149A6C6D3695}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/hak-hd-v3.png": {
+      "id": "cdb40c9426f022877d84309f5210350",
+      "guid": "{119C85C9-B0DB-53E3-9CC2-B310434CC642}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/hak.png": {
+      "id": "c091b68ef4eac1e6a4fed9ada5c6557",
+      "guid": "{F03B5241-2DED-5D73-94AE-635EBACECFD0}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/haljjak-hd-v3.png": {
+      "id": "cc5b2b4da1e955cf774dbf5ba96d310",
+      "guid": "{D69CF52C-6371-5EFD-8ABD-02F9143742F3}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/haljjak-v2.png": {
+      "id": "cd642f1d17ab37309b24c93b293927a",
+      "guid": "{B94AAD77-03A5-5779-BDAB-4E3E05E58618}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/haljjak.png": {
+      "id": "cba193e8ab6a8b0d0aba910d08718f6",
+      "guid": "{E7823717-E84A-5870-91AC-0F7BD683AF2C}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/hat-hd-v3.png": {
+      "id": "cde87c877bf73b6e3caa2eab3db19ea",
+      "guid": "{F0ACA800-69D3-552F-8BF4-F65C47410E31}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/hat.png": {
+      "id": "ca930c79d0108b93f7b78a7e4dd4beb",
+      "guid": "{81229B8D-0EC8-5C8A-ADE5-7FCBAC1BC388}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/heart-black-hd-v3.png": {
+      "id": "c62c1d5b16c8f3c456fe0d853272572",
+      "guid": "{8E15F5FC-7AD5-5971-99CF-5104DB042170}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/heart-black.png": {
+      "id": "c8e187914a4ed7d116daad933a266af",
+      "guid": "{707D9E2C-D4D3-5093-B54F-92252A9B4523}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/heart-filled-hd-v3.png": {
+      "id": "ca807064b3e80bfaa4e15fe787abaa6",
+      "guid": "{BFFE5071-AB17-552C-871B-561AE466E6B7}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/heart-filled.png": {
+      "id": "cd277cb718ede6cd41b6fd4d7d97a3c",
+      "guid": "{3654B167-D11A-5713-9315-836A0CF4DA38}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/hearts-filled-hd-v3.png": {
+      "id": "c0b250290271306f1bda9976b70ca3c",
+      "guid": "{149FA6A0-D484-5DFE-89E1-1EB8E2A72536}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/hearts-filled.png": {
+      "id": "c10adf1af1963c18af46c20f29a3aec",
+      "guid": "{DFBE5858-B9CE-5EFE-8AE0-BC125044AADC}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/heueung-hd-v3.png": {
+      "id": "cc3e82c01aaf1f8e199b8df16ce9f9e",
+      "guid": "{C66C2830-FA88-5996-9D5A-BCB037E8F1D8}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/heueung.png": {
+      "id": "c6c94900b912a24d8fbc0825f870d89",
+      "guid": "{374B9731-0CB6-5A5F-82FB-35B085E228D0}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/heumchit-hd-v3.png": {
+      "id": "c0548d83a2530d90507462cd0ef4580",
+      "guid": "{414BF359-8D82-526D-BF4F-0B5F7F2704AF}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/heumchit.png": {
+      "id": "cdc907690a2972fa0d7cf0133984439",
+      "guid": "{1FD47D62-3782-5D0B-BA35-4BE67CE02FD0}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/hou-hd-v3.png": {
+      "id": "c3c22d849a262f00c9efa888a8a41f7",
+      "guid": "{50D57EF6-CA3E-5943-AE27-C326CE50BD8A}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/hou.png": {
+      "id": "c09fda54e6a710c3731bb18c7c4b80f",
+      "guid": "{5648ECF5-0325-5948-BD7F-64B047FE07EA}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/hwaaaa-hd-v3.png": {
+      "id": "c9ba89e401e071d6b9818a32ca288c0",
+      "guid": "{4AD08423-7E36-575F-9DFE-0EA597E048AA}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/hwaaaa-v2.png": {
+      "id": "c2f4f9d30fc948941db9f10fe1eaa50",
+      "guid": "{66BA6D30-BFE6-5C05-AB04-FAE852EFFA30}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/hwaaaa.png": {
+      "id": "cfd96a998041eabc9a11ad39d25d92a",
+      "guid": "{8BB9B68B-BBA5-5014-BD1F-7E7819DC466A}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/impact-left-hd-v3.png": {
+      "id": "c62aa2b5260ce62a83e51ad0b84a591",
+      "guid": "{DC638CF4-E57A-5D77-8D3E-2550A756F11A}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/impact-left.png": {
+      "id": "c7fc21fbf644ff95c0617786ab64d76",
+      "guid": "{5A026615-0C1F-570D-895A-2D56FB15D374}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/impact-right-hd-v3.png": {
+      "id": "c52d3d512cf635c40e255cb8a97ab99",
+      "guid": "{34F97E39-88F0-5974-A81A-40F3FFC446FF}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/impact-right.png": {
+      "id": "c4fceb2c1df4f8c8ee655517bd8a233",
+      "guid": "{4E119D79-E3EF-5597-9981-C6CBBAA67B91}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/jilcheok-hd-v3.png": {
+      "id": "c4b5ffdc88e7b06546fe1c2b81a1790",
+      "guid": "{735CA929-D357-578B-B69C-4D58925834D2}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/jilcheok.png": {
+      "id": "c9a7e4b1a36306bb06de0697be00697",
+      "guid": "{04D591D2-2442-580E-BDE4-72D51E62D111}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/jjilgeok-hd-v3.png": {
+      "id": "c817e22eb1b7f9e45f2d2c061d52504",
+      "guid": "{ACE241C7-B7E2-59E1-9DB7-6493A096BA44}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/jjilgeok.png": {
+      "id": "c8849cde33eedec571968235659d361",
+      "guid": "{ECA398AC-15CA-560D-868A-6C365C44E859}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkeunkjeok-hd-v3.png": {
+      "id": "c81ed209264b0856a1f912d70997b1d",
+      "guid": "{C6B7B8F2-2C28-5ACE-B1C1-321711589A5E}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkeunkjeok.png": {
+      "id": "c418b20c1e96d793123653f0fce9ba1",
+      "guid": "{86C6DD00-9BD1-51CD-A952-AE59770E91B9}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkulkkuk-hd-v3.png": {
+      "id": "c379c433d96e4ee004b43dabee82f21",
+      "guid": "{5F9AA083-A1CB-5B94-A1C9-DD7972262A02}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkulkkuk.png": {
+      "id": "c8f446fa72c98d946414c4e19bd8275",
+      "guid": "{81E0CDAE-38A0-57B6-9CD6-BD546C01496D}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkulleong-hd-v3.png": {
+      "id": "ce5dbad832888bafede4d8d360f8047",
+      "guid": "{09F9E0E3-9CAC-5A7D-84F8-DAFB8A867560}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkulleong-v2.png": {
+      "id": "c22359ac5946b3f7fe2301cf8b37c7b",
+      "guid": "{4BAE1B68-7045-515A-A4EB-1F5A9BD68024}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkulleong.png": {
+      "id": "c01b40f828a1ee4639b28c75b0181e9",
+      "guid": "{29C933AE-5C71-51D6-B710-80830159F47D}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkulreok-black-hd-v3.png": {
+      "id": "cb3c4dbd433d7e27d8a1a8df4eecab0",
+      "guid": "{DB36CD02-7A86-551D-A39A-5F4B30E5D7CD}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkulreok-black.png": {
+      "id": "c044af7bfcc5ba2d3ce43df7521a532",
+      "guid": "{5E23DA0C-A6DE-5BD0-85B2-078724ABA5E9}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkuuk-black-hd-v3.png": {
+      "id": "c48542b1ce18fe7cff0aee2a7179777",
+      "guid": "{6188608D-8567-55FE-B537-4EEF14A406CF}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkuuk-black.png": {
+      "id": "c0e2e8629f0c42aab289e99e2173d46",
+      "guid": "{AEC5A3C4-3921-5F3F-B52E-A775AD0B4720}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkuuk-pink-hd-v3.png": {
+      "id": "cbc710d4d2fd70fdd225b3ddf716d61",
+      "guid": "{7FA8EEB2-6FC9-5180-B7AB-0997A7E14D3C}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/kkuuk-pink.png": {
+      "id": "cfd105d2a478d50c868e9207a8d8807",
+      "guid": "{B047963E-82BB-5DC6-82D7-B66A8108F05C}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/meoeong-hd-v3.png": {
+      "id": "c7722501e22819ba32f8c2d57409871",
+      "guid": "{B4636630-A627-5C19-AC8E-62192F23499A}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/meoeong-v2.png": {
+      "id": "cf42d79a1607da96a7d4a8c707a4f8c",
+      "guid": "{D7C34A56-D330-5969-8D50-196164C7A562}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/meoeong.png": {
+      "id": "c5b16f2db0a0f9402d9648bcb79e4f6",
+      "guid": "{A2EC812A-748C-52E2-BA46-BD651E531CFD}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/meomut-hd-v3.png": {
+      "id": "c2f0fec2ea6ff18525e25b7e617a513",
+      "guid": "{71E77DC7-D87D-5048-BE3A-087E8448FC33}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/meomut.png": {
+      "id": "c26cf38171b1445148d43bcc550a920",
+      "guid": "{C6955EC2-209E-514B-9BC7-2060F4EB5587}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/motion-curves-hd-v3.png": {
+      "id": "c9e8a9011e55b9226ce12cf320bfb4a",
+      "guid": "{518B2487-BCA7-597B-9274-89CA29195656}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/motion-curves.png": {
+      "id": "c845772b26113153f26dc54a8eeae4c",
+      "guid": "{EEEC8D92-3974-51CF-9814-40E60433609C}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/motion-lines-hd-v3.png": {
+      "id": "ca9145b6c7ccdb8843d02c7c629aaad",
+      "guid": "{2EA55AAF-8EDB-54A0-A353-96489DD12595}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/motion-lines.png": {
+      "id": "c127af58bc7d58f7577a86f8736c16a",
+      "guid": "{C7112E57-3A3C-59A7-9573-44695231B9EF}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/ossak-hd-v3.png": {
+      "id": "c31fb302a64f3e338deb481d01345d6",
+      "guid": "{F80E67DE-8A02-5F16-AA9A-6586E410EE6B}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/ossak.png": {
+      "id": "cd4137a44bb96581fc9f339e81991fb",
+      "guid": "{8CCDA20A-8B8D-5707-AACD-DD9F3462AD23}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/pang-hd-v3.png": {
+      "id": "c809f7a7ee9f3286cfe5942fb806f0c",
+      "guid": "{9CEF459D-3DB1-5CC2-9BBE-87AF3B327D94}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/pang-v2.png": {
+      "id": "cdb6c7d1360c8d89d1291416a4be7e2",
+      "guid": "{BD678C7A-8556-5D33-9F8C-73F3C255DB2A}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/pang.png": {
+      "id": "ce6aac17ed112bd13dbb57d9af485cd",
+      "guid": "{4D0724ED-5EF1-5AF1-B7A6-43CB34FE942B}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/pyut-black-hd-v3.png": {
+      "id": "cc3c16c4601c3549121bc5836d4b6dc",
+      "guid": "{F6BB3A1E-E51A-5679-877D-7F1F3653036F}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/pyut-black.png": {
+      "id": "c3dd714b1e273cafcf8470e9c73a9de",
+      "guid": "{CFE5BF64-F393-5102-B7C2-4FF07B6EA9B7}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/pyut-pink-hd-v3.png": {
+      "id": "c36276ef85e60ba5f9b0e3e5ae74e6c",
+      "guid": "{90A54D26-FC41-520C-9FF7-D4BF69A5DB03}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/pyut-pink.png": {
+      "id": "c1d79037c2d32ab68201e61ae56854d",
+      "guid": "{28C6737A-F650-576B-962F-4FED84D43935}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/pyuut-black-hd-v3.png": {
+      "id": "cea2723bcf85a2bb9ef66d0fcf87d22",
+      "guid": "{A6D41911-22E2-5AFE-85E4-1C72A246AD1D}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/pyuut-black.png": {
+      "id": "c110219eee4cb16e756f2fdfb567fef",
+      "guid": "{EE171F03-59F2-532F-90FE-961CF85860A1}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/pyuut-pink-hd-v3.png": {
+      "id": "c64e0b5ab866c021e7908947a285576",
+      "guid": "{6C0F55E4-D6ED-5D9D-B06F-B1AEC6845F60}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/pyuut-pink.png": {
+      "id": "ca8b887fce86ad4d79fb160fd207e28",
+      "guid": "{4F8F03EE-1E89-5713-A3B6-FF53C73897F3}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/question-hd-v3.png": {
+      "id": "c003167e783c8efd41458332e5dc301",
+      "guid": "{9BFC7727-1C2F-5E4C-998A-5D47FEC19001}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/question.png": {
+      "id": "cd6e92b3ec62f6923e8979fdf8fbd50",
+      "guid": "{3D9DF504-9F4E-55FE-AD9D-B3A295B6D500}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/squiggle-hd-v3.png": {
+      "id": "c9b4abd3f98ed8c934f36b713ede99b",
+      "guid": "{41CBAEBB-3045-592B-B209-F33B700DBA83}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/squiggle.png": {
+      "id": "c8f5af6017a718b12a2928bbf93a19d",
+      "guid": "{E6D38C1E-3BFF-5165-B452-880AF199303B}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/tak-hd-v3.png": {
+      "id": "cbc1f7d32b6649fb3b84f4dda9c89c2",
+      "guid": "{AE9B8824-F099-5014-9DA1-F8A0E46549C3}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/tak.png": {
+      "id": "c7454c0382e2d2ec135bd60d7011a7a",
+      "guid": "{783301C8-1454-52EF-B8DA-8CB227F2A6C3}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/uksin-hd-v3.png": {
+      "id": "c18fb19f5cc526fbb477a497f52ae8b",
+      "guid": "{1B458F69-295A-56F5-871B-B93CD4FCE020}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/uksin.png": {
+      "id": "c10a0ecb286671cce2b4dd05701b7b8",
+      "guid": "{7616A7E8-60A0-5A2E-ACD1-857D947CC1F0}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/umjjil-hd-v3.png": {
+      "id": "c8e323fe686f1286cafba5bdc436430",
+      "guid": "{A18301EA-F332-5773-A05F-4605DDD254C7}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/umjjil-v2.png": {
+      "id": "c326b70d9135b913dd6aea566ba280d",
+      "guid": "{129BC792-459B-50A1-8146-BFA55A23EDEB}"
+    },
+    "resources/editor/sticker-assets/pink-reactions/umjjil.png": {
+      "id": "c988843534c73f3e36cf390265b7766",
+      "guid": "{D7912E7F-3546-50DA-9FBF-5F6731769179}"
+    },
+    "resources/editor/reference-balloons/01.png": {
+      "id": "c549077b9c2aaa1bb9222d848bc5385",
+      "guid": "{EA723A47-F33D-5B02-BB99-71794E865CB0}"
+    },
+    "resources/editor/reference-balloons/02.png": {
+      "id": "c11c60745c02dad6fdf1893d4291e7f",
+      "guid": "{62889616-F6E1-5299-A9AD-B480F19191FF}"
+    },
+    "resources/editor/reference-balloons/03.png": {
+      "id": "c23b02e85982e270726aa5f53a67ef1",
+      "guid": "{B8DBB2C6-B66B-51EF-8F19-F3C2FC4B7665}"
+    },
+    "resources/editor/reference-balloons/04.png": {
+      "id": "c7957d1f339467adeba075f7e1f3f4d",
+      "guid": "{83B99579-D5B9-5F10-BA7B-D2BFBC5770FC}"
+    },
+    "resources/editor/reference-balloons/05.png": {
+      "id": "cab1fbbefb9690dc6f64f31ba529742",
+      "guid": "{45732DD1-AB82-5972-899E-D321344D0B1F}"
+    },
+    "resources/editor/reference-balloons/06.png": {
+      "id": "c037253abafeac3d8f2976a2a3f1938",
+      "guid": "{ED6E0C6F-F5CE-591B-A126-0EF580F300A7}"
+    },
+    "resources/editor/reference-balloons/07.png": {
+      "id": "cfc0a72720e378daec4a59ba3413496",
+      "guid": "{5B6449AD-E174-58BA-9294-37365E649EA7}"
+    },
+    "resources/editor/reference-balloons/08.png": {
+      "id": "cfadc9274f157aec5c2593734ec68f6",
+      "guid": "{2352BD19-B91D-53D6-866A-04E72D49F700}"
+    },
+    "resources/editor/reference-balloons/09.png": {
+      "id": "c38149e5b293356a855ae97b3ac74ef",
+      "guid": "{243E26E2-365D-56BA-93C6-31979BCE940C}"
+    },
+    "resources/editor/reference-balloons/10.png": {
+      "id": "cd4c355fd7fdcd2250633219689848c",
+      "guid": "{24D784AC-3363-591B-A6FB-90C822835EE0}"
+    },
+    "resources/editor/reference-balloons/11.png": {
+      "id": "c7bb92e3bfc72861592e24e9914082f",
+      "guid": "{780D32D1-B430-5A79-89B0-8405FC88361F}"
+    },
+    "resources/editor/reference-balloons/12.png": {
+      "id": "cab63936975806f824b461869456fed",
+      "guid": "{B293ACA3-8503-566C-BAE1-BD47A01316AA}"
+    },
+    "resources/editor/reference-balloons/13.png": {
+      "id": "cb25b9e5090c380c5b459a41c7174e7",
+      "guid": "{059B046C-BF1D-5CF8-B298-3A42BE5452F2}"
+    },
+    "resources/editor/reference-balloons/14.png": {
+      "id": "c08bbec088b6edf63b851f3c623e071",
+      "guid": "{BCB0A286-4F43-5210-9375-A146E21871DA}"
+    },
+    "resources/editor/reference-balloons/15.png": {
+      "id": "cbf493e96e7729fdafda4a2af81f536",
+      "guid": "{663B9DA1-0525-5EBA-827E-3F2B990D9B81}"
+    },
+    "resources/editor/reference-balloons/16.png": {
+      "id": "c7e48ffcf7ebd517de45df10106015a",
+      "guid": "{CB1A2C41-4DB1-5D7F-B09A-8D1BDD5920A2}"
+    },
+    "resources/editor/reference-balloons/17.png": {
+      "id": "c535e21e66c2cd188e76ba3208b240d",
+      "guid": "{6404FB8E-E4E0-576D-9F6C-1EE6BE47CFD1}"
+    },
+    "resources/editor/reference-balloons/18.png": {
+      "id": "cb3246098a2d5e89c2215cb4b8fa572",
+      "guid": "{350B8CFA-B2DE-50A7-A622-50579C4490CB}"
+    },
+    "resources/editor/reference-balloons/19.png": {
+      "id": "ca2186de8169b7dfe9f541d15b5a389",
+      "guid": "{CE56FB78-C67C-58A1-AEEF-E7F9AECC232E}"
+    },
+    "resources/editor/reference-balloons/20.png": {
+      "id": "ca9e4de00ee8edf2498ee37fd333969",
+      "guid": "{C57AC38A-DCDF-515A-B212-4B25E714BA89}"
+    },
+    "resources/editor/reference-balloons/21.png": {
+      "id": "c5de84366a7af5874166c5bad266889",
+      "guid": "{92BF35F6-690A-5281-AF33-64A08C83FB8B}"
+    },
+    "resources/editor/reference-balloons/22.png": {
+      "id": "c28c0f1db026bb9908edd05021ea724",
+      "guid": "{A5BB0838-F290-548A-BDB6-D01503F10851}"
+    },
+    "resources/editor/reference-balloons/23.png": {
+      "id": "cba4832d47791f1faa56c5afc097e18",
+      "guid": "{C8F4479A-2072-5E4F-92E7-E3EE1CED2F59}"
+    },
+    "resources/editor/reference-balloons/24.png": {
+      "id": "cccdb5b7c30f98a9cca4d554aff17c5",
+      "guid": "{AFE08249-0693-5FE5-8A74-9A5A72BFCD3B}"
+    },
+    "resources/editor/reference-balloons/25.png": {
+      "id": "c7a24a28e7d38565def1d6ff2ff9e14",
+      "guid": "{F0F0EFFC-DE44-59BA-9DB0-25912D293ECA}"
+    },
+    "resources/editor/reference-balloons/26.png": {
+      "id": "c6db084452d6e235cd9b037da20b027",
+      "guid": "{72C87183-1E99-5F4C-B66B-908523C19F70}"
+    },
+    "resources/editor/reference-balloons/27.png": {
+      "id": "ca9ed5e4d3ce27ae084797db4d9f126",
+      "guid": "{A8E1CB0F-0B8B-5CB1-9754-839D834E017C}"
+    },
+    "resources/editor/reference-balloons/28.png": {
+      "id": "cd087f69ef67c169e0e879d94b8ffce",
+      "guid": "{EC1FC160-9C1D-52DD-9334-ADC593CDF6F3}"
+    },
+    "resources/editor/reference-balloons/29.png": {
+      "id": "c91204b1e6588e1cb53fe0bcdb25caf",
+      "guid": "{3FA73744-3E38-52C6-817C-A0F01A8DDC23}"
+    },
+    "resources/editor/reference-balloons/30.png": {
+      "id": "ce8dfb5afde2442c0b29bf94728d82e",
+      "guid": "{648261CE-0183-5BDD-A535-C2CBE414710D}"
+    },
+    "resources/editor/reference-balloons/31.png": {
+      "id": "c0d22c6cab618a38b5e8708f03a10f4",
+      "guid": "{CF9BEB59-B2E8-5388-8318-3EDA044910EE}"
+    },
+    "resources/editor/reference-balloons/32.png": {
+      "id": "c1bc5ed28fca616b164a50a63f523c5",
+      "guid": "{903101CB-AC6C-5952-8C84-F18F27D76FEB}"
+    },
+    "resources/editor/reference-balloons/33.png": {
+      "id": "c4181d3d11162a5403fcd90e171e174",
+      "guid": "{B4806EBD-532E-524B-9863-4244D9CD15A3}"
+    },
+    "resources/editor/reference-balloons/34.png": {
+      "id": "c5153d1b674799702799e6fefbe8a25",
+      "guid": "{C4D7B02C-17A6-5ED4-BC95-ECB9D33AA549}"
+    },
+    "resources/editor/reference-balloons/35.png": {
+      "id": "c4854b9107f45544b4d4bfa83a05b8f",
+      "guid": "{EF6BF00F-45F1-58B3-A7D8-D3E48FEF20B3}"
+    },
+    "resources/editor/reference-balloons/36.png": {
+      "id": "c2487a394c7b9d0f2c429991ed0393a",
+      "guid": "{CDACAB55-1C9D-5787-91CA-8F5026840116}"
+    },
+    "resources/editor/reference-balloons/37.png": {
+      "id": "c36d88c5095b5d3d1b1f774bec8ff07",
+      "guid": "{1497DDD0-CD88-533C-B82C-5654FA115FDA}"
+    },
+    "resources/editor/reference-balloons/38.png": {
+      "id": "ca22cf60f520b5a4184aa8b64205d1a",
+      "guid": "{513E4199-CB33-50CF-A524-14D2E8083B59}"
+    },
+    "resources/editor/reference-balloons/39.png": {
+      "id": "c77e1f9cc0e47febffbc6269e22146e",
+      "guid": "{5337B090-AC4D-5ABB-99C2-F8BB510C3837}"
+    },
+    "resources/editor/reference-balloons/40.png": {
+      "id": "c36c08e9cc4735cf89108be73f551d9",
+      "guid": "{210F4D91-A603-5E8E-B165-1DC1AB777FF7}"
+    },
+    "resources/editor/reference-balloons/41.png": {
+      "id": "cfca3e877abe152c7a6a14677345eef",
+      "guid": "{7C003649-65F2-56C5-B3C4-39A75FC27023}"
+    },
+    "resources/editor/reference-balloons/42.png": {
+      "id": "c8ce85dbb03c0e0bebc409016501417",
+      "guid": "{D9822B1A-044C-5597-A2EA-F74FFBCBD8A5}"
+    },
+    "resources/editor/reference-balloons/43.png": {
+      "id": "cc8aab724103907b40a549c176b377f",
+      "guid": "{E5B96F91-6F2E-5638-81CB-055D6BDD72C2}"
+    },
+    "resources/editor/reference-balloons/44.png": {
+      "id": "cd431c363cdbe41f025040c1ae71f07",
+      "guid": "{0E426A92-A856-5CD2-860E-9CBBCCE42C09}"
+    },
+    "resources/editor/reference-balloons/45.png": {
+      "id": "c35e83cf022b22f62742156d4c7eea2",
+      "guid": "{0329BB60-1E60-5375-9061-28BBC915257E}"
+    },
+    "resources/editor/reference-balloons/46.png": {
+      "id": "c0dbb64626effb73a0e42d2fef87682",
+      "guid": "{302C5E58-D8CA-58CA-BC15-7D72C0D9E0C3}"
+    },
+    "resources/editor/reference-balloons/47.png": {
+      "id": "c39725cec1439011acb8269a3a3eb03",
+      "guid": "{FD4EE475-8404-536E-8520-A0BF83D60421}"
+    },
+    "resources/editor/reference-balloons/48.png": {
+      "id": "c01a0e8760782e9b80473ec190d4b2e",
+      "guid": "{CF58DE35-F86A-58C7-92DC-77E6E93878D7}"
+    },
+    "resources/editor/reference-balloons/49.png": {
+      "id": "c53ac2dd4acbaa0089fe0af2c011f01",
+      "guid": "{C54D4259-590D-5DDB-871A-3BF5099A5040}"
+    },
+    "resources/editor/reference-balloons/50.png": {
+      "id": "ca0d840052e419c136cfe243b1ccc24",
+      "guid": "{402B168B-6D35-5877-9E19-67D190CE3379}"
+    },
+    "resources/editor/reference-balloons/51.png": {
+      "id": "c416cf5636fee422af92587830741b3",
+      "guid": "{382323C7-9255-5384-954E-1E666D3549EF}"
+    },
+    "resources/editor/reference-balloons/52.png": {
+      "id": "c732bb44e0e5020e4ab29995c645157",
+      "guid": "{87B4B509-F708-5B3E-88F7-C11C9DC34F9A}"
+    },
+    "resources/editor/reference-balloons/53.png": {
+      "id": "c2694ef96f0bbe7012cd64fa95cde80",
+      "guid": "{3C4C538F-C5A3-514E-811A-8770ECCBD90B}"
+    },
+    "resources/editor/reference-balloons/54.png": {
+      "id": "c1c0934b48f58ba30321d3981f08f57",
+      "guid": "{28CB5AEF-948A-550F-9C3F-874FAA4D211E}"
+    },
+    "resources/editor/reference-balloons/55.png": {
+      "id": "c6a61bf5405e91d60819a4f79a62c0e",
+      "guid": "{FA85A217-5C82-5455-A448-F0EA74BCAA38}"
+    },
+    "resources/editor/reference-balloons/56.png": {
+      "id": "c62dc2a952890f118142739d2133cb4",
+      "guid": "{F3771DA4-91E0-53FB-B971-E8AA1076386E}"
+    },
+    "resources/editor/pixel-rpg/atlas.png": {
+      "id": "c093d660d6f0124f39ec047cf984ba3",
+      "guid": "{D1F0E228-BC75-51A2-BECD-3316AF2A670A}"
+    },
+    "resources/editor/pixel-rpg/positive-blue-pair.png": {
+      "id": "c40dc29676bdf36d8d7adec41443e85",
+      "guid": "{9CC2C171-F8D5-58A9-AEDD-A15B47E827EE}"
+    },
+    "resources/editor/pixel-rpg/positive-blue.png": {
+      "id": "ca5622ba59e81e55bddb98ba2e711bd",
+      "guid": "{A3B7B97B-5D41-5F7C-A711-C900A7BC5AF7}"
+    },
+    "resources/editor/pixel-rpg/positive-orange-pair.png": {
+      "id": "cd60dfa6f504f40dee168d8ed9de072",
+      "guid": "{2C0044F3-29D8-552D-8850-194D4B89D77B}"
+    },
+    "resources/editor/pixel-rpg/positive-orange.png": {
+      "id": "c78ff6c19b72fb870e4b22024b26e61",
+      "guid": "{7426F570-16A3-5FBC-A6F3-B691116EA879}"
+    },
+    "resources/editor/pixel-rpg/positive-pink-pair.png": {
+      "id": "c4dc0ea8010cf98174639ec4ae8cd37",
+      "guid": "{1AF78364-A61F-55FA-B867-6F8219F19547}"
+    },
+    "resources/editor/pixel-rpg/positive-pink.png": {
+      "id": "c8f9528db49b26b62c662f8f2137fe9",
+      "guid": "{DE6DDDAE-B44C-5483-B756-8C6F4E17876C}"
+    },
+    "resources/editor/phone-frames/male-hand.png": {
+      "id": "c1649c83f173cb1b221cfb50580f988",
+      "guid": "{93AAAE93-30DD-5069-9B0E-39891D8E3FEA}"
+    },
+    "resources/editor/phone-frames/poses.png": {
+      "id": "ca5528089f6eb7fc7c77cab9088c007",
+      "guid": "{2D5A9B88-9AAA-5A72-A3D1-976030096451}"
+    },
+    "resources/editor/phone-frames/reference-front-a.png": {
+      "id": "c9c0b9c4111261dcf28d7666f9f8e4c",
+      "guid": "{9E59CE2A-6258-5D6E-983B-D47FF159C613}"
+    },
+    "resources/editor/phone-frames/reference-front-b.png": {
+      "id": "c47199d931797d424eb412b494bfa91",
+      "guid": "{A9D4BDED-EF75-586B-8365-148174B35EF3}"
+    },
+    "resources/editor/phone-frames/reference-tilt.png": {
+      "id": "ce29d4116096e7c7287f28830a485e5",
+      "guid": "{321B3D48-8FD9-5A12-84D5-4BC29080EFA6}"
+    },
+    "resources/editor/phone-frames/touch.png": {
+      "id": "cbd28bf897cbe8b41df9ab308f464e9",
+      "guid": "{EA8C3F11-77BD-5086-8042-B3F372B79441}"
+    },
+    "resources/editor/nikke/bonded.png": {
+      "id": "cb856b312ecd3de9a220f4e6f9d9dc2",
+      "guid": "{C8D11DCA-544B-5E75-8F40-265E9267963D}"
+    },
+    "resources/editor/icons/grok.svg": {
+      "id": "c72f3cc147a109886841bd13d8ab34e",
+      "guid": "{6CEBFABD-F880-56ED-9B59-F1A9D3F5EBE4}"
+    },
+    "resources/editor/icons/studio-180.png": {
+      "id": "caca777c9dc1e369304254b423a8d4a",
+      "guid": "{A7EB3CE0-6765-552C-959E-56C890B3871F}"
+    },
+    "resources/editor/icons/studio-192.png": {
+      "id": "cf5e3a1c5c8d406c44739a3d421cd3e",
+      "guid": "{4C16609D-90D6-5A18-AA0B-B3D71B801660}"
+    },
+    "resources/editor/icons/studio-512.png": {
+      "id": "c6ccca052274fab850eb1e0fec10fda",
+      "guid": "{CF7DE63A-7E46-553C-8D36-8C9B00F25EC1}"
+    },
+    "resources/editor/icons/studio-64.png": {
+      "id": "cea46dcb98ffbd3ae86e207f19df3a9",
+      "guid": "{19BC58AF-DC22-5CAD-861A-F7C63AA857CC}"
+    },
+    "resources/editor/handdrawn-balloons/601.png": {
+      "id": "c956201cbda80902360e42b2dbfd956",
+      "guid": "{75515792-F212-5257-B61E-52D6F3BCCDD0}"
+    },
+    "resources/editor/handdrawn-balloons/602.png": {
+      "id": "ce097af82674780def45e52063adce1",
+      "guid": "{A7CE5826-D6A3-5DE5-9710-90C02DA2D6F0}"
+    },
+    "resources/editor/handdrawn-balloons/603.png": {
+      "id": "c2d8be23bbde97ad57cfa21646925c3",
+      "guid": "{CEE27DD2-C916-5936-B4CD-992E728728C3}"
+    },
+    "resources/editor/handdrawn-balloons/604.png": {
+      "id": "cb806b3f4bd4f18f4c7c78a9750c563",
+      "guid": "{986910E4-E9CA-5438-9C97-D2AE098C3A46}"
+    },
+    "resources/editor/handdrawn-balloons/605.png": {
+      "id": "c406a71968977d0bcc1adce92bb5ab6",
+      "guid": "{AC50DBD3-DD9F-5069-9EBE-DC9D5A2D0391}"
+    },
+    "resources/editor/handdrawn-balloons/606.png": {
+      "id": "c472797f4884900820d048dea3f5295",
+      "guid": "{A971FB04-E6DD-5CC0-816C-9153A0542746}"
+    },
+    "resources/editor/handdrawn-balloons/607.png": {
+      "id": "c1fbb8e7b1dcec672499b3eedf2f1a2",
+      "guid": "{F8B1A312-AB55-55B6-BE81-A1051D40ED66}"
+    },
+    "resources/editor/handdrawn-balloons/608.png": {
+      "id": "c04851add8fc8df1dcbc323d5977ca0",
+      "guid": "{B86ED2C7-9553-5CEE-9F11-10A747B7BEA8}"
+    },
+    "resources/editor/handdrawn-balloons/609.png": {
+      "id": "c0dbe32201de52054f83fb73f74f779",
+      "guid": "{79153E7F-25AF-5CB1-83C0-2BF97674AD0F}"
+    },
+    "resources/editor/handdrawn-balloons/610.png": {
+      "id": "cfb8bb33d19a4fa74abfe3295c130da",
+      "guid": "{4A82BED4-7D1D-583E-BDE4-EB98C367AEC8}"
+    },
+    "resources/editor/handdrawn-balloons/611.png": {
+      "id": "cedd88b4b3672a7bdbd3bcc4bc38f64",
+      "guid": "{78C04EB3-996E-50EA-9665-A1C0A0B6617C}"
+    },
+    "resources/editor/handdrawn-balloons/612.png": {
+      "id": "c150c7cf8609b10296a1e97cb8c2b11",
+      "guid": "{246552D6-10C7-52D8-943C-84147DCE59FB}"
+    },
+    "resources/editor/handdrawn-balloons/613.png": {
+      "id": "c0c92c299f3dd174cc47aecbe4c4f00",
+      "guid": "{2A792260-ACF6-5990-89E3-42EB19DEE8F8}"
+    },
+    "resources/editor/handdrawn-balloons/614.png": {
+      "id": "ccada299798fb06e54b3e5c405418c0",
+      "guid": "{EF9302BB-C318-5BEB-97AE-6C286E7A45BF}"
+    },
+    "resources/editor/handdrawn-balloons/615.png": {
+      "id": "c3707f5313fb03af119ab53855ea0ac",
+      "guid": "{32AEAED3-416C-510A-B062-041EFB0D6675}"
+    },
+    "resources/editor/handdrawn-balloons/616.png": {
+      "id": "c38cc03b2f79c69f0b4f40958ee6029",
+      "guid": "{475FE1A1-2E55-5556-AC78-E2826E065FA2}"
+    },
+    "resources/editor/handdrawn-balloons/617.png": {
+      "id": "c8de6080ebea124afe39185d3e5418a",
+      "guid": "{73E1EADA-0E9B-5384-AC06-5CECF8D852EB}"
+    },
+    "resources/editor/handdrawn-balloons/618.png": {
+      "id": "c55787fc6b2c3a8396c81fc957ebed6",
+      "guid": "{383AC4BC-A0DD-5B11-B45A-44F0FC4F3612}"
+    },
+    "resources/editor/handdrawn-balloons/619.png": {
+      "id": "c98250cfc2338798db56ec471060f7a",
+      "guid": "{87E58643-A613-5333-872B-E9769C3EA456}"
+    },
+    "resources/editor/handdrawn-balloons/620.png": {
+      "id": "c67d4fbfa82f1d1116be53e4660ccee",
+      "guid": "{62182544-936A-5562-BBF4-B628C50A88B4}"
+    },
+    "resources/editor/handdrawn-balloons/621.png": {
+      "id": "c7f809f366b5cb55548508f20a35382",
+      "guid": "{60108EB7-E75C-52D5-8FFC-A4E2D6BDB4D2}"
+    },
+    "resources/editor/handdrawn-balloons/622.png": {
+      "id": "cdf036b78ec50e509d00708ba9033ee",
+      "guid": "{5CAC8608-5FC3-52DA-A59E-7E8C7B24DCFA}"
+    },
+    "resources/editor/handdrawn-balloons/623.png": {
+      "id": "c47d532148ea7c68993b6c6afccbcdd",
+      "guid": "{32AB6695-3208-5282-9AB5-86C1C19FB0A5}"
+    },
+    "resources/editor/handdrawn-balloons/624.png": {
+      "id": "c2bcaebc07f08ec56b7c8071cf0bdd2",
+      "guid": "{27CDC646-EE57-540B-B3BA-B3E1BFF45673}"
+    },
+    "resources/editor/handdrawn-balloons/625.png": {
+      "id": "c76ea4c99c9daad718dca91e612f387",
+      "guid": "{3093C914-12B1-57F2-9292-C05676FA95FE}"
+    },
+    "resources/editor/handdrawn-balloons/626.png": {
+      "id": "c608df98ec9a0cbbfb9625d63151398",
+      "guid": "{BECB98B2-2ABE-5130-B3EC-F12DDA3885F9}"
+    },
+    "resources/editor/handdrawn-balloons/627.png": {
+      "id": "c7391c6895332121fb61755f6727170",
+      "guid": "{5A096F99-41E3-5EAC-B642-1DE6562544AD}"
+    },
+    "resources/editor/handdrawn-balloons/628.png": {
+      "id": "c66bce90995750acd8719b7f2a3adea",
+      "guid": "{E78862BF-9970-5959-B006-B631B2576D86}"
+    },
+    "resources/editor/handdrawn-balloons/629.png": {
+      "id": "c5241b167034b60d0f137be038ad165",
+      "guid": "{F620E5EC-B47B-5CE5-AA9A-C5FC8F62D003}"
+    },
+    "resources/editor/handdrawn-balloons/630.png": {
+      "id": "c2c57b746af81e0a890568f391d5b52",
+      "guid": "{BE00BCDE-C3DF-564D-B5B5-FFBF3B723AE3}"
+    },
+    "resources/editor/game-ui/ba-choice.svg": {
+      "id": "c8f59f58770e34d8a35d1bb707b5299",
+      "guid": "{ED2C64E4-56AF-5334-BB82-F2F1BA4E119A}"
+    },
+    "resources/editor/game-ui/ba-dialogue.svg": {
+      "id": "c085a3a7eebd871eae7173cbdc8e403",
+      "guid": "{D2CBF89B-87FC-5A7E-B7C1-5104FDBEF59B}"
+    },
+    "resources/editor/game-ui/ba-location.svg": {
+      "id": "cddc787daa91cef128261760335a603",
+      "guid": "{2746B217-767A-587F-9273-4422584DE0AA}"
+    },
+    "resources/editor/fonts/griun_oksooni-rg.ttf": {
+      "id": "c38a5ee6cebbbc6c3529d564a4f4c12",
+      "guid": "{B3C39B37-9EA2-5423-BE4F-C99EE94143D3}"
+    },
+    "resources/editor/fonts/nanumgothic-bold.ttf": {
+      "id": "c9af828c48a522e23bd14915406688a",
+      "guid": "{98AB984A-C26E-5D8E-B150-19A4CCF5AA34}"
+    },
+    "resources/editor/fonts/nanumgothic-extrabold.ttf": {
+      "id": "c96eb8c3f7565b22d761ed6e35f2d17",
+      "guid": "{D0EDAB34-47CF-5913-946E-D96E43F47B84}"
+    },
+    "resources/editor/fonts/nanumgothic-regular.ttf": {
+      "id": "c2c93f7245f31161c084ed39785940e",
+      "guid": "{51357AE2-86F3-5322-B3EA-BA71FF95F6B5}"
+    },
+    "resources/editor/fonts/nanummyeongjo-regular.ttf": {
+      "id": "c9ec47719673f9d080e06081ef18c37",
+      "guid": "{C54C2871-1DF2-5EB7-BF53-8AF1139C1416}"
+    },
+    "resources/editor/fonts/nanumpenscript-regular.ttf": {
+      "id": "c3fd6e3858de53dd38a9e4e4c6ad037",
+      "guid": "{4676B3D9-B3B9-5E34-9515-79FA89DC25FE}"
+    },
+    "resources/editor/fonts/ownglyph-coldi-webtoon.ttf": {
+      "id": "c1c6db7084093acbc2d98b3f9bf68cb",
+      "guid": "{B7FD269B-A28F-5249-AFF0-9DC10E4C1576}"
+    },
+    "resources/editor/fonts/ownglyph-konkon.ttf": {
+      "id": "c378e1c3f90d39cdc2fa57c1a404d13",
+      "guid": "{2BC1F996-067D-521F-AF3E-03349F26C58C}"
+    },
+    "resources/editor/fonts/sources.txt": {
+      "id": "ca47b217d48b967218221b11129214c",
+      "guid": "{B38DC450-3106-5AD0-82CE-202499DD7A29}"
+    },
+    "resources/editor/fonts/nanumgothic-ofl.txt": {
+      "id": "cd971c15787ee07ea1ff257d25e9315",
+      "guid": "{AF2F31A1-64FC-5ECF-98FD-B236C2E12327}"
+    },
+    "resources/editor/fonts/nanummyeongjo-ofl.txt": {
+      "id": "ce9aa20ce9a6c0edaf4a56094ee6214",
+      "guid": "{DAB1E1A0-0B74-54BA-98D1-C826827DA8FA}"
+    },
+    "resources/editor/fonts/nanumpenscript-ofl.txt": {
+      "id": "c1ecd07a8c308e372507d1676e4e641",
+      "guid": "{C721B7CA-7E41-5881-8577-D54DC0789526}"
+    },
+    "resources/editor/fonts/yisunshin/license.txt": {
+      "id": "c14a3a6ca4a545ecc3d623adc4b015f",
+      "guid": "{C6F5B625-47A8-5585-BE2B-237CB50CC040}"
+    },
+    "resources/editor/fonts/yisunshin/yisunshin-bold-web.ttf": {
+      "id": "c57d503115952d65a3dafc973670fe4",
+      "guid": "{2906349F-4EEF-5BE5-BC2D-7F79E74908DA}"
+    },
+    "resources/editor/fonts/yisunshin/yisunshin-bold.ttf": {
+      "id": "cd1453b25c5167785136bf2355c57c0",
+      "guid": "{93C36307-11B6-517C-BC4B-08D12BAE949E}"
+    },
+    "resources/editor/fonts/yisunshin/yisunshin-regular-web.ttf": {
+      "id": "c61dc11887fc3e3fb17ad552da61ce5",
+      "guid": "{A66B4017-5F2B-5342-9F68-F6FFCC0936B7}"
+    },
+    "resources/editor/fonts/yisunshin/yisunshin-regular.ttf": {
+      "id": "c85f2c2ba11be8de8829a31e5be4ca2",
+      "guid": "{A488D10D-1AB5-5E51-ACCE-276687056FA2}"
+    },
+    "resources/editor/fonts/pretendard/ofl.txt": {
+      "id": "cc889d76bc81b1dd4d5737427dd27e8",
+      "guid": "{12007907-45B8-5FA1-B4A1-DB7E7C0424CE}"
+    },
+    "resources/editor/fonts/pretendard/pretendard-bold.woff2": {
+      "id": "c3319d3143c05fdba378fea6700a3bd",
+      "guid": "{732CE058-5557-527E-8C93-33C5066E2453}"
+    },
+    "resources/editor/fonts/pretendard/pretendard-regular.woff2": {
+      "id": "cbfc8746b87e1c97ffb4635527b6003",
+      "guid": "{E9A4D032-A02A-50EA-9012-DFCE1D9603F5}"
+    },
+    "resources/editor/fonts/pretendard/pretendard-semibold.woff2": {
+      "id": "cff01a37a539eb0a035ba6a9d856995",
+      "guid": "{6669EB4D-FD57-535A-8318-4B1B8676C509}"
+    },
+    "resources/editor/fonts/material-icons/license.txt": {
+      "id": "c761d3df5ea1f6e35d2946ee235d7ad",
+      "guid": "{8D7A8355-F222-5559-8164-D79FA01A53BA}"
+    },
+    "resources/editor/fonts/material-icons/materialicons-regular.ttf": {
+      "id": "c325d409c8ef60960c8146ca4eaf0e6",
+      "guid": "{D3ADAD84-EB59-5915-885C-78E780875014}"
+    },
+    "resources/editor/fonts/material-icons/materialiconsoutlined-regular.otf": {
+      "id": "c2ac3aedcb9431c08eb252fd9efd839",
+      "guid": "{CC7599BB-DD46-50E9-AAE4-687A2DB1A7C6}"
+    },
+    "resources/editor/fonts/galmuri/galmuri9.ttf": {
+      "id": "ceb6d69ccf6fead6760f6057e1f2030",
+      "guid": "{1CBC8911-F3A1-5794-93F3-9DF354D26E7C}"
+    },
+    "resources/editor/fonts/galmuri/ofl.md": {
+      "id": "c1fe584807a38b09945612656a13049",
+      "guid": "{23D677BA-CFDE-5214-BECF-D655F8B4A9DA}"
+    },
+    "resources/editor/fonts/galmuri/source.txt": {
+      "id": "cad3926c690ec279d98014ca5ae17f6",
+      "guid": "{6449951A-4CEC-5C26-B4AF-86AEF45E70B8}"
+    },
+    "resources/editor/fonts/dynalight/dynalight-regular.ttf": {
+      "id": "cd6267055525716fc0f6e28aa2e7ec8",
+      "guid": "{CAE1E36E-101A-5787-A52A-B7450E2AC15F}"
+    },
+    "resources/editor/fonts/dynalight/ofl.txt": {
+      "id": "c468d2f81b5837a98566e2bbb2ef62c",
+      "guid": "{12A171E7-E180-51E5-8715-4889A034B122}"
+    },
+    "resources/editor/fonts/cover/cafe24-license.txt": {
+      "id": "c5788c0c7a198f2ec3efcb6581fa0d2",
+      "guid": "{1D2AF10D-0B9D-59C4-871A-3C7BB2B12936}"
+    },
+    "resources/editor/fonts/cover/hs-license.txt": {
+      "id": "c56bc5259213270e1aa0ae1dbd886d8",
+      "guid": "{01A70729-0F91-520C-AC72-648F53FDFE74}"
+    },
+    "resources/editor/fonts/cover/license-classictype.pdf": {
+      "id": "c80ddabc58e0d7e2764cbba83f4846b",
+      "guid": "{A18C814D-69B6-5D0A-B4BF-A155E9787090}"
+    },
+    "resources/editor/fonts/cover/cafe24-classic-type.woff2": {
+      "id": "c1a1c1ffb3c69a0ac69a3eb2b29a6e5",
+      "guid": "{0C0AD343-AAD7-512B-A161-48EBE276E5DB}"
+    },
+    "resources/editor/fonts/cover/hs-bombaram-2.ttf": {
+      "id": "c6328b96d7daf783cddb006bfb9e114",
+      "guid": "{FDDE0843-B247-5B61-BB7E-CDBB5CF00609}"
+    },
+    "resources/editor/fonts/comic/baemin-jua.woff2": {
+      "id": "cf30e6f4fe3981172f8fac96285e97b",
+      "guid": "{1B7E2518-6D22-57EB-AD9E-3322031F5BFF}"
+    },
+    "resources/editor/fonts/comic/gyeonggi-batang-bold.woff2": {
+      "id": "c53bcaf758a911f6785af574b7bc916",
+      "guid": "{FC225B38-B027-5956-BB0D-49A98D3A6AFD}"
+    },
+    "resources/editor/fonts/comic/gyeonggi-batang-regular.woff2": {
+      "id": "c877735bee3517f5a3971fa3954cb49",
+      "guid": "{74930E3A-ECB6-521B-AC29-4DCA3FFF4ED5}"
+    },
+    "resources/editor/fonts/comic/gyeonggi-title-bold.woff2": {
+      "id": "c81b3ec87840b57032d63a348805b58",
+      "guid": "{9097729E-ACF9-50D3-B957-35D77F05B9E6}"
+    },
+    "resources/editor/fonts/comic/gyeonggi-title-light.woff2": {
+      "id": "c6508edfa085344cfb98e8c9de3f630",
+      "guid": "{DFA3C76B-A269-56B5-B982-34AFB2FB424D}"
+    },
+    "resources/editor/fonts/comic/gyeonggi-title-medium.woff2": {
+      "id": "c7fb2aa2a43f49aa6b9a9e1fd43a2cb",
+      "guid": "{52F87151-C0BA-50BC-BE26-2C49C0A6AA62}"
+    },
+    "resources/editor/fonts/comic/gyeonggi-title-v-bold.woff2": {
+      "id": "cc0024541716f36fc061528b2bd34fe",
+      "guid": "{AF81F14B-6437-5886-AE4E-2297D0BAF20B}"
+    },
+    "resources/editor/fonts/comic/kopub-batang-bold.woff2": {
+      "id": "cec53f67d9d42927d539843be11aeb0",
+      "guid": "{DE242AFE-4BF8-5B49-884A-F784A92F1CF9}"
+    },
+    "resources/editor/fonts/comic/kopub-batang-light.woff2": {
+      "id": "c4e2b3a6301b41756d988c7a04be145",
+      "guid": "{7F57DE59-4E82-58EB-A66C-03B9BDA18582}"
+    },
+    "resources/editor/fonts/comic/kopub-batang-medium.woff2": {
+      "id": "c65eecdc8aa6145cfd6912bdac2c51b",
+      "guid": "{E9D08D21-3D35-53B1-B996-8A6B243FE21B}"
+    },
+    "resources/editor/fonts/comic/kopub-dotum-bold.woff2": {
+      "id": "c734ac3c22601d2a96324f7617d0934",
+      "guid": "{2C623D21-A743-5DB7-8FA3-6F16865476E5}"
+    },
+    "resources/editor/fonts/comic/kopub-dotum-light.woff2": {
+      "id": "cd130a909d4e9621c38dd8182d88267",
+      "guid": "{F8382D2C-D7F5-5A9A-B617-003F57DF0973}"
+    },
+    "resources/editor/fonts/comic/kopub-dotum-medium.woff2": {
+      "id": "ca8d54a9963c2e7f807a5af8c5ed12e",
+      "guid": "{21819783-3BB4-5795-A722-0554AFCC0415}"
+    },
+    "resources/editor/fonts/comic/kopubworld-batang-bold.woff2": {
+      "id": "cd53920b79c64a42766259050988b61",
+      "guid": "{E25F948A-A48B-5807-9B69-B77708D6478A}"
+    },
+    "resources/editor/fonts/comic/kopubworld-batang-light.woff2": {
+      "id": "cbe25417695e62ae992d45c0cddd703",
+      "guid": "{5EE0DAC6-FDB3-5FD5-BB27-47D138A266AC}"
+    },
+    "resources/editor/fonts/comic/kopubworld-batang-medium.woff2": {
+      "id": "c3353061ffba561fa67a0970f51b8cb",
+      "guid": "{6047E0C7-1FCA-5F17-A4F5-9A6FD32B9B64}"
+    },
+    "resources/editor/fonts/comic/kopubworld-dotum-bold.woff2": {
+      "id": "cac305417f3a29f5eb45a8771fa2c6e",
+      "guid": "{CB322A79-60B6-5E81-81CD-0C04F8DED1B7}"
+    },
+    "resources/editor/fonts/comic/kopubworld-dotum-light.woff2": {
+      "id": "c5a1584f89960fa966fee5f5224fab9",
+      "guid": "{A376A450-59C8-50C3-BF1D-8A6104C9F627}"
+    },
+    "resources/editor/fonts/comic/kopubworld-dotum-medium.woff2": {
+      "id": "c5717c3133252f8d2ed3c3a0809ecaa",
+      "guid": "{91BF8914-574A-5934-8427-66A6B27CA966}"
+    },
+    "resources/editor/fonts/comic/maruburi-bold.woff2": {
+      "id": "cfa338b03012768d5df3abbb5a084d7",
+      "guid": "{4FD4EEE9-97FB-5407-AB29-EF4A058E8383}"
+    },
+    "resources/editor/fonts/comic/maruburi-extralight.woff2": {
+      "id": "cf5904bba8a25a0ef0638f424ea4769",
+      "guid": "{EA489F33-C460-52C9-815B-4553FD33354E}"
+    },
+    "resources/editor/fonts/comic/maruburi-light.woff2": {
+      "id": "cd3dd18af64d3ee56ffe7da8ce9922d",
+      "guid": "{41CF58D6-6F94-5F41-BA5C-25E84DC96E5C}"
+    },
+    "resources/editor/fonts/comic/maruburi-regular.woff2": {
+      "id": "ce85d740b7e7f13aa5d98762d7bc03d",
+      "guid": "{9BCD195D-E04F-524D-B33C-A281C6E1E557}"
+    },
+    "resources/editor/fonts/comic/maruburi-semibold.woff2": {
+      "id": "c240449fc641414f988a0ba412f400f",
+      "guid": "{5BBA2015-5627-53C8-852D-BA6A21EBACCC}"
+    },
+    "resources/editor/fonts/comic/museum-classic-b.woff2": {
+      "id": "ccc98f8437839e92c8df2452c4c7488",
+      "guid": "{E88933BF-CFC0-580F-87D6-C2806E3714DD}"
+    },
+    "resources/editor/fonts/comic/museum-classic-l.woff2": {
+      "id": "c17ac2b723b4b15726672fd362cb2ef",
+      "guid": "{1021C507-E7A4-5E2F-B9B8-B59021AAA61F}"
+    },
+    "resources/editor/fonts/comic/museum-classic-m.woff2": {
+      "id": "c5d104770635f83783bd89566a4aa45",
+      "guid": "{5355E788-87B4-5837-B328-7E05BF0E3F16}"
+    },
+    "resources/editor/fonts/comic/seoulhangangb.woff2": {
+      "id": "c4fef0593609fc42e2c59c737f614b3",
+      "guid": "{0D292398-B67B-52E1-B93C-39859B3BBC03}"
+    },
+    "resources/editor/fonts/comic/seoulhangangeb.woff2": {
+      "id": "cc399667185d30971c6bab0492c9b6a",
+      "guid": "{BBEE327F-86AD-5A81-B133-9056787227C9}"
+    },
+    "resources/editor/fonts/comic/seoulhangangl.woff2": {
+      "id": "cd25495aeaa59936e79fdb65d344df4",
+      "guid": "{83542B40-A9CB-5E34-8531-3086B4E67B59}"
+    },
+    "resources/editor/fonts/comic/seoulhangangm.woff2": {
+      "id": "ca2efe9a959b34b41ca90ced563ce66",
+      "guid": "{CB8744E7-71DC-5C53-ADD6-176013AAEEB6}"
+    },
+    "resources/editor/fonts/comic/seoulnamsanb.woff2": {
+      "id": "cf567780778efd3f46199975fbc8cb7",
+      "guid": "{1D3727BA-80E5-5812-949F-750BB10916DD}"
+    },
+    "resources/editor/fonts/comic/seoulnamsaneb.woff2": {
+      "id": "c794397b7ec0bae69348aeb934f28bf",
+      "guid": "{B05F45BB-C851-5484-9382-AB6B4F3B92F3}"
+    },
+    "resources/editor/fonts/comic/seoulnamsanl.woff2": {
+      "id": "ceae2f138bebe41ae09312073b012be",
+      "guid": "{5B33BB30-DD95-57FA-95CB-0D1AE8D3C58B}"
+    },
+    "resources/editor/fonts/comic/seoulnamsanm.woff2": {
+      "id": "c80db7da9ff81380f6e0b08c8589128",
+      "guid": "{C133951D-4580-5166-AD8F-749B8F877AAE}"
+    },
+    "resources/editor/fonts/comic/seoulnamsanvert.woff2": {
+      "id": "c370be9157f1da13bfb2deb190c7317",
+      "guid": "{DF688D36-40F9-5A9E-AD4A-8F33697F3B39}"
+    },
+    "resources/editor/fonts/comic/tvn-enjoystories-bold.woff2": {
+      "id": "ced9f2a83bc72fe1d83e4aa3bb74631",
+      "guid": "{6CE78805-B90F-5247-AA01-542CBAB9E148}"
+    },
+    "resources/editor/fonts/comic/tvn-enjoystories-light.woff2": {
+      "id": "c90019aa3b251840c3687e7f37c7d43",
+      "guid": "{9C24CD8B-AC88-5047-B0CA-B4847E9D44F9}"
+    },
+    "resources/editor/fonts/comic/tvn-enjoystories-medium.woff2": {
+      "id": "c67117f7591d34ba8d48755f547a397",
+      "guid": "{CD1DD4E3-E957-522F-A2CD-3AB8B807CF7C}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-drops-0.png": {
+      "id": "c6ff91b69354bd1873c5ca0d99ec29e",
+      "guid": "{2E7054C3-25B0-51F9-8990-4B428F7F193A}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-drops-1.png": {
+      "id": "cdefc48b84c61371db2ff37f0887d02",
+      "guid": "{5AB9BDF7-EF09-5AB9-AEDE-DCF5F2C38C0F}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-drops-2.png": {
+      "id": "cc42ef54c20414e6842d5ab59de134b",
+      "guid": "{CDAD1FCD-AA89-5B92-86E7-5F10FDE07F10}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-drops-3.png": {
+      "id": "cfe43ef600924cacf16edd2e1805034",
+      "guid": "{89B882D8-26D3-532D-8A17-6D5383222DD9}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-drops-4.png": {
+      "id": "ca5864c267bb0ad79269aadcbc714f3",
+      "guid": "{2149BCDD-0B18-5BC9-89D6-4A598FAB5277}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-drops-5.png": {
+      "id": "cb8711c3626b2b3515dab49f4b35ad3",
+      "guid": "{A0C7163A-CEF7-5ECB-A7C9-1DBCCD9D42DF}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-drops-6.png": {
+      "id": "c39ec171c2ef4b11013719a6d863e29",
+      "guid": "{B9F260DD-3587-5AB8-AF1D-5FD1317FAC18}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-flowing-0.png": {
+      "id": "c301a9c7f7b2b7ddfb38b741bf72d06",
+      "guid": "{48DAD7C8-C609-5119-9677-4E0E5A39AB69}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-flowing-1.png": {
+      "id": "cc8dc157744fa3f180a44a773494d35",
+      "guid": "{811FC2AF-C28A-54CB-9341-6E7D18122583}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-flowing-2.png": {
+      "id": "c7ee457a9d9cc181704a1d3c89f1fec",
+      "guid": "{95BAC40F-28FD-5E1A-823D-01719D606CB4}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-flowing-3.png": {
+      "id": "c992a210ec7b3c37e3d224a9c97497e",
+      "guid": "{9701FF32-D675-5413-86D8-1165C9782825}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-flowing-4.png": {
+      "id": "ca4d44a21bc639f3a80895ca21a5173",
+      "guid": "{E1C78FAD-A8BE-5B62-8F7F-563812BBCD6C}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-flowing-5.png": {
+      "id": "c4293f0c0533724e87641a017f5a960",
+      "guid": "{46CCB1A1-59BD-56F4-9142-F773ED60919D}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-flowing-6.png": {
+      "id": "c6ced697222334d34baa03088f2551d",
+      "guid": "{5AFDEC38-4FCF-5A4C-90B4-F83CC819F2E9}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-flowing-7.png": {
+      "id": "cbff2e4efe5cf3afb25130f435202d5",
+      "guid": "{E9F307E1-C3F8-58A1-83A8-1597DA1A9C7A}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-smeared-0.png": {
+      "id": "c5c7ae224e78c6639ca8ac58e8c71ad",
+      "guid": "{004D28CB-E8BB-5719-8122-F578DC24B4C7}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-smeared-1.png": {
+      "id": "c0eb44afacf6a8b0ee98abb7bb42e21",
+      "guid": "{8EA299E8-B2F1-541A-8D60-28B1F37E72D1}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-smeared-2.png": {
+      "id": "c78098aa760924e04a654a79502caaf",
+      "guid": "{81CD2A24-6A30-5866-8AC9-200D0590E601}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-smeared-3.png": {
+      "id": "c44f142ac0020f35c7bf0851a084bcd",
+      "guid": "{A57E9C9D-D281-5706-A29B-B92BD8539B7D}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-smeared-4.png": {
+      "id": "c8d669c7af4d7055b87ceb38b4538b7",
+      "guid": "{90CC7AD6-ED48-5B2A-ACA9-C2B3869937AD}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-smeared-5.png": {
+      "id": "c41ae414a36d6ef12b284cfa7f280a7",
+      "guid": "{E227E8BD-CCBC-53D8-B9DE-946C3C12E7CB}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-smeared-6.png": {
+      "id": "c2a6cf2238583cfcbed4d983c59707c",
+      "guid": "{06429550-030C-5A10-8931-5CBF21F8C88D}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-smeared-7.png": {
+      "id": "c504be71e797d8125cad204e676529c",
+      "guid": "{1BD1AD77-FF36-58D7-AAD6-C6576AC57676}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-smeared-8.png": {
+      "id": "c53982c480d7e97fa0dda18d9e502a8",
+      "guid": "{8835286B-420E-5E98-9466-D5099E5A6B80}"
+    },
+    "resources/editor/builtin-brush-tips/builtin-liquid-smeared-9.png": {
+      "id": "c9c480588c13db80578057541e1a54a",
+      "guid": "{AD41F1B3-FC07-5FB3-8208-DC9D8C9A2DEB}"
+    },
+    "resources/editor/bad-status-icons/armor_break_16.png": {
+      "id": "c46f5fd1a5ade723457ffcf48d225e7",
+      "guid": "{EE793C4F-2945-5D7B-99B2-050A03E74D0A}"
+    },
+    "resources/editor/bad-status-icons/armor_break_32.png": {
+      "id": "c82a92c282e877bd5b992eac5203341",
+      "guid": "{CF94D921-1C4F-5572-A6D9-3690BAE6C6D4}"
+    },
+    "resources/editor/bad-status-icons/arousal_16.png": {
+      "id": "cc2d5f30d425642dd92ccc1246d96ab",
+      "guid": "{EAD4FF5A-C8E6-579D-A1FD-11EE295D19D9}"
+    },
+    "resources/editor/bad-status-icons/arousal_32.png": {
+      "id": "c400772018d958914c1bf6b1ee92787",
+      "guid": "{9E9DFA5C-6BF2-5304-A5F8-866ABD8EFCF7}"
+    },
+    "resources/editor/bad-status-icons/atk_down_16.png": {
+      "id": "c0a5680d47d210e0bfdd4ecb9017e73",
+      "guid": "{569A2FE5-B910-5840-BE31-B1D6742EB4DA}"
+    },
+    "resources/editor/bad-status-icons/atk_down_32.png": {
+      "id": "cd12c710fea9f360c38114b844eed0b",
+      "guid": "{EB903C6D-F8EE-544C-B275-DF5E37DE21BB}"
+    },
+    "resources/editor/bad-status-icons/atk_up_16.png": {
+      "id": "ca201bf5140e481ed1990177a1e6bcf",
+      "guid": "{2C7DBC9C-BE36-564E-8426-3F7B691CF518}"
+    },
+    "resources/editor/bad-status-icons/atk_up_32.png": {
+      "id": "c6b27b44a1e4cc4bad35ec5794fa8b9",
+      "guid": "{1B29C6CC-9D45-5C1B-98A2-8713AB5B7C67}"
+    },
+    "resources/editor/bad-status-icons/bleeding_16.png": {
+      "id": "c5c87ab3f6b3b3253d8793014049950",
+      "guid": "{1E19E11E-1AD2-5693-B042-3D423C841BF4}"
+    },
+    "resources/editor/bad-status-icons/bleeding_32.png": {
+      "id": "c47c3e34af179c676b502d564f6912d",
+      "guid": "{C791D243-E476-5FC5-BCA9-BB1BC280A322}"
+    },
+    "resources/editor/bad-status-icons/curse_16.png": {
+      "id": "c657e8bf282a89f1b3b662ab6af8fe0",
+      "guid": "{3B43F87A-5790-5BD1-8B1C-B2713F015D76}"
+    },
+    "resources/editor/bad-status-icons/curse_32.png": {
+      "id": "c75e7a7305dd2ae975dbc54b8bb3578",
+      "guid": "{E15FD389-F1E1-5B5F-9129-2CE521143D60}"
+    },
+    "resources/editor/bad-status-icons/fever_16.png": {
+      "id": "c58924a237892864f4ae6681fe0b6fb",
+      "guid": "{DE7B9982-8B5F-5F9D-94D3-6D88C21B2F55}"
+    },
+    "resources/editor/bad-status-icons/fever_32.png": {
+      "id": "ca10f9c732b1bdaeba1979eb099f60e",
+      "guid": "{AE446BF4-5447-5287-9538-D2B503B6FDFE}"
+    },
+    "resources/editor/bad-status-icons/hp_low_16.png": {
+      "id": "c42c0cea4af19151bf745ac4e9bdc81",
+      "guid": "{8628AD83-E4E5-597C-9FA7-2E93AD141A9F}"
+    },
+    "resources/editor/bad-status-icons/hp_low_32.png": {
+      "id": "cb9b14b081640736dc05be262aeed3c",
+      "guid": "{C114F0F9-0E1E-5C5C-8E8C-6C1D1A924A51}"
+    },
+    "resources/editor/bad-status-icons/hyperreaction_16.png": {
+      "id": "cb2d3548e86c41b064a012ea3d0bd76",
+      "guid": "{32301FE7-1BB5-59B4-80B9-403B03430C59}"
+    },
+    "resources/editor/bad-status-icons/hyperreaction_32.png": {
+      "id": "c6e054c35ad84a5115562bff05add37",
+      "guid": "{55FA01C8-74DB-5403-9FF1-ACAE2F5873D5}"
+    },
+    "resources/editor/bad-status-icons/hypersense_16.png": {
+      "id": "c05da6cb1ceff8bfe75e87fe9e561ca",
+      "guid": "{65290269-B2CA-535D-BE9C-9E940E52AA99}"
+    },
+    "resources/editor/bad-status-icons/hypersense_32.png": {
+      "id": "c940c951c3d46aab14f1e689a61e1f4",
+      "guid": "{4BB8DC4F-3CD4-52A2-B038-0355CADFE941}"
+    },
+    "resources/editor/bad-status-icons/hypnosis_16.png": {
+      "id": "cb4a13c268baa9430f002aef101bb6d",
+      "guid": "{F7FE782A-860A-5909-8A5D-E9A74BE34C61}"
+    },
+    "resources/editor/bad-status-icons/hypnosis_32.png": {
+      "id": "c7eb92ef54bf930030831a1e385ed2d",
+      "guid": "{30278925-C110-5938-95D2-74FC63B3D672}"
+    },
+    "resources/editor/bad-status-icons/lactation_16.png": {
+      "id": "c43f9a26a6604304c970a698d9f944e",
+      "guid": "{26E63C44-CFA5-5481-BF8D-4CAA18A98EC6}"
+    },
+    "resources/editor/bad-status-icons/lactation_32.png": {
+      "id": "cde45f9fc70b8faf1db88dc51080c91",
+      "guid": "{B52C021C-AB05-5A29-BBD4-804816EAB3DE}"
+    },
+    "resources/editor/bad-status-icons/level_down_16.png": {
+      "id": "c8afa48e7f0f3905f53ac4921aa77ef",
+      "guid": "{32D1152E-CD50-543E-A826-68661682D2E7}"
+    },
+    "resources/editor/bad-status-icons/level_down_32.png": {
+      "id": "c08e93b1ff8cbac857c83dbf9b4aa4b",
+      "guid": "{040FF5B6-23EE-512C-9836-0EC5BF130BC8}"
+    },
+    "resources/editor/bad-status-icons/level_up_16.png": {
+      "id": "c25df1821bfe4581588098fa9608050",
+      "guid": "{9E9F4332-FFDC-52D6-880F-E987FB250692}"
+    },
+    "resources/editor/bad-status-icons/level_up_32.png": {
+      "id": "c4534260d57a1f3766fcd93972a12ca",
+      "guid": "{CEBD31AA-91E0-520F-8899-6C1B7C72AB13}"
+    },
+    "resources/editor/bad-status-icons/mag_down_16.png": {
+      "id": "c15e66db78394e6d3dc227592519183",
+      "guid": "{CB38FD1B-D315-5D5F-9476-EFEFFEC6A945}"
+    },
+    "resources/editor/bad-status-icons/mag_down_32.png": {
+      "id": "c17749c0846c05516efadfbc99aeed8",
+      "guid": "{AD443E83-9F7A-5587-99DB-A21909F26EF4}"
+    },
+    "resources/editor/bad-status-icons/mag_up_16.png": {
+      "id": "ca08e02311636de04093ae95587be90",
+      "guid": "{44D1E841-6189-5A5F-B393-2E6A2CC36F0E}"
+    },
+    "resources/editor/bad-status-icons/mag_up_32.png": {
+      "id": "cbb9a83fd5fb0264a644dfb6c5c5f2a",
+      "guid": "{1C3D7DB3-B585-5E5F-AF8D-7F7CB4610D33}"
+    },
+    "resources/editor/bad-status-icons/mammary_active_16.png": {
+      "id": "c3d3ca18a20da5e4a4d770d7510016b",
+      "guid": "{F35BFC89-A67E-5025-9932-88C68971E926}"
+    },
+    "resources/editor/bad-status-icons/mammary_active_32.png": {
+      "id": "ca43b8f7fb9873349cd5fb3c42cfb36",
+      "guid": "{6B89FACA-5CE2-58E4-98C6-B0999695C312}"
+    },
+    "resources/editor/bad-status-icons/manifest.json": {
+      "id": "c8d006d7b47ab1440cd9797e84b164f",
+      "guid": "{B2DA9F9E-CE06-5C3B-9E2F-95C0A6EEBC2C}"
+    },
+    "resources/editor/bad-status-icons/mp_low_16.png": {
+      "id": "cfcd1f519ce7f722b02cff3450f7415",
+      "guid": "{E0B20AD5-C77E-52CF-A9DA-54593B2772CB}"
+    },
+    "resources/editor/bad-status-icons/mp_low_32.png": {
+      "id": "c7827b63c975d2cc0543d6261208ca4",
+      "guid": "{77283B2C-2C28-5136-A5B2-F066F59538B8}"
+    },
+    "resources/editor/bad-status-icons/poison_16.png": {
+      "id": "cccf91783122850dc016c277c092b5a",
+      "guid": "{C9C91ACD-9F35-50F2-AA0B-DC8A4C18EB43}"
+    },
+    "resources/editor/bad-status-icons/poison_32.png": {
+      "id": "ca7177de5be0c0ffecd4d400546047c",
+      "guid": "{F280641A-3C92-575F-83C7-01C0383A652C}"
+    },
+    "resources/editor/bad-status-icons/secretion_16.png": {
+      "id": "cc41a56ab5335f15b7f0d2f10f2ddc6",
+      "guid": "{A2FF3EAA-7630-52C6-B52D-C2EEA86CD80F}"
+    },
+    "resources/editor/bad-status-icons/secretion_32.png": {
+      "id": "c43582b207bffc942cb4a39f5c0047a",
+      "guid": "{CD044C8E-5BD3-52C7-AD5F-B00031B061F2}"
+    },
+    "resources/editor/bad-status-icons/secretion_boost_16.png": {
+      "id": "c7a58bd2e7ae1fb41b5989667bfbb89",
+      "guid": "{FCEF86A2-376B-5D29-BF0C-D13C68D04854}"
+    },
+    "resources/editor/bad-status-icons/secretion_boost_32.png": {
+      "id": "c500a7d7be0b7f8df4479f371939296",
+      "guid": "{06832830-172D-589D-BF5D-948C4AADBAAB}"
+    },
+    "resources/editor/bad-status-icons/shame_16.png": {
+      "id": "c9ee61285802d14c0c8a92f4992bb2e",
+      "guid": "{BC7B8EDB-4712-5597-BC58-807391B184B2}"
+    },
+    "resources/editor/bad-status-icons/shame_32.png": {
+      "id": "c18c771338c02f54c9872dae4aeaaf3",
+      "guid": "{2D97BBB9-205A-5F20-B1CF-6D2BDAD5E8CA}"
+    },
+    "resources/editor/bad-status-icons/weakened_16.png": {
+      "id": "c62811126718e5838ef5499828b9fbb",
+      "guid": "{1FCFEBD7-5C15-557B-B13B-F64DD8616712}"
+    },
+    "resources/editor/bad-status-icons/weakened_32.png": {
+      "id": "cbc6ff570331a1283fe6c1434f2ca7d",
+      "guid": "{2D3F47BB-93FF-5A7F-A94A-A353D2CEBCC9}"
+    },
+    "resources/editor/assets/eroste-status-reference.webp": {
+      "id": "cfc21419738c63f2706be3c394af21b",
+      "guid": "{812C019F-FE0D-59D8-99A2-AC8578F8398A}"
+    },
+    "locales/af.pak": {
+      "id": "c3afc30f57ad963dfc49e78c82c3cc9",
+      "guid": "{7B4C8454-1D36-5040-9EC6-A9EFB8CADE8F}"
+    },
+    "locales/am.pak": {
+      "id": "cc0decbb065cd056b936cfe3fcfd782",
+      "guid": "{8BCD0AF6-3301-52E1-858E-44C748522011}"
+    },
+    "locales/ar.pak": {
+      "id": "ce51f31925256527c467ec60df269af",
+      "guid": "{9093E52F-8090-5B39-9A67-161FC9F2CBDD}"
+    },
+    "locales/bg.pak": {
+      "id": "c697cbf9c643d3fb14a59188f10e2d6",
+      "guid": "{51BEBC13-1D81-535B-98C1-1E169B97B9FD}"
+    },
+    "locales/bn.pak": {
+      "id": "c392ea986679b7a1aa7b0f273377b4e",
+      "guid": "{2715E46C-6E38-5684-8B93-A332BA617956}"
+    },
+    "locales/ca.pak": {
+      "id": "cf834f9c4c8816f7c28e85513de41d2",
+      "guid": "{306168BC-FE9B-59B2-BAF2-F17E47D66AD4}"
+    },
+    "locales/cs.pak": {
+      "id": "c26339d14241647ffdb811692b5953d",
+      "guid": "{D874C0A9-3EDE-5F72-95B7-DECB1DB2401B}"
+    },
+    "locales/da.pak": {
+      "id": "c0f866446a25647954e8e6a2d02d8e5",
+      "guid": "{E1ABE578-D8C8-5C68-A055-01E0872F39FE}"
+    },
+    "locales/de.pak": {
+      "id": "c7e06292c2a41309d2e678259f40dc4",
+      "guid": "{F57A8BFA-B18B-526B-9169-D510344340B7}"
+    },
+    "locales/el.pak": {
+      "id": "c2fec88484963a95642b1a549921f15",
+      "guid": "{B67652AA-7ED0-50A1-98DD-F48B48A1E413}"
+    },
+    "locales/en-gb.pak": {
+      "id": "cabc83115911aeac101949084650d96",
+      "guid": "{9ABC62A7-79ED-58A1-9F1F-AAF0382E452A}"
+    },
+    "locales/en-us.pak": {
+      "id": "c1bcb276131137eb5e212eb6263515e",
+      "guid": "{423921AA-7804-5450-B141-7D9EC0542BE0}"
+    },
+    "locales/es-419.pak": {
+      "id": "cdc65b130741a4d2afbc834dd1e3755",
+      "guid": "{37F2B524-38F2-5E40-AB7D-74AB3FE7F0A3}"
+    },
+    "locales/es.pak": {
+      "id": "ccd8a40a7ad444b3683a29d0fa8f3f3",
+      "guid": "{2442F7C8-BDC0-509C-BEC9-9BE045278B82}"
+    },
+    "locales/et.pak": {
+      "id": "c1ce56f69c852cf0fb46bd2a531d9f4",
+      "guid": "{2D6D3FCC-123F-503D-8A08-6F9F7DD47BEE}"
+    },
+    "locales/fa.pak": {
+      "id": "cb06591bd3c5e8ffd04ca87fccabbb4",
+      "guid": "{D368C062-D1A3-52D1-8329-252213EA6B2F}"
+    },
+    "locales/fi.pak": {
+      "id": "cc9697654f804cffbee1b5c60377fe6",
+      "guid": "{D2D6FB5F-1B2C-502C-BCB5-08B1BCB3BDD0}"
+    },
+    "locales/fil.pak": {
+      "id": "ce074fa8fbf322e42260e8485f0ef8b",
+      "guid": "{ED6CDC2C-E74B-5CBC-A038-4B33B4DDCF91}"
+    },
+    "locales/fr.pak": {
+      "id": "c0f8678da91c2c8d2ab6b0d58e3e70f",
+      "guid": "{E7B2D185-60F3-5169-857D-597BC5EE1A9A}"
+    },
+    "locales/gu.pak": {
+      "id": "c465c8396576747203c324fdaa13637",
+      "guid": "{F21F7F1C-A0AC-5A36-AABE-566DC60209DD}"
+    },
+    "locales/he.pak": {
+      "id": "cededd3e83e497a35626a71ff48b8bc",
+      "guid": "{05CD3A48-7C0E-5AD3-B7FA-67D0D8436F7D}"
+    },
+    "locales/hi.pak": {
+      "id": "ccebc09cdaa3690cc861db8998f051c",
+      "guid": "{FF0BD27C-9940-5802-B99E-297A2171F1CA}"
+    },
+    "locales/hr.pak": {
+      "id": "ca65c48428842aa1ae505007997c5ae",
+      "guid": "{839B2D8F-8A0D-5D68-8B8B-B17776DCC1E5}"
+    },
+    "locales/hu.pak": {
+      "id": "ccc8ccb1e9eec223cd1c4d08566f626",
+      "guid": "{8460B8F2-A601-5F6E-A2A9-F165E823CF24}"
+    },
+    "locales/id.pak": {
+      "id": "c619026d8ab5332fdd18c47bda256d3",
+      "guid": "{6C9ECD1B-83A2-58FE-BA2B-8015CC73D7AA}"
+    },
+    "locales/it.pak": {
+      "id": "c6e6d2ae34d115fa523e73e634f860e",
+      "guid": "{73AE2470-FD2A-5CD1-9205-ED1077CF1B76}"
+    },
+    "locales/ja.pak": {
+      "id": "c1ff294b034e037b3724a2ae72f15ae",
+      "guid": "{61DB4A79-9AD8-5A65-97DC-65046DACED22}"
+    },
+    "locales/kn.pak": {
+      "id": "cb5dbac4c464b05fdfa4ec0640abe81",
+      "guid": "{834634AB-C453-54CE-8919-9AA5A691202E}"
+    },
+    "locales/ko.pak": {
+      "id": "c1549a72fe3613d45f75f535595a587",
+      "guid": "{BA068BC0-25F5-5BB3-A674-E85749092E57}"
+    },
+    "locales/lt.pak": {
+      "id": "cb8a8cba18855784a3fe647c3094afa",
+      "guid": "{0F1E66BB-0582-54F2-9D0B-C10A70F6140F}"
+    },
+    "locales/lv.pak": {
+      "id": "c1a4e337785816193ea05e859026df1",
+      "guid": "{B838797D-2026-56B2-8774-FD962E91D842}"
+    },
+    "locales/ml.pak": {
+      "id": "c67d9e060eb07cb03bc402fe5ec2f84",
+      "guid": "{6E180600-2480-559A-BE6D-A813874ECA98}"
+    },
+    "locales/mr.pak": {
+      "id": "c47baa4dcf8ee2c9eac73935f5c7215",
+      "guid": "{1E697F03-C040-582B-B9FA-9138A0188974}"
+    },
+    "locales/ms.pak": {
+      "id": "c373f1a0cc99826307884766fc7a79f",
+      "guid": "{5565848F-9DCA-5589-B4A6-7D36E0604335}"
+    },
+    "locales/nb.pak": {
+      "id": "c934a81c1f9915d9797beb48e95e541",
+      "guid": "{7D7C1E2F-322B-5129-9386-1F0DACCFB4F2}"
+    },
+    "locales/nl.pak": {
+      "id": "cc64c1be172f248abdfee7ef32e14d4",
+      "guid": "{B8C34B84-731D-55EF-8FBC-70C2B168FEE8}"
+    },
+    "locales/pl.pak": {
+      "id": "c047fb398ab9bed041f985bc2b53b84",
+      "guid": "{1EA15F57-D995-5E48-99C4-D1FC8B91CB40}"
+    },
+    "locales/pt-br.pak": {
+      "id": "ccd7de5399e4503042b542264b815ae",
+      "guid": "{D25DF361-5148-59D7-9769-672F8A549DA8}"
+    },
+    "locales/pt-pt.pak": {
+      "id": "c57ddedf1b7ddc0dd6540a851794fb7",
+      "guid": "{CF1B1393-1D35-572A-88A4-2FC06A092CCD}"
+    },
+    "locales/ro.pak": {
+      "id": "c3261e7bca1543da33c277d4ca8dc99",
+      "guid": "{961F9B84-B6FA-50A8-B1DA-ECED4E90B5DB}"
+    },
+    "locales/ru.pak": {
+      "id": "c35058c36878e2bfbf7d9838a5a4bb7",
+      "guid": "{3A216CF8-5878-512B-A479-44999F659D87}"
+    },
+    "locales/sk.pak": {
+      "id": "c41f8d6f2d918a93586ccc28dd9c25f",
+      "guid": "{6365830B-0BA3-592C-92E0-4C4F42832A20}"
+    },
+    "locales/sl.pak": {
+      "id": "c82aff1df930f6d696efef763cd78d4",
+      "guid": "{9A5B8D65-C63A-5083-B7FA-A68A216B2E15}"
+    },
+    "locales/sr.pak": {
+      "id": "cea20f92192d1a15db7612305314301",
+      "guid": "{B3474F68-469C-5BF2-AFD2-3E0D93296202}"
+    },
+    "locales/sv.pak": {
+      "id": "cc261b594d06737c5a6dc6da5d949e0",
+      "guid": "{483A03F3-D949-54A8-9D1A-F79177198F71}"
+    },
+    "locales/sw.pak": {
+      "id": "c210f26b31601a41bff1d8f1a9b6df3",
+      "guid": "{B32A5A2D-BDE8-52A8-840E-CB78BB5C504F}"
+    },
+    "locales/ta.pak": {
+      "id": "c42fae609b6ac644059eedb5242a545",
+      "guid": "{5924A07C-6134-5644-A677-03D8E1D7DE36}"
+    },
+    "locales/te.pak": {
+      "id": "cb7180c86bc14571997b47995174e91",
+      "guid": "{9883A18D-A46F-5918-B78B-BB499D8A2D05}"
+    },
+    "locales/th.pak": {
+      "id": "cf9dfdedb9ce30a26ff7d856d68f6c2",
+      "guid": "{A9CCB7E4-F247-503E-9135-0B0648865155}"
+    },
+    "locales/tr.pak": {
+      "id": "cff8b383e50b7bf811be6e7772122e9",
+      "guid": "{1BF417FC-0D11-579A-BC64-BBA6D384FA1A}"
+    },
+    "locales/uk.pak": {
+      "id": "c7efdcd5db3cbdbacd975e772643443",
+      "guid": "{239087D6-454E-53ED-B4EB-5F33437ACBEE}"
+    },
+    "locales/ur.pak": {
+      "id": "cf4645585d9ec241e5587e95537fa18",
+      "guid": "{DCC5CAE2-AD8F-51BD-8399-7D138891884E}"
+    },
+    "locales/vi.pak": {
+      "id": "cdfdcb245c89f16b63ca094ced1f071",
+      "guid": "{610CD057-B719-5121-AB84-6D6CF8FCEAD3}"
+    },
+    "locales/zh-cn.pak": {
+      "id": "c0452580d2606a69bc35f7e55274e82",
+      "guid": "{74D79AF2-8139-5DFA-BB85-24C679DC9C83}"
+    },
+    "locales/zh-tw.pak": {
+      "id": "c18e03746c0d0d21d52f00092fa45e1",
+      "guid": "{06EEE415-DD92-5422-B7CC-4E42A01FFC8B}"
+    }
+  }
+}

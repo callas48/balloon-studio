@@ -50,6 +50,6 @@ class UpdateController {
   }finally{this.busy=false;this.updater.fullDownloadAllowed=false;this.updater.disableDifferentialDownload=false}
   return this.snapshot();
  }
- install(){if(!this.ready||this.busy)throw Error('검증된 업데이트가 준비되지 않았습니다.');this.updater.quitAndInstall(false,true)}
+ install(){if(!this.ready||this.busy)throw Error('검증된 업데이트가 준비되지 않았습니다.');return this.updater.quitAndInstall(false,true)}
 }
 module.exports={UpdateController};

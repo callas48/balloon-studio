@@ -14,13 +14,13 @@ node scripts/dev-local.mjs
 
 ## Windows 개발·설치 파일 빌드
 
-Node.js와 npm을 설치한 개발 환경에서 npm install 후 npm run desktop으로 실행합니다. npm run desktop:installer는 release/에 NSIS 설치 파일과 blockmap을 만듭니다. 일반 사용자는 설치 파일만 실행하면 되며 Node.js를 별도로 설치할 필요가 없습니다.
+Windows 개발 환경에서 `npm ci` 후 `npm run desktop`으로 실행합니다. `npm run desktop:installer`는 `release/`에 **0.3.4 MSI 설치 파일과 blockmap·메타데이터·SHA256**을 만듭니다. 일반 사용자는 MSI만 실행하면 되며 Node.js를 별도로 설치할 필요가 없습니다. 빌드 재구성, 기존 0.3.3과의 설치 호환성, 검증 결과와 제한은 [MSI 복원 기록](docs/msi-reconstruction.md)을 읽으세요.
 
-검사: npm run test:desktop, node tests/desktop-client.cjs, node tests/desktop-shell.cjs, node tests/desktop-package.cjs. 실제 두 버전 EXE/블록맵을 준비한 뒤 node tests/desktop-differential.cjs로 변경분 다운로드·전체 다운로드 선택을 검증합니다.
+검사: `npm run test:desktop`, `npm run test:msi`, `node tests/desktop-package.cjs`. 기존 MSI를 `--base-msi`로 지정해 빌드한 후 `node tests/msi-differential.cjs`로 실제 차등 전송·전체 다운로드 선택을 검증합니다. `tests/desktop-differential.cjs`는 과거 NSIS 검사입니다.
 
 ## 이 저장소의 상태
 
-- Windows0.1.1 NSIS 설치형과 로컬 프로젝트 파일 저장을 구현했습니다. 업데이트는 실행당1회 확인·클릭 시 차등 다운로드·저장 후 설치 방식입니다. 실제 EXE 차등 다운로드와 설치·기동 검증을 마쳤습니다. 운영 업데이트 배포 주소와 코드 서명은 아직 연결하지 않았습니다. 자세한 검증 범위는 HANDOFF.md를 읽으세요.
+- Windows MSI **0.3.4 빌드 설정을 재구성**하고 Sites v260의 편집기 변경을 병합했습니다. 실행당1회 확인·클릭 시 차등 다운로드·저장 후 설치 정책을 유지합니다. MSI 생성·전체 파일 추출·실제 차등 전송·격리 Electron 저장/PNG ZIP 검사는 통과했으며, 기존 설치본의 실제 업그레이드와 ICE 검사는 아직 완료하지 않았습니다. 운영 업데이트 주소와 코드 서명도 미설정입니다.
 - 기존 서비스의 Git 이력, 배포 식별자 설정, 운영자 이메일과 서버 DB/스토리지는 이전하지 않습니다. 원래 사이트 운영과 별도입니다.
 - 로컬 공용 에셋 목록은 비어 있고 방문 통계 수집은 하지 않습니다. 포함된 서식과 내 에셋·폰트 가져오기는 로컬 기능입니다.
 - `worker/index.js`의 관리자 쓰기는 기본 비활성입니다. 별도 서버 배포 전 인증과 저장소를 구성해야 합니다.

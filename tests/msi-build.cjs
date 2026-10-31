@@ -1,0 +1,26 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const {render,uuid}=require('../scripts/msi-project.cjs'),baseline=require('../build/msi-0.3.3-identities.json');
+const input='<Icon Id="StudioIcon" SourceFile="C:\\build\\studio.ico"/><Component><File Name="말풍선 공방.exe" Source="$(var.appDir)\\말풍선 공방.exe" Id="mainExecutable" KeyPath="yes"/></Component><Component><File Name="app.asar" Source="$(var.appDir)\\resources\\app.asar" KeyPath="yes"/></Component><Component><File Name="new.js" Source="$(var.appDir)\\resources\\editor\\new.js" KeyPath="yes"/></Component>';
+const xml=render(input,'0.3.4');
+assert(xml.includes('UpgradeCode="5A79FDF4-583C-41C0-B75B-8A01887417A6"'));
+assert(xml.includes('Version="0.3.4.0" Language="1042"'));
+assert(xml.includes('InstallScope="perUser"'));
+assert(xml.includes('Schedule="afterInstallInitialize"'));
+assert(xml.includes('Name="BalloonStudioMSI"'));
+assert(xml.includes('Root="HKCU" Key="Software\\BalloonStudio\\MSI" Name="InstallLocation"'));
+assert(xml.includes('Guid="'+baseline.files['말풍선 공방.exe'].guid+'"'));
+assert.equal((xml.match(/<File /g)||[]).length,3);
+assert.equal((xml.match(/\\MSI\\Files"/g)||[]).length,3);
+assert(!xml.includes('ProgramFiles64Folder'));assert(!xml.includes('Advertise="yes"'));assert(!xml.includes('runAfterFinish'));
+assert.equal(uuid('same-file'),uuid('same-file'));assert.notEqual(uuid('same-file'),uuid('different-file'));
+assert.throws(()=>render(input,'0.3.4.1'));
+assert.throws(()=>render(input.replace('resources\\editor\\new.js','resources\\..\\new.js'),'0.3.4'));
+assert.throws(()=>render(input+input,'0.3.4'));
+const packageInfo=require('../package.json');assert.equal(packageInfo.version,'0.3.4');
+assert.equal(require('../electron-builder.cjs').msi.upgradeCode,baseline.upgradeCode);
+// Every resource referenced by the offline entry point must ship with this build.
+const html=fs.readFileSync('public/index.html','utf8'),scripts=[...html.matchAll(/<script\b[^>]*src="([^"]+)"/g)].map(m=>m[1]);
+for(const name of scripts)assert(fs.existsSync(path.join('public',name)),name);
+for(const name of ['desktop-client.js','project-memory.js','batch-export.js','png-zip.js','censor-signs.js','limbus-ui.js'])assert(scripts.includes(name),name);
+console.log('PASS MSI build contract: per-user upgrade identity, retained component GUIDs, Korean UI, rollback schedule, offline scripts and invalid-path guards');

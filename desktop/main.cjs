@@ -3,8 +3,8 @@ const {app,BrowserWindow,protocol,net,ipcMain,dialog,Menu,shell,session}=require
 const path=require('node:path'),fs=require('node:fs/promises'),crypto=require('node:crypto'),{pathToFileURL}=require('node:url'),{EventEmitter}=require('node:events');
 const {UpdateController}=require('./update-controller.cjs');
 const {atomicWrite,readProject,localAsset}=require('./files.cjs');
-const {consentUpdaterClass}=require('./consent-updater.cjs');
-const {OnceProvider}=require('./once-provider.cjs');
+const {MsiUpdater}=require('./msi-updater.cjs');
+const {findInstalledSource,launchInstaller}=require('./msi-install.cjs');
 const feed=require('./update-feed.json');
 const ORIGIN='studio://app';
 protocol.registerSchemesAsPrivileged([{scheme:'studio',privileges:{standard:true,secure:true,supportFetchAPI:true,corsEnabled:true}}]);
@@ -47,12 +47,13 @@ async function start(){
   const choice=dialog.showMessageBoxSync(window,{type:'question',buttons:['계속 편집','저장하지 않고 닫기'],defaultId:0,cancelId:0,message:'저장하지 않은 변경 사항이 있습니다.'});
   if(choice===1)event.preventDefault();
  });
- window.once('ready-to-show',()=>window.show());
+ // A legacy installer can launch us with SW_HIDE, consuming the first show call.
+ window.once('ready-to-show',()=>{window.show();if(!window.isVisible())window.show()});
  let updater=new EventEmitter(),configured=false;
  if(feed.url){
   const url=new URL(feed.url);if(url.protocol!=='https:'||url.username||url.password)throw Error('업데이트 주소는 HTTPS여야 합니다.');
-  const ConsentUpdater=consentUpdaterClass(require('electron-updater').NsisUpdater);
-  updater=new ConsentUpdater({provider:'custom',updateProvider:OnceProvider,url:url.href});updater.disableWebInstaller=true;
+  const {ElectronHttpExecutor}=require('electron-updater/out/electronHttpExecutor'),cacheDir=path.join(app.getPath('userData'),'msi-updates');
+  updater=new MsiUpdater({version:app.getVersion(),url:url.href,cacheDir,request:(...args)=>net.fetch(...args),executor:new ElectronHttpExecutor(),findSource:()=>findInstalledSource(require('./msi-config.json').upgradeCode),install:info=>launchInstaller({...info,app,cacheDir,exe:process.execPath})});
   configured=app.isPackaged;
  }
  updates=new UpdateController({updater,version:app.getVersion(),configured,online:()=>net.isOnline(),notify:state=>{if(window&&!window.isDestroyed())window.webContents.send('studio:update-state',state)}});
@@ -76,7 +77,7 @@ async function start(){
  });
  handle('studio:update-install',async token=>{
   if(!recovery||token!==recovery.token)throw Error('현재 작업을 먼저 저장해주세요.');await readProject(recovery.filename);
-  updates.install();return{ok:true};
+  await updates.install();return{ok:true};
  });
  const command=name=>{if(window&&!window.isDestroyed())window.webContents.send('studio:command',name)};
  Menu.setApplicationMenu(Menu.buildFromTemplate([
@@ -88,5 +89,5 @@ async function start(){
  window.webContents.on('did-finish-load',()=>{void updates.startup()}); // No timer, focus, online, or resume listeners.
  await window.loadURL(ORIGIN+'/index.html');
 }
-app.on('second-instance',()=>{if(window){if(window.isMinimized())window.restore();window.focus()}});
+app.on('second-instance',()=>{if(window){if(window.isMinimized())window.restore();window.show();window.focus()}});
 app.on('window-all-closed',()=>app.quit());
